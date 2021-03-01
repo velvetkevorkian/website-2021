@@ -1,12 +1,24 @@
+import { getPostBySlug } from '../../lib/api'
+import { markdownToHtml } from '../../lib/api'
+
 export default function ({ post }) {
-  return <h1>{post.slug}</h1>
+  return (
+    <>
+      <h1>{post.title}</h1>
+      <div dangerouslySetInnerHTML={{__html: post.html }} />
+    </>
+  )
 }
 
 export async function getStaticProps({ params }) {
+  const post = await getPostBySlug(params.slug)
+  const { title } = post.data
+  const html = await markdownToHtml(post.content)
   return {
     props: {
       post: {
-        slug: params.slug,
+        title: post.data.title,
+        html,
       },
     }
   }
