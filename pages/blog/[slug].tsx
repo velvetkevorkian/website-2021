@@ -1,5 +1,6 @@
-import { getPostBySlug } from '../../lib/api'
+import { getPostBySlug, getAllPosts } from '../../lib/api'
 import { markdownToHtml } from '../../lib/api'
+import { PostType } from '../../constants'
 
 export default function ({ post }) {
   return (
@@ -11,7 +12,7 @@ export default function ({ post }) {
 }
 
 export async function getStaticProps({ params }) {
-  const post = await getPostBySlug(params.slug)
+  const post = getPostBySlug(params.slug, PostType.Blog)
   const { title } = post.data
   const html = await markdownToHtml(post.content)
   return {
@@ -25,12 +26,17 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  return {
-    paths: [{
+  const posts = getAllPosts(PostType.Blog)
+  const paths = posts.map(p => {
+    return {
       params: {
-        slug: 'test-blog',
-      },
-    }],
+        slug: p.slug
+      }
+    }
+  })
+
+  return {
+    paths,
     fallback: false,
   }
 }

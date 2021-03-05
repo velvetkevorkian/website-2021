@@ -1,4 +1,5 @@
 import { getAllPosts } from '../../lib/api'
+import { PostType } from '../../constants'
 
 export default function({ posts }) {
   return (
@@ -17,7 +18,7 @@ export default function({ posts }) {
 }
 
 export async function getStaticProps({ params }) {
-  const posts = getAllPosts()
+  const posts = getAllPosts(PostType.Blog)
   return {
     props: {
       posts,
