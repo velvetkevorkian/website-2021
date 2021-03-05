@@ -2,7 +2,7 @@ import { getPostBySlug, getAllPosts } from '../../lib/api'
 import { markdownToHtml } from '../../lib/api'
 import { PostType } from '../../constants'
 
-export default function ({ post }) {
+export default function BlogDetail({ post }) {
   return (
     <>
       <h1>{post.title}</h1>
