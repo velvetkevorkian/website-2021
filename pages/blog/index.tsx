@@ -17,7 +17,7 @@ export default function BlogListing(props: { posts: Array<Post> }) {
     </>)
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps() {
   const posts = getAllPosts(PostType.Blog)
   return {
     props: {

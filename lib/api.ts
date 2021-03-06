@@ -11,6 +11,7 @@ function getPostsSubfolder(postType: PostType): string {
 
 export function getPostSlugs(postType: PostType): Array<string> {
   return fs.readdirSync(getPostsSubfolder(postType))
+    .map(slug => slug.replace(/\.md$/, ''))
 }
 
 export async function markdownToHtml(markdown: string): Promise<string> {
@@ -19,8 +20,7 @@ export async function markdownToHtml(markdown: string): Promise<string> {
 }
 
 export function getPostBySlug(slug: string, postType: PostType): Post {
-  const realSlug = slug.match(/\.md$/) ? slug : slug + '.md'
-  const fullPath = join(getPostsSubfolder(postType), realSlug)
+  const fullPath = join(getPostsSubfolder(postType), `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf-8')
   const { data, content } = matter(fileContents)
   const { title, abstract, status, published, tags, image, position } = data;
@@ -30,7 +30,7 @@ export function getPostBySlug(slug: string, postType: PostType): Post {
     image,
     position,
     published,
-    slug: slug.replace(/\.md$/, ''),
+    slug,
     status,
     tags,
     title,
