@@ -1,26 +1,24 @@
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import { markdownToHtml } from '../../lib/api'
-import { PostType } from '../../constants'
+import { PostType, Post } from '../../types'
 
-export default function BlogDetail({ post }) {
+export default function BlogDetail(props: { post: Post }) {
+  const { post } = props
   return (
     <>
       <h1>{post.title}</h1>
-      <div dangerouslySetInnerHTML={{__html: post.html }} />
+      <div dangerouslySetInnerHTML={{__html: post.contentHtml }} />
     </>
   )
 }
 
 export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug, PostType.Blog)
-  const { title } = post.data
-  const html = await markdownToHtml(post.content)
+  const { title, content } = post
+  post.contentHtml = await markdownToHtml(content)
   return {
     props: {
-      post: {
-        title: post.data.title,
-        html,
-      },
+      post
     }
   }
 }

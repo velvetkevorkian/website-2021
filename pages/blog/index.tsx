@@ -1,15 +1,15 @@
 import { getAllPosts } from '../../lib/api'
-import { PostType } from '../../constants'
+import { PostType, Post } from '../../types'
 
-export default function BlogListing({ posts }) {
+export default function BlogListing(props: { posts: Array<Post> }) {
   return (
     <>
       <h1>Blog</h1>
       <ul>
-        {posts.map(p => (
+        {props.posts.map(p => (
           <li key={p.slug}>
             <a href={`/blog/${p.slug}`}>
-              {p.data.title}
+              {p.title}
             </a>
           </li>
         ))}
