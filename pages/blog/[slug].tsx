@@ -2,7 +2,7 @@ import { getPostBySlug, getAllPosts } from '../../lib/api'
 import { markdownToHtml } from '../../lib/api'
 import { PostType, Post } from '../../types'
 
-export default function BlogDetail(props: { post: Post }) {
+export default function BlogDetail(props: { post: Post }): React.ReactNode {
   const { post } = props
   return (
     <>
@@ -12,9 +12,19 @@ export default function BlogDetail(props: { post: Post }) {
   )
 }
 
-export async function getStaticProps({ params }) {
+type StaticProps = {
+  props: {
+    post: Post
+  }
+}
+type Params = {
+  params: {
+    slug: string
+  }
+}
+export async function getStaticProps({ params }: Params): Promise<StaticProps> {
   const post = getPostBySlug(params.slug, PostType.Blog)
-  const { title, content } = post
+  const { content } = post
   post.contentHtml = await markdownToHtml(content)
   return {
     props: {
@@ -23,7 +33,17 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export async function getStaticPaths() {
+type StaticPath = {
+  params: {
+    slug: string
+  }
+}
+type StaticPaths = {
+  paths: Array<StaticPath>,
+  fallback: boolean
+}
+
+export async function getStaticPaths(): Promise<StaticPaths> {
   const posts = getAllPosts(PostType.Blog)
   const paths = posts.map(p => {
     return {

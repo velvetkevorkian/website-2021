@@ -23,7 +23,7 @@ export function getPostBySlug(slug: string, postType: PostType): Post {
   const fullPath = join(getPostsSubfolder(postType), `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf-8')
   const { data, content } = matter(fileContents)
-  const { title, abstract, status, published, tags, image, position } = data;
+  const { title, abstract, status, published, tags, image, position } = data
   return {
     abstract,
     content,
@@ -37,7 +37,7 @@ export function getPostBySlug(slug: string, postType: PostType): Post {
   }
 }
 
-export function getAllPosts(postType: PostType) {
+export function getAllPosts(postType: PostType): Array<Post> {
   const slugs = getPostSlugs(postType)
   const posts = slugs.map(slug => getPostBySlug(slug, postType))
   return posts
