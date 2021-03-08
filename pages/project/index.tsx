@@ -8,14 +8,14 @@ type ListingProps = {
 export default function BlogListing({ posts }: ListingProps): React.ReactNode {
   return (
     <>
-      <h1>Blog</h1>
-      <ArticleListing posts={posts} postType={PostType.Blog} />
+      <h1>Projects</h1>
+      <ArticleListing posts={posts} postType={PostType.Project} />
     </>
   )
 }
 
 export async function getStaticProps(): Promise<ArticleListingProps> {
-  const posts = getAllPosts(PostType.Blog)
+  const posts = getAllPosts(PostType.Project)
   return {
     props: {
       posts,

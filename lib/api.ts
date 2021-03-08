@@ -3,7 +3,7 @@ import { join } from 'path'
 import matter from 'gray-matter'
 import remark from 'remark'
 import html from 'remark-html'
-import { PostType, Post } from '../types'
+import { PostType, Post, PostStatus } from '../types'
 
 function getPostsSubfolder(postType: PostType): string {
   return join(process.cwd(), 'posts', postType)
@@ -39,6 +39,16 @@ export function getPostBySlug(slug: string, postType: PostType): Post {
 
 export function getAllPosts(postType: PostType): Array<Post> {
   const slugs = getPostSlugs(postType)
-  const posts = slugs.map(slug => getPostBySlug(slug, postType))
+  const posts = slugs
+    .map(slug => getPostBySlug(slug, postType))
+    .filter(post => post.status === PostStatus.Published)
+    .filter(post => Boolean(post.published))
+    .sort((a, b) => {
+      // reverse chronological order
+      const test =
+        Date.parse(a.published.replace(' UTC', '')) <
+        Date.parse(b.published.replace(' UTC', ''))
+      return test ? 1 : -1
+    })
   return posts
 }

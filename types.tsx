@@ -4,6 +4,12 @@ export enum PostType {
   Project = 'project',
 }
 
+export enum PostStatus {
+  Published = 'publish',
+  Draft = 'draft',
+  Private = 'private'
+}
+
 export interface Post {
   abstract?: string
   content: string
@@ -15,4 +21,10 @@ export interface Post {
   status: string
   tags?: string
   title: string,
+}
+
+export interface ArticleListingProps {
+  props: {
+    posts: Array<Post>
+  }
 }
