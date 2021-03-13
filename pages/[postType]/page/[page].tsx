@@ -28,11 +28,13 @@ export async function getStaticPaths() {
       {
         params: {
           page: '1',
+          postType: PostType.Blog
         }
       },
       {
         params: {
           page: '2',
+          postType: PostType.Blog
         }
       },
     ],

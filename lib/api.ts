@@ -34,6 +34,7 @@ export function getPostBySlug(slug: string, postType: PostType): Post {
     status,
     tags,
     title,
+    postType,
   }
 }
 

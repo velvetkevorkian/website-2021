@@ -1,7 +1,7 @@
 export enum PostType {
   Blog = 'blog',
-  Lab = 'lab',
-  Project = 'project',
+  Lab = 'labs',
+  Project = 'projects',
 }
 
 export enum PostStatus {
@@ -21,6 +21,7 @@ export interface Post {
   status: string
   tags?: string
   title: string,
+  postType: PostType,
 }
 
 export interface ArticleListingProps {
