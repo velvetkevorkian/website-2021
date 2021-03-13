@@ -1,6 +1,6 @@
 ---
 title: 'Processing and The Guardian API- now with actual information'
-abstract: 'Visualising data from the Guardian API using Processing.'
+abstract: "Visualising data from the Guardian API using Processing."
 slug: processing-and-the-guardian-api-now-with-actual-information
 type: blog
 status: publish

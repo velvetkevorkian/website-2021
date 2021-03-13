@@ -1,6 +1,6 @@
 ---
 title: 'Conceptual Sound: Early Sketches I'
-abstract: 'Explorations in conceptual sound design'
+abstract: "Explorations in conceptual sound design"
 slug: conceptual-sound-early-sketches-i
 type: blog
 status: publish

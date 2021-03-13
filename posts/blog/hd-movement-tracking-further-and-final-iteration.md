@@ -1,6 +1,6 @@
 ---
 title: 'HD Movement Tracking: further and final iteration'
-abstract: 'The final outcome of my Computer Art and Design course, featuring algorithmic prints and videos generated using Processing.'
+abstract: "The final outcome of my Computer Art and Design course, featuring algorithmic prints and videos generated using Processing."
 slug: hd-movement-tracking-further-and-final-iteration
 type: blog
 status: publish

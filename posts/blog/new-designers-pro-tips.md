@@ -1,6 +1,6 @@
 ---
 title: 'New Designers pro-tips'
-abstract: 'Notes for designers presenting their work publicly, inspired by people doing it badly at New Designers.'
+abstract: "Notes for designers presenting their work publicly, inspired by people doing it badly at New Designers."
 slug: new-designers-pro-tips
 type: blog
 status: publish

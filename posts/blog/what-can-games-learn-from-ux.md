@@ -1,6 +1,6 @@
 ---
 title: 'What can games learn from UX?'
-abstract: 'Why do AAA games companies insist on inflicting disastrously bad UX on people? And why does no-one seem to care?'
+abstract: "Why do AAA games companies insist on inflicting disastrously bad UX on people? And why does no-one seem to care?"
 slug: what-can-games-learn-from-ux
 type: blog
 status: publish

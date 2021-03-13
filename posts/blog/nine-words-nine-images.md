@@ -1,6 +1,6 @@
 ---
 title: 'Nine words, nine images'
-abstract: 'Fictitious road sign concepts based on nine assigned words'
+abstract: "Fictitious road sign concepts based on nine assigned words"
 slug: nine-words-nine-images
 type: blog
 status: publish

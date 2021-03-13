@@ -1,6 +1,6 @@
 ---
 title: 'Shiny: Additive blending with OpenGL in Processing'
-abstract: 'Mapping colours from a 2d image into a 3d space'
+abstract: "Mapping colours from a 2d image into a 3d space"
 slug: shiny-additive-blending-with-opengl-in-processing
 type: blog
 status: publish

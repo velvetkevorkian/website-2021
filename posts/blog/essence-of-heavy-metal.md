@@ -1,6 +1,6 @@
 ---
 title: 'Guillermo del Toro and the essence of heavy metal'
-abstract: 'Punching robots and yelling about vikings'
+abstract: "Punching robots and yelling about vikings"
 slug: essence-of-heavy-metal
 type: blog
 status: draft

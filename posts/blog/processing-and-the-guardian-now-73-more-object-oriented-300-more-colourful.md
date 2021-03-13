@@ -1,6 +1,6 @@
 ---
 title: 'Processing and the Guardian: Now 73% more object oriented, 300% more colourful'
-abstract: 'Visualising British political figures from the Guardian with Processing.'
+abstract: "Visualising British political figures from the Guardian with Processing."
 slug: processing-and-the-guardian-now-73-more-object-oriented-300-more-colourful
 type: blog
 status: publish

@@ -1,6 +1,6 @@
 ---
 title: 'Web Archaeology'
-abstract: 'An ode to old web design books.'
+abstract: "An ode to old web design books."
 slug: web-archaeology
 type: blog
 status: publish

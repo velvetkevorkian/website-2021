@@ -1,6 +1,6 @@
 ---
 title: 'Build a server-rendered Preact app from scratch'
-abstract: 'Learn how to build a server-rendered app from scratch using Preact and Express, complete with client-side hydration and build tooling.'
+abstract: "Learn how to build a server-rendered app from scratch using Preact and Express, complete with client-side hydration and build tooling."
 slug: preact-ssr-tutorial
 type: blog
 status: publish

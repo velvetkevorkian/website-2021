@@ -1,6 +1,6 @@
 ---
 title: 'HD Movement tracking: first iteration'
-abstract: 'Initial research and development using Processing for movement tracking.'
+abstract: "Initial research and development using Processing for movement tracking."
 slug: hd-movement-tracking-first-iteration
 type: blog
 status: publish

@@ -1,6 +1,6 @@
 ---
 title: 'Simple deploys with NPM and rsync'
-abstract: 'Deploying static sites using NPM scripts and the power of rsync'
+abstract: "Deploying static sites using NPM scripts and the power of rsync"
 slug: simple-deploys-with-npm-and-rsync
 type: blog
 status: publish

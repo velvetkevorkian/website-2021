@@ -1,6 +1,6 @@
 ---
 title: 'Conceptual sound- another early sketch'
-abstract: 'Found sound piece based around motor sounds.'
+abstract: "Found sound piece based around motor sounds."
 slug: conceptual-sound-another-early-sketch
 type: blog
 status: publish

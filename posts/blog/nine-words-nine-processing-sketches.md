@@ -1,6 +1,6 @@
 ---
 title: 'Nine words, nine Processing sketches'
-abstract: ''
+abstract: ""
 slug: nine-words-nine-processing-sketches
 type: blog
 status: publish

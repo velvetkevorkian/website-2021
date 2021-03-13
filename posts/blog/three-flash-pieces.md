@@ -1,6 +1,6 @@
 ---
 title: 'Three Flash Pieces'
-abstract: ''
+abstract: ""
 slug: three-flash-pieces
 type: blog
 status: publish

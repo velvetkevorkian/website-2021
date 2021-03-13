@@ -1,6 +1,6 @@
 ---
 title: 'Variations on a Theme: Processing Sketches'
-abstract: 'Using Perlin noise to procedurally generate 2d forms in Processing'
+abstract: "Using Perlin noise to procedurally generate 2d forms in Processing"
 slug: variations-on-a-theme-processing-sketches
 type: blog
 status: publish

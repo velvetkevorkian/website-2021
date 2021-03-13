@@ -1,6 +1,6 @@
 ---
 title: 'St Enoch square: Slit-scan video experiment'
-abstract: ''
+abstract: ""
 slug: st-enoch-square-slit-scan-video-experiment
 type: blog
 status: publish

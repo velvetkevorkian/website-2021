@@ -1,6 +1,6 @@
 ---
 title: 'New Processing Sketches: A Video'
-abstract: 'Introducing my 2011 Processing showreel.'
+abstract: "Introducing my 2011 Processing showreel."
 slug: new-processing-sketches-a-video
 type: blog
 status: publish

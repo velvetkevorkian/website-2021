@@ -1,6 +1,6 @@
 ---
 title: 'The Glory'
-abstract: 'I built some custom visual effects software which was used to make a music video.'
+abstract: "I built some custom visual effects software which was used to make a music video."
 slug: the-glory
 type: blog
 status: publish

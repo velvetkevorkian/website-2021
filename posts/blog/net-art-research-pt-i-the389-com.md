@@ -1,6 +1,6 @@
 ---
 title: 'Net Art Research, pt I: the389.com'
-abstract: ''
+abstract: ""
 slug: net-art-research-pt-i-the389-com
 type: blog
 status: publish

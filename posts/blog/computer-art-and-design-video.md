@@ -1,6 +1,6 @@
 ---
 title: 'Computer Art and Design video'
-abstract: 'My work and I appeared in a video for my old college course'
+abstract: "My work and I appeared in a video for my old college course"
 slug: computer-art-and-design-video
 type: blog
 status: publish

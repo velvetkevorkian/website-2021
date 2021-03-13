@@ -1,6 +1,6 @@
 ---
 title: 'Sunflow and Processing: the basics'
-abstract: 'Using Sunflow to accurately render procedural geometry from Processing.'
+abstract: "Using Sunflow to accurately render procedural geometry from Processing."
 slug: sunflow-and-processing-the-basics
 type: blog
 status: publish

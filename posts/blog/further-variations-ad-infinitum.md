@@ -1,6 +1,6 @@
 ---
 title: 'Further Variations: ad infinitum'
-abstract: 'Developing Perlin noise based Processing sketches into infinitely looping 2d and 3d forms'
+abstract: "Developing Perlin noise based Processing sketches into infinitely looping 2d and 3d forms"
 slug: further-variations-ad-infinitum
 type: blog
 status: publish

@@ -1,6 +1,6 @@
 ---
 title: 'Work in progress: Tracking movement in St Enoch Square'
-abstract: 'Outlining the project goals and showing some initial concepts for tracking movement in a public space using Processing.'
+abstract: "Outlining the project goals and showing some initial concepts for tracking movement in a public space using Processing."
 slug: work-in-progress-tracking-movement-in-st-enoch-square
 type: blog
 status: publish

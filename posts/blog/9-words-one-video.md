@@ -1,6 +1,6 @@
 ---
 title: '9 Words- One Video'
-abstract: 'A short abstract video using nine words as inspiration.'
+abstract: "A short abstract video using nine words as inspiration."
 slug: 9-words-one-video
 type: blog
 status: publish

@@ -1,6 +1,6 @@
 ---
 title: 'The joys of alpha testing'
-abstract: 'Accidentally dumping raw GPU memory to the screen for fun and profit'
+abstract: "Accidentally dumping raw GPU memory to the screen for fun and profit"
 slug: the-joys-of-alpha-testing
 type: blog
 status: publish

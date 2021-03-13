@@ -1,6 +1,6 @@
 ---
 title: 'Net Art research pt II: complexification.net'
-abstract: ''
+abstract: ""
 slug: net-art-research-pt-ii-complexification-net
 type: blog
 status: publish

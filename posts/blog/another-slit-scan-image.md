@@ -1,6 +1,6 @@
 ---
 title: 'Another slit-scan image'
-abstract: 'Experimenting with slit-scanning video filmed from a static position, using Processing.'
+abstract: "Experimenting with slit-scanning video filmed from a static position, using Processing."
 slug: another-slit-scan-image
 type: blog
 status: publish

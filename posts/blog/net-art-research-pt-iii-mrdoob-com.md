@@ -1,6 +1,6 @@
 ---
 title: 'Net Art Research, pt III: mrdoob.com'
-abstract: ''
+abstract: ""
 slug: net-art-research-pt-iii-mrdoob-com
 type: blog
 status: publish

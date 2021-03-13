@@ -1,6 +1,6 @@
 ---
 title: 'Processing sketches: lottery number visualisations'
-abstract: 'Visualising National Lottery draws using Processing.'
+abstract: "Visualising National Lottery draws using Processing."
 slug: processing-sketches-lottery-number-visualisations
 type: blog
 status: publish
