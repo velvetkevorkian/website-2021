@@ -1,43 +1,71 @@
 import { getAllPosts } from '../../../lib/api'
 import ArticleListing from '../../../components/ArticleListing'
-import { PostType, ArticleListingProps } from '../../../types'
+import { PostType, Post } from '../../../types'
 
-export default function PaginatedListing({ posts }): JSX.Element {
+const perPage = 8
+
+type ArticleListingProps = {
+  posts: Array<Post>,
+  postType: PostType
+}
+
+type ArticleListingStaticProps = {
+  props: ArticleListingProps
+}
+
+export default function PaginatedListing({ posts, postType }: ArticleListingProps): JSX.Element {
   return  (
     <>
       <h1>Projects</h1>
-      <ArticleListing posts={posts} postType={PostType.Blog} />
+      <ArticleListing posts={posts} postType={postType} />
     </>
   )
 }
 
-export async function getStaticProps({ params }): Promise<ArticleListingProps> {
+export async function getStaticProps({ params }: { params: { page: string, postType: PostType }}): Promise<ArticleListingStaticProps> {
   const page = parseInt(params.page)
-  const perPage = 5
-  const posts = getAllPosts(PostType.Blog).slice(page-1, page + 4)
+  const { postType } = params
+  const start = (page - 1) * perPage
+  const end = start + perPage
+  const posts = getAllPosts(postType).slice(start, end)
   return {
     props: {
       posts,
+      postType
     }
   }
 }
 
-export async function getStaticPaths() {
+type StaticPath = {
+  params: {
+    page: string,
+    postType: PostType
+  }
+}
+type StaticPaths = {
+  paths: Array<StaticPath>,
+  fallback: boolean
+}
+function pathsForType(postType: PostType): Array<StaticPath> {
+  const length = Math.floor(getAllPosts(postType).length / perPage)
+  const pages = Array.from({ length }, (_, i) => i)
+  return pages.map(p => ({
+    params: {
+      page: `${p + 1}`,
+      postType
+    }
+  }))
+}
+
+export async function getStaticPaths(): Promise<StaticPaths> {
+  const paths = [
+    ...pathsForType(PostType.Blog),
+    ...pathsForType(PostType.Lab),
+    ...pathsForType(PostType.Project)
+  ]
+
   return {
-    paths: [
-      {
-        params: {
-          page: '1',
-          postType: PostType.Blog
-        }
-      },
-      {
-        params: {
-          page: '2',
-          postType: PostType.Blog
-        }
-      },
-    ],
+    paths,
     fallback: false,
   }
 }
