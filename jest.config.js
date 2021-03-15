@@ -3,6 +3,13 @@ module.exports = {
     '**/*.{js,jsx,ts,tsx}',
     '!**/*.d.ts',
     '!**/node_modules/**',
+    '!**/.next/**',
+    '!**/out/**',
+    '!**/coverage/**',
+    '!**/.eslintrc.js',
+    '!**/jest.config.js',
+    '!**/next.config.js',
+    '!**/types.tsx'
   ],
   //setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
