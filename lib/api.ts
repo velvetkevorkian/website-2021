@@ -43,6 +43,7 @@ export function getPostBySlug(slug: string, postType: PostType): Post {
 }
 
 export function getAllPosts(postType: PostType): Array<Post> {
+  // TODO: this could probably be broken down a bit
   const slugs = getPostSlugs(postType)
   const posts = slugs
     .map(slug => getPostBySlug(slug, postType))

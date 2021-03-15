@@ -7,30 +7,22 @@ import {
   markdownToHtml,
   getPostBySlug,
   postPath,
+  getAllPosts,
 } from './api'
 import { PostType, PostStatus } from '../types'
+import { fakePosts } from './fixtures'
 
-const fakePost =
-`---
-title: 'Post Title'
-abstract: "Some text that's got an apostrophe"
-slug: post-slug
-type: blog
-status: publish
-published: 2010-10-04 00:00:00 UTC
-tags: video
-image:
-position:
----
+beforeEach(() => {
+  jest.spyOn(process, 'cwd')
+    .mockReturnValue('cwd')
+})
 
-This is some markdown content
-`
+afterEach(() => {
+  jest.resetAllMocks()
+})
 
 describe('getPostsSubfolder', () => {
   it('returns the right value for each post type', () => {
-    jest.spyOn(process, 'cwd')
-      .mockReturnValue('cwd')
-
     expect(getPostsSubfolder(PostType.Blog)).toEqual('cwd/posts/blog')
     expect(getPostsSubfolder(PostType.Lab)).toEqual('cwd/posts/labs')
     expect(getPostsSubfolder(PostType.Project)).toEqual('cwd/posts/projects')
@@ -56,10 +48,7 @@ describe('markdownToHtml', () => {
 
 describe('postPath', () => {
   it('returns the full path with extension', () => {
-    jest.spyOn(process, 'cwd')
-      .mockReturnValue('cwd')
-
-      const result = postPath('some-slug', PostType.Blog)
+    const result = postPath('some-slug', PostType.Blog)
     expect(result).toEqual('cwd/posts/blog/some-slug.md')
   })
 })
@@ -67,7 +56,7 @@ describe('postPath', () => {
 describe('getPostBySlug', () => {
   it('parses frontmatter and content and returns a post object', () => {
     jest.spyOn(fs, 'readFileSync')
-      .mockReturnValue(fakePost)
+      .mockReturnValue(fakePosts[0])
 
     const result = getPostBySlug('post-slug', PostType.Blog)
     expect(result).toEqual({
@@ -83,4 +72,19 @@ describe('getPostBySlug', () => {
       title: 'Post Title',
     })
   })
+})
+
+describe('getAllPosts', () => {
+  it('gets the published posts in chronological order', () => {
+    jest.spyOn(fs, 'readdirSync')
+      // @ts-expect-error TODO: can this by typed correctly?
+      .mockReturnValue(['post-slug.md', 'unpublished-post-slug.md', 'newer-post-slug'])
+    jest.spyOn(fs, 'readFileSync')
+      .mockImplementationOnce(() => fakePosts[0])
+      .mockImplementationOnce(() => fakePosts[1])
+      .mockImplementationOnce(() => fakePosts[2])
+    const result = getAllPosts(PostType.Blog)
+    expect(result.map(p => p.title)).toEqual(['Newer Post Title', 'Post Title'])
+  })
+
 })
