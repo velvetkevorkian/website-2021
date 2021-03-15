@@ -1,4 +1,4 @@
-import { getAllPosts } from '../../lib/api'
+import { postsForPage } from '../../lib/api'
 import { PostType, ArticleListingStaticProps } from '../../types'
 import ArticleListingPage from '../../components/ArticleListingPage'
 
@@ -12,11 +12,13 @@ export default ArticleListingPage
 
 export async function getStaticProps({ params }: ArticleListingParams): Promise<ArticleListingStaticProps> {
   const { postType } = params
-  const posts = getAllPosts(postType)
+  const { posts, totalPages } = postsForPage(1, postType)
   return {
     props: {
       postType,
       posts,
+      page: 1,
+      totalPages
     }
   }
 }

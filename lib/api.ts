@@ -75,3 +75,13 @@ export function pagePathsForType(postType: PostType, perPage = postsPerPage): Ar
     }
   }))
 }
+
+export function postsForPage(page: number, postType: PostType, perPage = postsPerPage): { posts: Array<Post>, totalPages: number } {
+  const start = (page - 1) * perPage
+  const end = start + perPage
+  const allPosts = getAllPosts(postType)
+  return {
+    posts: allPosts.slice(start, end),
+    totalPages: Math.ceil(allPosts.length / perPage)
+  }
+}
