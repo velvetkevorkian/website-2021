@@ -19,6 +19,6 @@ export default function ArticleListing({ posts, postType }: ListingProps): JSX.E
           </a>
         </li>
       ))}
-  </ul>
+    </ul>
   )
 }

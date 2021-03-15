@@ -9,12 +9,12 @@ export default function Footer(): JSX.Element {
       <nav>
         <ul>
           {links.map(l => (
-          <li>
-            <Link href={l.href}>
-              <a>{l.title}</a>
-            </Link>
-          </li>
-        ))}
+            <li>
+              <Link href={l.href}>
+                <a>{l.title}</a>
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </footer>

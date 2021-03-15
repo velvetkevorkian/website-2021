@@ -1,5 +1,5 @@
 export const fakePosts = [
-`---
+  `---
 title: 'Post Title'
 abstract: "Some text that's got an apostrophe"
 slug: post-slug
@@ -13,7 +13,7 @@ position:
 
 This is some markdown content
 `,
-`---
+  `---
 title: 'Unpublished Post Title'
 abstract: "Some text that's got an apostrophe"
 slug: unpublished-post-slug
@@ -27,7 +27,7 @@ position:
 
 This is some markdown content
 `,
-`---
+  `---
 title: 'Newer Post Title'
 abstract: "Some text that's got an apostrophe"
 slug: newer-post-slug

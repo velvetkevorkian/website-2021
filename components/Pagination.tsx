@@ -14,11 +14,11 @@ export default function Pagination({totalPages, currentPage, postType}: Paginati
     <ul>
       {arr.map(i => (
         <li>
-          { i.current?
-            <span>{i.page}</span>
+          { i.current
+            ? <span>{i.page}</span>
             : (<Link href={`/${postType}/page/${i.page}`}>
-                <a>{i.page}</a>
-              </Link>
+              <a>{i.page}</a>
+            </Link>
             )
           }
         </li>

@@ -19,6 +19,7 @@ module.exports = {
     semi: [warn, never],
     quotes: [warn, 'single', {avoidEscape: true, allowTemplateLiterals: true}],
     '@typescript-eslint/no-var-requires': [0],
-    'no-console': [warn]
+    'no-console': [warn],
+    'indent': [warn, 2]
   }
 }
