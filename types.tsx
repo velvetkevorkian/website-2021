@@ -27,5 +27,13 @@ export interface Post {
 export interface ArticleListingProps {
   props: {
     posts: Array<Post>
+    postType: PostType
+  }
+}
+
+export interface ArticleListingStaticProps {
+  props: {
+    postType: PostType,
+    posts: Array<Post>
   }
 }

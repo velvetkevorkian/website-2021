@@ -1,6 +1,6 @@
 import { getAllPosts } from '../../lib/api'
-import { PostType, Post } from '../../types'
-import ArticleListing from '../../components/ArticleListing'
+import { PostType, ArticleListingStaticProps } from '../../types'
+import ArticleListingPage from '../../components/ArticleListingPage'
 
 type ArticleListingParams = {
   params : {
@@ -8,24 +8,7 @@ type ArticleListingParams = {
   }
 }
 
-type ArticleListingProps = {
-  postType: PostType,
-  posts: Array<Post>
-}
-
-type ArticleListingStaticProps = {
-  props: ArticleListingProps
-}
-
-export default function ArticleListingPage(props: ArticleListingProps): JSX.Element {
-  const { postType, posts } = props
-  return (
-    <>
-      <h1>{postType}</h1>
-      <ArticleListing posts={posts} postType={postType} />
-    </>
-  )
-}
+export default ArticleListingPage
 
 export async function getStaticProps({ params }: ArticleListingParams): Promise<ArticleListingStaticProps> {
   const { postType } = params
@@ -38,13 +21,12 @@ export async function getStaticProps({ params }: ArticleListingParams): Promise<
   }
 }
 
-type StaticPath = {
-  params: {
-    postType: string
-  }
-}
 type StaticPaths = {
-  paths: Array<StaticPath>,
+  paths: Array<{
+    params: {
+      postType: string
+    }
+  }>,
   fallback: boolean
 }
 

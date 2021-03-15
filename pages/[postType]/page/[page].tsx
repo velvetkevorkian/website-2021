@@ -1,30 +1,15 @@
 import { getAllPosts, pagePathsForType } from '../../../lib/api'
+import ArticleListingPage from '../../../components/ArticleListingPage'
+import { PostType, ArticleListingStaticProps } from '../../../types'
+import { postsPerPage } from '../../../constants'
 
-const perPage = 8
-
-type ArticleListingProps = {
-  posts: Array<Post>,
-  postType: PostType
-}
-
-type ArticleListingStaticProps = {
-  props: ArticleListingProps
-}
-
-export default function PaginatedListing({ posts, postType }: ArticleListingProps): JSX.Element {
-  return  (
-    <>
-      <h1>Projects</h1>
-      <ArticleListing posts={posts} postType={postType} />
-    </>
-  )
-}
+export default ArticleListingPage
 
 export async function getStaticProps({ params }: { params: { page: string, postType: PostType }}): Promise<ArticleListingStaticProps> {
   const page = parseInt(params.page)
   const { postType } = params
-  const start = (page - 1) * perPage
-  const end = start + perPage
+  const start = (page - 1) * postsPerPage
+  const end = start + postsPerPage
   const posts = getAllPosts(postType).slice(start, end)
   return {
     props: {
@@ -34,25 +19,14 @@ export async function getStaticProps({ params }: { params: { page: string, postT
   }
 }
 
-type StaticPath = {
-  params: {
-    page: string,
-    postType: PostType
-  }
-}
 type StaticPaths = {
-  paths: Array<StaticPath>,
-  fallback: boolean
-}
-function pathsForType(postType: PostType): Array<StaticPath> {
-  const length = Math.floor(getAllPosts(postType).length / perPage)
-  const pages = Array.from({ length }, (_, i) => i)
-  return pages.map(p => ({
+  paths: Array<{
     params: {
-      page: `${p + 1}`,
-      postType
+      page: string,
+      postType: PostType
     }
-  }))
+  }>,
+  fallback: boolean
 }
 
 export async function getStaticPaths(): Promise<StaticPaths> {
