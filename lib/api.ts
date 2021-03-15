@@ -5,7 +5,7 @@ import remark from 'remark'
 import html from 'remark-html'
 import { PostType, Post, PostStatus } from '../types'
 
-function getPostsSubfolder(postType: PostType): string {
+export function getPostsSubfolder(postType: PostType): string {
   return join(process.cwd(), 'posts', postType)
 }
 
