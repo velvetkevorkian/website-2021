@@ -8,6 +8,7 @@ import {
   getPostBySlug,
   postPath,
   getAllPosts,
+  pagePathsForType
 } from './api'
 import { PostType, PostStatus } from '../types'
 import { fakePosts } from './fixtures'
@@ -86,5 +87,17 @@ describe('getAllPosts', () => {
     const result = getAllPosts(PostType.Blog)
     expect(result.map(p => p.title)).toEqual(['Newer Post Title', 'Post Title'])
   })
+})
 
+describe('pagePathsForType', () => {
+  it('returns an array of 1-indexed page params', () => {
+    jest.spyOn(fs, 'readdirSync')
+      // @ts-expect-error TODO: can this by typed correctly?
+      .mockReturnValue(['post-slug.md', 'post-slug.md', 'post-slug.md'])
+    jest.spyOn(fs, 'readFileSync')
+      .mockImplementation(() => fakePosts[0])
+    const result = pagePathsForType(PostType.Blog, 2)
+    expect(result.length).toEqual(2)
+    expect(result.map(i => i.params.page)).toEqual(['1', '2'])
+  })
 })

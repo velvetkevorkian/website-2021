@@ -1,6 +1,4 @@
-import { getAllPosts } from '../../../lib/api'
-import ArticleListing from '../../../components/ArticleListing'
-import { PostType, Post } from '../../../types'
+import { getAllPosts, pagePathsForType } from '../../../lib/api'
 
 const perPage = 8
 
@@ -59,9 +57,9 @@ function pathsForType(postType: PostType): Array<StaticPath> {
 
 export async function getStaticPaths(): Promise<StaticPaths> {
   const paths = [
-    ...pathsForType(PostType.Blog),
-    ...pathsForType(PostType.Lab),
-    ...pathsForType(PostType.Project)
+    ...pagePathsForType(PostType.Blog),
+    ...pagePathsForType(PostType.Lab),
+    ...pagePathsForType(PostType.Project)
   ]
 
   return {

@@ -4,6 +4,7 @@ import matter from 'gray-matter'
 import remark from 'remark'
 import html from 'remark-html'
 import { PostType, Post, PostStatus } from '../types'
+import { postsPerPage } from '../constants'
 
 export function getPostsSubfolder(postType: PostType): string {
   return join(process.cwd(), 'posts', postType)
@@ -57,4 +58,20 @@ export function getAllPosts(postType: PostType): Array<Post> {
       return test ? 1 : -1
     })
   return posts
+}
+
+export function pagePathsForType(postType: PostType, perPage = postsPerPage): Array<{
+  params: {
+    page: string,
+    postType: PostType
+  }
+}> {
+  const length = Math.ceil(getAllPosts(postType).length / perPage)
+  const pages = Array.from({ length }, (_, i) => i)
+  return pages.map(p => ({
+    params: {
+      page: `${p + 1}`,
+      postType
+    }
+  }))
 }
