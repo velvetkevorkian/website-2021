@@ -19,8 +19,12 @@ export async function markdownToHtml(markdown: string): Promise<string> {
   return result.toString()
 }
 
+export function postPath(slug: string, postType: PostType): string {
+  return join(getPostsSubfolder(postType), `${slug}.md`)
+}
+
 export function getPostBySlug(slug: string, postType: PostType): Post {
-  const fullPath = join(getPostsSubfolder(postType), `${slug}.md`)
+  const fullPath = postPath(slug, postType)
   const fileContents = fs.readFileSync(fullPath, 'utf-8')
   const { data, content } = matter(fileContents)
   const { title, abstract, status, published, tags, image, position } = data
@@ -29,12 +33,12 @@ export function getPostBySlug(slug: string, postType: PostType): Post {
     content,
     image,
     position,
+    postType,
     published,
     slug,
     status,
     tags,
     title,
-    postType,
   }
 }
 
