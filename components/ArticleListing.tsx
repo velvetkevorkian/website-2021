@@ -15,6 +15,12 @@ export default function ArticleListing({ posts, postType }: ListingProps): JSX.E
       {posts.map(p => (
         <li key={p.slug}>
           <a href={`/${postType}/${p.slug}`}>
+            { p.image && (
+              <img
+                src={`/images/${p.image}`}
+                alt=""
+              />
+            )}
             {p.title}
           </a>
         </li>
