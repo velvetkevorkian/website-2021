@@ -23,7 +23,7 @@ gaming learn from UX?\"
 The answer, I think, is quite a lot.
 
 ![Bud is confident about his
-UX](/uploads/19/bud-is-confident-about-ux.png)
+UX](/images/bud-is-confident-about-ux.png)
 
 On the web, we live in an age where people designing and building things
 want to make them work as well as possible, [regardless of what device
@@ -37,9 +37,9 @@ to have.
 
 Meanwhile, in the land of AAA, multi-million dollar game releases:
 
-![Diablo 3 Error 37](/uploads/20/error37.jpg)
+![Diablo 3 Error 37](/images/error37.jpg)
 
-![Sim City error message](/uploads/21/simcityk-1024x576.jpg)
+![Sim City error message](/images/simcityk-1024x576.jpg)
 
 Both of these games can be played single player, but require you to be
 constantly online regardless. Neither of these games have any particular

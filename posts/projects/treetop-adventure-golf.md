@@ -15,14 +15,14 @@ is built on [Rails][2] and [Casein][3]{:
 target="_blank"}, which lets them manage pages, job postings, FAQs the
 cafe menu, etc.
 
- ![Screenshot of Treetop Adventure Golf\'s Cardiff homepage](/uploads/23/1.jpg) ![A screenshot of the Treetop Adventure Golf FAQs page mobile layout](/uploads/26/4.jpg) Covering only their initial location in Cardiff at first, I added
+ ![Screenshot of Treetop Adventure Golf\'s Cardiff homepage](/images/1.jpg) ![A screenshot of the Treetop Adventure Golf FAQs page mobile layout](/images/4.jpg) Covering only their initial location in Cardiff at first, I added
 support for multiple locations when they opened their second venue in
 Manchester in 2018.
 
- ![Landing page showing both locations](/uploads/24/2.jpg) I also manage the VPS the site runs on, with [Capistrano][4]{:
+ ![Landing page showing both locations](/images/2.jpg) I also manage the VPS the site runs on, with [Capistrano][4]{:
 target="_blank"} for deployment.
 
- ![Screenshot of the cafe menu from Treetop Adventure Golf](/uploads/25/3.jpg)
+ ![Screenshot of the cafe menu from Treetop Adventure Golf](/images/3.jpg)
 
 [1]: https://adventuregolf.com/
 [2]: https://rubyonrails.org/
