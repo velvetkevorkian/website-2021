@@ -12,7 +12,7 @@ position:
 
 [![2010- a year in
 Wikileaks](https://farm6.staticflickr.com/5244/5277131634_f6acc251a3_z.jpg){:
-width="640" height="640"}][1]{: target="_blank"}
+width="640" height="640"}][1]
 
 <span class="ql-cursor">﻿</span>Here\'s a quick snapshot of how this is
 developing. This searches the [Guardian\'s Open Platform API][2]{:
@@ -33,4 +33,3 @@ Get in touch with any comments, criticisms or questions!
 
 [1]: http://www.flickr.com/photos/53111802@N05/5277131634/
 [2]: http://www.guardian.co.uk/open-platform
-

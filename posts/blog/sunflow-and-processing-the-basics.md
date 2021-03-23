@@ -10,19 +10,19 @@ image:
 position: 
 ---
 
-[Sunflow][1]{: target="_blank"} is an open source ray tracing renderer
-which can produce some [astonishing results][2]{: target="_blank"} in
+[Sunflow][1] is an open source ray tracing renderer
+which can produce some [astonishing results][2] in
 the right hands. Someone far cleverer than me wrote a [Java
-wrapper][3]{: target="_blank"} for it (the catchily titled
+wrapper][3] for it (the catchily titled
 SunflowAPIAPI), and another did [a tutorial about getting it talking
-nicely to Processing][4]{: target="_blank"}, which I relied on heavily
+nicely to Processing][4], which I relied on heavily
 in getting this working. There is also a Processing library by the same
 author (the even catchier P5SunflowAPIAPI) but thus far I\'ve not been
 able to get it to do what I want.
 
-[Amnon\'s post][4]{: target="_blank"} goes into a bit of detail about
+[Amnon\'s post][4] goes into a bit of detail about
 getting Sunflow APIAPI reading complex geometry from [Processing ][5]{:
-target="_blank"} using [ToxicLibs][6]{: target="_blank"}- this was my
+target="_blank"} using [ToxicLibs][6]- this was my
 first time using ToxicLibs but it was relatively straightforward. I
 wrote a simple class to generate some semi-random geometry using
 ToxicLibs\' TriangleMesh and a couple of lines of code in that prepare
@@ -40,18 +40,18 @@ approximately half an hour for each image- at full size they\'re 2100 x
 2100 pixels.
 
 [![SunflowTestRender2](https://farm6.static.flickr.com/5134/5481521239_69af30cf37_z.jpg){:
-width="640" height="640"}][7]{: target="_blank"}
+width="640" height="640"}][7]
 
 This one uses a diffuse shader with a constant grey colour.
 
 [![SunflowTestRender3](https://farm6.static.flickr.com/5133/5482121704_cf39ca54af_z.jpg){:
-width="640" height="640"}][8]{: target="_blank"}
+width="640" height="640"}][8]
 
 This is either a diffuse or shiny diffuse shader, with a red value
 changing from 0-255, ring by ring.
 
 [![SunflowTestRender4](https://farm6.static.flickr.com/5099/5486710760_a2d8c1128a_z.jpg){:
-width="640" height="640"}][9]{: target="_blank"}
+width="640" height="640"}][9]
 
 Finally, this one uses the glass shader, again with the red value
 ranging from 0-255.
@@ -77,4 +77,3 @@ and expertise is really inspiring. More to come on this soon, I expect.
 [7]: http://www.flickr.com/photos/53111802@N05/5481521239/
 [8]: http://www.flickr.com/photos/53111802@N05/5482121704/
 [9]: http://www.flickr.com/photos/53111802@N05/5486710760/
-

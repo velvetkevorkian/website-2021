@@ -32,7 +32,7 @@ screen grab of the Reaper window showing the track layout, the routing
 matrix and the effects windows for each track:
 
 [![VerdantScapeScreen](https://farm5.static.flickr.com/4086/5039930788_8f3af547c3_z.jpg){:
-width="640" height="256"}][2]{: target="_blank"}
+width="640" height="256"}][2]
 
 **2: Senseless Violence**
 
@@ -47,20 +47,20 @@ are triggered by a MIDI trigger on the glitch tracks. Here\'s a screen
 grab:
 
 [![SenselessViolenceScreen](https://farm5.static.flickr.com/4152/5039311225_9ff2ed3a48_z.jpg){:
-width="640" height="256"}][3]{: target="_blank"}
+width="640" height="256"}][3]
 
 **3: Crash**
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/5704449&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
 Part of the brief for this unit is to use [the nine words mentioned in a
-previous post][4]{: target="_blank"} as inspiration for sound pieces. I
+previous post][4] as inspiration for sound pieces. I
 took this a bit literally and based this around a loop of a crash cymbal
 which has been pitch shifted down and slowed down. Again, this triggers
 some synths and feeds a glitch generator. Obligatory screenshot:
 
 [![CrashScapeScreen](https://farm5.static.flickr.com/4091/5039931200_efbcf29850_z.jpg){:
-width="640" height="256"}][5]{: target="_blank"}
+width="640" height="256"}][5]
 
 And there you have it. Please let me know your thoughts in the comments!
 
@@ -71,4 +71,3 @@ And there you have it. Please let me know your thoughts in the comments!
 [3]: http://www.flickr.com/photos/53111802@N05/5039311225/
 [4]: http://velvetkevorkian.wordpress.com/2010/09/23/nine-words-nine-images/
 [5]: http://www.flickr.com/photos/53111802@N05/5039931200/
-

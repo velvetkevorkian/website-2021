@@ -16,7 +16,7 @@ biography](https://farm9.staticflickr.com/8382/8601619494_ac14cf6be0_b.jpg)
 An iOS app designed to showcase the work of DJCAD fine art student
 Mariella Verkerk. Using her work to brand the app, we designed, tested
 and prototyped a gallery of work and a biography, and used
-[openFrameworks][1]{: target="_blank"} and [ofxQCAR][2]{:
+[openFrameworks][1] and [ofxQCAR][2]{:
 target="_blank"} to create an augmented reality section where work
 conceived as street art could be projected onto commonplace features.
 
@@ -40,4 +40,3 @@ designs](https://farm9.staticflickr.com/8380/8600520047_4641af3acf_b.jpg)
 
 [1]: https://www.openframeworks.cc/
 [2]: https://github.com/julapy/ofxQCAR
-

@@ -14,9 +14,8 @@ position: 5
 from Sardinia but now based in Scotland. This replaced her previous
 static HTML site.
 
-The website is online at [elenapiras.com][1]{: target="_blank"}.
+The website is online at [elenapiras.com][1].
 
 
 
 [1]: http://elenapiras.com/
-

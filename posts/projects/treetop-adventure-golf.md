@@ -10,8 +10,8 @@ image: _1280x450_Early_bird_texture.jpg
 position: 0
 ---
 
-A full site build for [adventuregolf.com][1]{: target="_blank"}. The CMS
-is built on [Rails][2]{: target="_blank"} and [Casein][3]{:
+A full site build for [adventuregolf.com][1]. The CMS
+is built on [Rails][2] and [Casein][3]{:
 target="_blank"}, which lets them manage pages, job postings, FAQs the
 cafe menu, etc.
 
@@ -28,4 +28,3 @@ target="_blank"} for deployment.
 [2]: https://rubyonrails.org/
 [3]: https://github.com/russellquinn/casein
 [4]: https://capistranorb.com/
-

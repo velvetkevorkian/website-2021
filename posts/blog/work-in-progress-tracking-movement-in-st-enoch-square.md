@@ -25,12 +25,12 @@ There are a number of iterative steps going on here...
 1: The original, untreated footage.
 
 2 and 3: Using a basic frame differencing technique based on the
-Processing example by [Golan Levin][1]{: target="_blank"} to identify
+Processing example by [Golan Levin][1] to identify
 movement between frames. There is a threshold filter so that any
 movement is one colour and anything still is another colour, with
 nothing in between. This makes it easy to go to...
 
-4: Using [BlobScanner ][2]{: target="_blank"} to identify \"blobs\",
+4: Using [BlobScanner ][2] to identify \"blobs\",
 i.e. large areas of continuous pixels. Applied to the previous video it
 should, in theory, pick out the moving sections, mark the centre of each
 and draw a bounding box around it. As you can see, with varying degrees
@@ -57,4 +57,3 @@ comments let me know!
 
 [1]: http://www.flong.com/
 [2]: http://sites.google.com/site/blobscanner/
-

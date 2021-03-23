@@ -12,7 +12,7 @@ position:
 
 A couple of months ago me and <a href=\"https://www.orcfull.com/\"\"
 target=\"\_blank\">Alistair</a> went to see the second part of [New
-Designers 2013][1]{: target="_blank"}. We visited the DJCAD Social
+Designers 2013][1]. We visited the DJCAD Social
 Digital (a combination of Digital Interaction Design and Product Design)
 stand, congratulated the class of 2013 on their three award nominations
 and two wins from over 1400 exhibitors, then we moved on to have a look
@@ -51,7 +51,7 @@ ideas totally undersold.
     being recycled conventionally. Once again, the designer had to come
     and tell us about it.
 
-Time after time, the [lede was buried][2]{: target="_blank"} in pages of
+Time after time, the [lede was buried][2] in pages of
 impenetrable jargon. This was such a pattern that after the first few
 stalls, I started skipping to the last paragraph of every text I read.
 Depressingly enough, it worked.
@@ -71,7 +71,7 @@ I guess this is a side effect of design and technology courses coming
 out of art school environments, as opposed to engineering departments
 (who I imagine would veer too far in the opposite direction), but this
 is not your degree show, or your thesis defence. If there\'s one thing
-I\'ve learned from [Mike Monteiro][3]{: target="_blank"}, it\'s that
+I\'ve learned from [Mike Monteiro][3], it\'s that
 design is about selling your work- and yourself- to clients, to tutors,
 or in this case, to New Designers attendees who may or may not want to
 employ someone with your particular skill set. Do you really want to
@@ -127,7 +127,7 @@ you with.
 We had a meeting last week with our lecturer who said much the same
 things, but slightly more politely, so I don\'t think I\'m totally off
 the rails with this. Feel free to comment or tweet me
-[@k\_macquarrie][4]{: target="_blank"} if you disagree.
+[@k\_macquarrie][4] if you disagree.
 
 
 
@@ -135,4 +135,3 @@ the rails with this. Feel free to comment or tweet me
 [2]: https://en.wiktionary.org/wiki/bury_the_lede
 [3]: http://www.abookapart.com/products/design-is-a-job
 [4]: https://twitter.com/k_macquarrie
-

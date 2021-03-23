@@ -19,7 +19,7 @@ preserved in amber. But mostly, they are gone, and we can only infer
 their former existence with the help of secondary sources.
 
 I\'m drawn to these tomes. Despite their age, they have something of the
-[New Aesthetic][1]{: target="_blank"} about them. Their subject matter
+[New Aesthetic][1] about them. Their subject matter
 is fundamentally ill-suited to being depicted on the printed page. Shorn
 of their interactivity, their links to each other, websites lose all the
 things which set them apart from print. Like trying to understand a
@@ -49,4 +49,3 @@ the ancients.
 
 
 [1]: http://new-aesthetic.tumblr.com/
-

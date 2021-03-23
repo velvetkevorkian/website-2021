@@ -11,7 +11,7 @@ position:
 ---
 
 [![separation10\_263](https://farm3.static.flickr.com/2044/5771709425_fbea6c2fb3_z.jpg){:
-width="640" height="360"}][1]{: target="_blank"}
+width="640" height="360"}][1]
 
 I shot some updated footage at the right resolution for my St Enoch
 project from two different points of view. In retrospect, shooting at
@@ -34,4 +34,3 @@ results.
 
 
 [1]: https://www.flickr.com/photos/53111802@N05/5771709425/
-

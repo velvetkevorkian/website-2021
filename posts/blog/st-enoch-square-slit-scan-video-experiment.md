@@ -11,7 +11,7 @@ position:
 ---
 
 Here\'s another approach to isolating movement in video - using
-[slit-scanning][1]{: target="_blank"}. The code for this was a quick
+[slit-scanning][1]. The code for this was a quick
 adaptation from the Processing slit-scan example with a couple of
 alterations and a little variation. Without further ado...
 
@@ -23,4 +23,3 @@ certainly much easier this way than doing it analogue!
 
 
 [1]: http://en.wikipedia.org/wiki/Slit-scan_photography
-

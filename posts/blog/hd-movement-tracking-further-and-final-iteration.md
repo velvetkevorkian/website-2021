@@ -17,7 +17,7 @@ cobbled together from other peoples\' code wrote to do it. If you\'ve
 not seen it already, you might want to take a look at the
 [first](/blog/work-in-progress-tracking-movement-in-st-enoch-square/){:
 target="_blank"} and
-[second](/blog/hd-movement-tracking-first-iteration/){: target="_blank"}
+[second](/blog/hd-movement-tracking-first-iteration/)
 posts that show the earlier stages. Done? Onwards!
 
 To recap slightly, the first step is to compare two adjacent frames to
@@ -28,29 +28,29 @@ has changed is white and anything that hasn\'t is black. Here\'s a
 single frame with this process applied:
 
 [![10](https://farm4.static.flickr.com/3400/5837152411_ea6ae86115_z.jpg){:
-width="640" height="457"}][1]{: target="_blank"}
+width="640" height="457"}][1]
 
 Here\'s a version (in opposite colours) where movement leaves a trail
 over several frames:
 
 [![11](https://farm4.static.flickr.com/3405/5837152807_837a51f72f_z.jpg){:
-width="640" height="457"}][2]{: target="_blank"}
+width="640" height="457"}][2]
 
 Once we have a nice clean monochrome image we can run [BlobScanner][3]{:
 target="_blank"} which will identify any large blocks of pixels, and
 calculate their centroids and bounding boxes. The centroid coordinates
-are fed to the [Mesh library][4]{: target="_blank"} which calculates and
-draws a [Delaunay triangulation][5]{: target="_blank"} using them, which
+are fed to the [Mesh library][4] which calculates and
+draws a [Delaunay triangulation][5] using them, which
 gives us a rough outline of the identified movement:
 
 [![separationVoronoi2\_0017](https://farm6.static.flickr.com/5039/5821859773_a911dc8809_z.jpg){:
-width="640" height="360"}][6]{: target="_blank"}
+width="640" height="360"}][6]
 [![separationVoronoi2\_0140](https://farm3.static.flickr.com/2561/5821861581_e788ed0e2c_z.jpg){:
-width="640" height="360"}][7]{: target="_blank"}
+width="640" height="360"}][7]
 
 Now, the original plan was to get some big (A1+ size) prints made, so I
 tried some simple black and white tests. This samples every other frame,
-[IIRC][8]{: target="_blank"}, and the frames fade over time by simply
+[IIRC][8], and the frames fade over time by simply
 placing a slightly transparent rectangle the size of the screen each
 frame. It feels a bit fast:
 
@@ -65,9 +65,9 @@ starts at. OpenGL additive blending makes it sparkle a bit more,
 especially where a lot of lines cluster together. Like this:
 
 [![separationVoronoi4\_2697](https://farm3.static.flickr.com/2103/5822430642_19aee56c4c_z.jpg){:
-width="640" height="360"}][9]{: target="_blank"}
+width="640" height="360"}][9]
 [![separationVoronoi4\_2684](https://farm6.static.flickr.com/5074/5821865747_8be0bcdd6f_z.jpg){:
-width="640" height="360"}][10]{: target="_blank"}
+width="640" height="360"}][10]
 
 Here\'s the video. I added the music specially for the online version-
 at the exhibition it ran silently on a loop.
@@ -83,9 +83,9 @@ out pretty well, and got some very favourable comments from those who
 attended the show:
 
 [![output1](https://farm6.static.flickr.com/5187/5837720536_8e11d97924_z.jpg){:
-width="640" height="360"}][11]{: target="_blank"}
+width="640" height="360"}][11]
 [![output2](https://farm3.static.flickr.com/2454/5837721176_b009d1c005_z.jpg){:
-width="640" height="360"}][12]{: target="_blank"}
+width="640" height="360"}][12]
 
 So there we are. I\'m pretty happy with how this project has worked out:
 I\'ve learned a lot, created something beautiful (IMO at least) and
@@ -107,4 +107,3 @@ excellent couple of years for me.
 [10]: https://www.flickr.com/photos/53111802@N05/5821865747/
 [11]: https://www.flickr.com/photos/53111802@N05/5837720536/
 [12]: https://www.flickr.com/photos/53111802@N05/5837721176/
-

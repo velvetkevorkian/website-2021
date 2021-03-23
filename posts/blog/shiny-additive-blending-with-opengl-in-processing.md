@@ -12,9 +12,9 @@ position:
 
 This sketch was inspired by a combination of things: the particle
 systems chapter draft from [Dan Shiffman\'s forthcoming Nature Of Code
-book][1]{: target="_blank"} influenced the additive blending aesthetic,
+book][1] influenced the additive blending aesthetic,
 while I got the idea of a three dimensional \"colour space\" from [this
-talk from Mario Klingemann][2]{: target="_blank"}.
+talk from Mario Klingemann][2].
 
 All that\'s really going on here is the RGB/HSB values of each pixel of
 an image are mapped to XYZ coordinates, while the camera rotates round
@@ -37,4 +37,3 @@ blending particles systems to show soon. Have fun!
 
 [1]: http://www.kickstarter.com/projects/shiffman/the-nature-of-code-book-project
 [2]: http://vimeo.com/19745266?ab
-

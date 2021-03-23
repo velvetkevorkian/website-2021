@@ -13,12 +13,12 @@ position:
 If you look back through the earlier posts on this blog you\'ll notice
 that it originated as a way to show the coursework I was doing during my
 HND Computer Art and Design course which I did before moving on to
-[DJCAD][1]{: target="_blank"} in Dundee. A few weeks ago I got invited
+[DJCAD][1] in Dundee. A few weeks ago I got invited
 back to my *alma mater* to be interviewed for a film they were making to
 attract people to the course. Here\'s the result, featuring a bunch of
 very talented alumni, and me! There are also some snippets of my [graded
-unit work](/projects/motion-tracking/){: target="_blank"} and my
-[Processing showreel](/projects/showreel-2011/){: target="_blank"}
+unit work](/projects/motion-tracking/) and my
+[Processing showreel](/projects/showreel-2011/)
 featured, which is nice. The students have put together a really nice
 showcase for the course.
 
@@ -27,7 +27,7 @@ whether this course might be for them to go and check it out. When I
 applied I had pretty much zero art and design experience, just a few
 terrible renders I\'d made in 3ds Max and some horrendous sketching, but
 David thankfully decided to take a chance on me, and within just a few
-weeks he\'d [blown my mind with something][2]{: target="_blank"} that\'s
+weeks he\'d [blown my mind with something][2] that\'s
 radically changed my course for the better and opened up an enormous
 number of potential doorways for me. I can\'t really thank David, Dianne
 and Andy enough for all the help they gave us, and it looks like the
@@ -53,4 +53,3 @@ what?
 [1]: https://www.dundee.ac.uk/study/ug/digital-interaction-design/
 [2]: http://www.complexification.net/gallery/machines/substrate/index.php
 [3]: http://velvetkevorkian.co.uk/contact/
-

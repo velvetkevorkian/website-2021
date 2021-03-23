@@ -14,9 +14,8 @@ position: 12
 
 I put together this video compilation of generative Processing work when
 I was applying for university in early 2011: it formed the backbone of
-the effort which got me in to [DJCAD][1]{: target="_blank"}.
+the effort which got me in to [DJCAD][1].
 
 
 
 [1]: https://www.dundee.ac.uk/djcad/
-

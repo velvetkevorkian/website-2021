@@ -11,8 +11,8 @@ position:
 ---
 
 It started, as it often does, with a tweet. \"What can UX learn from
-gaming?\" asked [@TheDrum][1]{: target="_blank"}, followed by a link to
-[this piece][2]{: target="_blank"}. Frankly, anyone who believes games
+gaming?\" asked [@TheDrum][1], followed by a link to
+[this piece][2]. Frankly, anyone who believes games
 offer a good model for UX to imitate probably hasn\'t actually tried
 playing that many games, especially on the [One True Format][3]{:
 target="_blank"}, although a cursory Twitter search for \"PS3 Update\"
@@ -27,9 +27,9 @@ UX](/uploads/19/bud-is-confident-about-ux.png)
 
 On the web, we live in an age where people designing and building things
 want to make them work as well as possible, [regardless of what device
-you\'re on][4]{: target="_blank"}. Even [old browsers][5]{:
+you\'re on][4]. Even [old browsers][5]{:
 target="_blank"} should still get most of what\'s on offer. Recently,
-the idea of [Offline First][6]{: target="_blank"} design has taken root—
+the idea of [Offline First][6] design has taken root—
 that is, web apps which will still work and behave reasonably *even on a
 flaky or non-existent connection*. Let me repeat that: **web apps** that
 work with the connection the user has, not the connection you want them
@@ -55,7 +55,7 @@ architectural decisions. Neither leaves a good taste.
 
 EA is, of course, a serial and a serious offender. One of the things
 that prompted me to write this screed was [John Walker\'s account on
-Rock Paper Shotgun][7]{: target="_blank"} of his attempt to play
+Rock Paper Shotgun][7] of his attempt to play
 Battlefield 4\'s single player campaign. Even if we leave aside any
 server or connection issues (which we shouldn\'t, but bear with me)
 there are so many things wrong with this process it\'s difficult to know
@@ -84,9 +84,9 @@ Speaking of things Steam is better than, perhaps the crowning glory of
 inexplicably shit, totally broken game-related UX is the hateful bundle
 of inscrutable idiocy that comprises Games For Windows Live. While
 Microsoft are experts in the [death by a thousand cuts approach to
-UX][8]{: target="_blank"}, GFWL was more like a [savage beating of
-ineptitude][9]{: target="_blank"}. While it does now appear to have been
-[taken out and put out of its misery][10]{: target="_blank"}, anyone
+UX][8], GFWL was more like a [savage beating of
+ineptitude][9]. While it does now appear to have been
+[taken out and put out of its misery][10], anyone
 who\'s had the misfortune of using the \"service\" which, like Origin,
 aimed to replicate most of the features of Steam, will probably have
 tales to tell of bizarre login loops, game-blocking client updates,
@@ -130,4 +130,3 @@ mistakes of the past, stuck in GFWL login loop purgatory for ever.
 [8]: http://arstechnica.com/information-technology/2013/11/its-the-little-things-how-small-conundrums-make-many-hate-computers/
 [9]: http://www.rockpapershotgun.com/2013/03/05/a-brief-moment-of-perverse-gratitude-to-gfwl/#more-144350
 [10]: http://www.pcgamer.com/2013/08/20/games-for-windows-live-may-shut-down-next-year/
-

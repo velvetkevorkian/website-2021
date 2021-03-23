@@ -14,7 +14,7 @@ position: 6
 homepage](https://farm4.staticflickr.com/3733/11997655686_4a4c47e067_b.jpg)
 
 Inspired by the amazing sunsets we could see over the River Tay from our
-studio, [Tom Kinnear][1]{: target="_blank"} began encouraging people in
+studio, [Tom Kinnear][1] began encouraging people in
 Dundee to post their photos tagged with #DundeeSunset and it quickly
 took off. I put this page together to collate all the photos in one
 place. It was even covered by STV’s Dundee news page.
@@ -29,4 +29,3 @@ sunsets](https://farm6.staticflickr.com/5489/11997657046_478374e94a_b.jpg)
 
 
 [1]: https://twitter.com/trkinnear
-

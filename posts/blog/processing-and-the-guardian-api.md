@@ -10,9 +10,9 @@ image:
 position: 
 ---
 
-Inspired by [this article ][1]{: target="_blank"} from the awesome [Jer
-\"Blprnt\" Thorp][2]{: target="_blank"}, I\'ve been experimenting with
-the Guardian\'s [Open Platform API][3]{: target="_blank"}, which gives
+Inspired by [this article ][1] from the awesome [Jer
+\"Blprnt\" Thorp][2], I\'ve been experimenting with
+the Guardian\'s [Open Platform API][3], which gives
 access to ten years worth of articles in XML or JSON format. You have to
 sign up for an API key but it\'s free and easy. I thought I\'d put up
 some of the early tests I\'ve been doing with it. I\'ve never worked
@@ -25,17 +25,17 @@ I\'ve got at the moment...
 David Cameron:
 
 [![david+cameron](https://farm6.static.flickr.com/5247/5250910799_6173060564_z.jpg){:
-width="640" height="640"}][4]{: target="_blank"}
+width="640" height="640"}][4]
 
 Gordon Brown:
 
 [![gordon+brown](https://farm6.static.flickr.com/5289/5251514858_f73bcd5d58_z.jpg){:
-width="640" height="640"}][5]{: target="_blank"}
+width="640" height="640"}][5]
 
 Tony Blair:
 
 [![tony+blair](https://farm6.static.flickr.com/5042/5251514322_ebdf46ea94_z.jpg){:
-width="640" height="640"}][6]{: target="_blank"}
+width="640" height="640"}][6]
 
 Not a lot of information we can glean from that, I think you\'ll agree,
 other than there are significantly more articles mentioning Blair
@@ -54,4 +54,3 @@ obscure Java coding.
 [4]: http://www.flickr.com/photos/53111802@N05/5250910799/
 [5]: http://www.flickr.com/photos/53111802@N05/5251514858/
 [6]: http://www.flickr.com/photos/53111802@N05/5251514322/
-
