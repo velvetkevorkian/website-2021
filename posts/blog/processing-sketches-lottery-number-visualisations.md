@@ -12,15 +12,13 @@ position:
 
 Following on from my previous posts about the nine words we\'re using as
 inspiration, I thought I\'d show some of the ideas I\'ve been playing
-with in the third phase of the project, which is using [Processing][1]{:
-target="_blank"} to create images. The images here demonstrate some of
+with in the third phase of the project, which is using [Processing][1] to create images. The images here demonstrate some of
 the things I really like about Processing, like the way that an idea can
 be reworked quickly and easily to create images which can be interesting
 visually and conceptually.
 
 All the images in this post are linked with the single word
-\'serendipity\'. Inspired by the works of people like [Ben Fry][2]{:
-target="_blank"} and [Jer Thorp][3], who work on
+\'serendipity\'. Inspired by the works of people like [Ben Fry][2] and [Jer Thorp][3], who work on
 large scale data visualisations, I decided to plug in some results from
 the UK\'s National Lottery and see what I could come up with. All the
 results were taken from [this archive][4].

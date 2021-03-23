@@ -13,8 +13,7 @@ position: 3
 ![Screenshot of the plugin in action with a dark Brackets
 theme](https://farm3.staticflickr.com/2936/14066187607_8f29cbd6e2_b.jpg)
 
-A [Brackets][1] plugin which wraps [Figlet.js][2]{:
-target="_blank"} for using ASCII art fonts in code. You can install it
+A [Brackets][1] plugin which wraps [Figlet.js][2] for using ASCII art fonts in code. You can install it
 through the Brackets extension manager or check out the code [on
 GitHub][3].
 

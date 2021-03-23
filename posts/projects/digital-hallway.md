@@ -22,8 +22,7 @@ background](https://farm9.staticflickr.com/8105/8598359430_b0e1df978d_b.jpg)
 ![Amar\'s Barometers theme, with blue
 background](https://farm9.staticflickr.com/8519/8597255925_9abc93dabe_b.jpg)
 
-I implemented the site based on designs by [Tom Kinnear][1]{:
-target="_blank"}. Tom’s original Photoshop comps are below, although we
+I implemented the site based on designs by [Tom Kinnear][1]. Tom’s original Photoshop comps are below, although we
 reworked and simplified the structure of the site from what was
 originally proposed.
 
@@ -39,4 +38,3 @@ mockup](https://farm9.staticflickr.com/8243/8597302277_d529d0d5d5_b.jpg)
 
 
 [1]: https://twitter.com/trkinnear
-

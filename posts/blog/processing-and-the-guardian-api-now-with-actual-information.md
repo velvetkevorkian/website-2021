@@ -15,8 +15,7 @@ Wikileaks](https://farm6.staticflickr.com/5244/5277131634_f6acc251a3_z.jpg){:
 width="640" height="640"}][1]
 
 <span class="ql-cursor">﻿</span>Here\'s a quick snapshot of how this is
-developing. This searches the [Guardian\'s Open Platform API][2]{:
-target="_blank"} for mentions of everyone\'s favourite whistleblowing
+developing. This searches the [Guardian\'s Open Platform API][2] for mentions of everyone\'s favourite whistleblowing
 website. The bars map the number of articles on a monthly basis, where
 12 o\'clock is January. You can see a small peak in April, when the
 Collateral Murder video was released, bigger peaks in July and October

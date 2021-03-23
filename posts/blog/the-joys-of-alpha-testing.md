@@ -42,8 +42,7 @@ Quite interesting, I\'m sure you\'ll agree. The best bit about it, IMO
 unpredictable systems) is that the interesting parts of this were
 discovered, rather than designed.
 
-The photo this piece is based on was from [Flickr user spcbrass][7]{:
-target="_blank"}, licensed under CC-BY-SA.
+The photo this piece is based on was from [Flickr user spcbrass][7], licensed under CC-BY-SA.
 
 I\'ve not put up the code for this as the results are unlikely to be
 replicated (I think the bug is gone in the newer versions of Processing

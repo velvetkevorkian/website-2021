@@ -13,11 +13,9 @@ position:
 [Complexification][1] is a showcase for the works of
 Jared Tarbell, and describes itself as a \"gallery of computation\"
 filled with \"generative artefacts\". This site has some of the best
-examples of generative art (mainly built with [Processing][2]{:
-target="_blank"}) which is something I find totally fascinating, as you
+examples of generative art (mainly built with [Processing][2]) which is something I find totally fascinating, as you
 may have guessed from some of [my previous
-posts](/blog/variations-on-a-theme-processing-sketches/){:
-target="_blank"}.
+posts](/blog/variations-on-a-theme-processing-sketches/).
 
 The works here aren\'t just technical exercises; despite being
 essentially a collection of fairly advanced software, each of them has a

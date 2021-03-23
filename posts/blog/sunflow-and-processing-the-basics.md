@@ -21,8 +21,7 @@ author (the even catchier P5SunflowAPIAPI) but thus far I\'ve not been
 able to get it to do what I want.
 
 [Amnon\'s post][4] goes into a bit of detail about
-getting Sunflow APIAPI reading complex geometry from [Processing ][5]{:
-target="_blank"} using [ToxicLibs][6]- this was my
+getting Sunflow APIAPI reading complex geometry from [Processing ][5] using [ToxicLibs][6]- this was my
 first time using ToxicLibs but it was relatively straightforward. I
 wrote a simple class to generate some semi-random geometry using
 ToxicLibs\' TriangleMesh and a couple of lines of code in that prepare

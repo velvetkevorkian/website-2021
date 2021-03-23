@@ -15,8 +15,7 @@ the write up. Here\'s a quick run down of the work that I showed and
 some of the development that went into it. I\'ll also show the code I
 cobbled together from other peoples\' code wrote to do it. If you\'ve
 not seen it already, you might want to take a look at the
-[first](/blog/work-in-progress-tracking-movement-in-st-enoch-square/){:
-target="_blank"} and
+[first](/blog/work-in-progress-tracking-movement-in-st-enoch-square/) and
 [second](/blog/hd-movement-tracking-first-iteration/)
 posts that show the earlier stages. Done? Onwards!
 
@@ -36,8 +35,7 @@ over several frames:
 [![11](https://farm4.static.flickr.com/3405/5837152807_837a51f72f_z.jpg){:
 width="640" height="457"}][2]
 
-Once we have a nice clean monochrome image we can run [BlobScanner][3]{:
-target="_blank"} which will identify any large blocks of pixels, and
+Once we have a nice clean monochrome image we can run [BlobScanner][3] which will identify any large blocks of pixels, and
 calculate their centroids and bounding boxes. The centroid coordinates
 are fed to the [Mesh library][4] which calculates and
 draws a [Delaunay triangulation][5] using them, which

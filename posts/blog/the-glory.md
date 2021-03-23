@@ -13,8 +13,7 @@ position:
 ![Screenshot from Royal Wood\'s THe
 GLory](https://farm9.staticflickr.com/8091/8594413943_1edcb4824e_b.jpg)
 
-My [St Enoch Square Motion Tracking](/projects/motion-tracking){:
-target="_blank"} pieces remain one of the biggest projects I\'ve worked
+My [St Enoch Square Motion Tracking](/projects/motion-tracking) pieces remain one of the biggest projects I\'ve worked
 on, and I\'m really pleased that an updated version has now been used in
 the video for [Royal Wood\'s *The Glory*][1],
 directed by Adam Makarenko.

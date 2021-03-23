@@ -11,8 +11,7 @@ position:
 ---
 
 Went out to grab some better footage for my [St Enoch Square
-project](/blog/work-in-progress-tracking-movement-in-st-enoch-square/){:
-target="_blank"}, but thanks to a hilarious(!) mix up with camera
+project](/blog/work-in-progress-tracking-movement-in-st-enoch-square/), but thanks to a hilarious(!) mix up with camera
 resolutions didn\'t get quite what I was after. Tried some more
 experiments with it anyway, since it has a more static background (and
 is therefore easier to pick out movement against).

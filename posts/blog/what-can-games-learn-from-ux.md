@@ -14,8 +14,7 @@ It started, as it often does, with a tweet. \"What can UX learn from
 gaming?\" asked [@TheDrum][1], followed by a link to
 [this piece][2]. Frankly, anyone who believes games
 offer a good model for UX to imitate probably hasn\'t actually tried
-playing that many games, especially on the [One True Format][3]{:
-target="_blank"}, although a cursory Twitter search for \"PS3 Update\"
+playing that many games, especially on the [One True Format][3], although a cursory Twitter search for \"PS3 Update\"
 should demonstrate that consoles are far from immune from the scourge of
 thoughtless design. The question needs to be reversed — \"What can
 gaming learn from UX?\"
@@ -27,8 +26,7 @@ UX](/images/bud-is-confident-about-ux.png)
 
 On the web, we live in an age where people designing and building things
 want to make them work as well as possible, [regardless of what device
-you\'re on][4]. Even [old browsers][5]{:
-target="_blank"} should still get most of what\'s on offer. Recently,
+you\'re on][4]. Even [old browsers][5] should still get most of what\'s on offer. Recently,
 the idea of [Offline First][6] design has taken root—
 that is, web apps which will still work and behave reasonably *even on a
 flaky or non-existent connection*. Let me repeat that: **web apps** that

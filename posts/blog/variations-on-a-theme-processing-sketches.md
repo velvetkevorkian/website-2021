@@ -12,8 +12,7 @@ position:
 
 For my first post on my new blog I thought I\'d share some of the ideas
 I\'ve been playing with for a while. All of these images were created
-using [Processing][1] and use [Perlin noise][2]{:
-target="_blank"} to generate random but organic looking movement.
+using [Processing][1] and use [Perlin noise][2] to generate random but organic looking movement.
 
 The first set of sketches use just four variables, which can be used in
 various combinations to generate coordinates, which can be joined by
@@ -84,8 +83,7 @@ how effortless the PeasyCam is in use- highly recommended!
 
 The latest iteration of this principle is to use the points generated as
 vertices of a solid shape rather than just lines. In theory, this lets
-you do stuff like [this amazing bit of 3d printing][19]{:
-target="_blank"} from Toxi. In practice, this is more like planes than
+you do stuff like [this amazing bit of 3d printing][19] from Toxi. In practice, this is more like planes than
 solids at the moment. I added an extra colour for variety here, just for
 fun.
 

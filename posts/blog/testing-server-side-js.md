@@ -21,8 +21,7 @@ was, and it was generating a lot of 500 errors in production.)
     const userAgent = req.headers['user-agent'] || window.navigator.userAgent
 
 That\'s a pretty naive implementation, so let\'s refactor it into a
-function. We can use some [null propagation operators][1]{:
-target="_blank"} to catch undefined properties, and wrap it in a
+function. We can use some [null propagation operators][1] to catch undefined properties, and wrap it in a
 try/catch for good measure:
 
     function getUserAgent(req) {

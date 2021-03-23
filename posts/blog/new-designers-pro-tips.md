@@ -10,8 +10,7 @@ image:
 position: 
 ---
 
-A couple of months ago me and <a href=\"https://www.orcfull.com/\"\"
-target=\"\_blank\">Alistair</a> went to see the second part of [New
+A couple of months ago me and <a href="https://www.orcfull.com/">Alistair</a> went to see the second part of [New
 Designers 2013][1]. We visited the DJCAD Social
 Digital (a combination of Digital Interaction Design and Product Design)
 stand, congratulated the class of 2013 on their three award nominations

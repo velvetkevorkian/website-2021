@@ -14,8 +14,7 @@ Here are some images I created for a college assignment based on nine
 words: ambiguity, diaphanous, condition, crash, ephemeral, loop,
 sequential, serendipity and utopia. All were inspired by examples from
 an archived Department of Transport book called \"Know Your Traffic
-Signs\", and use a version of the Transport font from [CBRD.co.uk][1]{:
-target="_blank"}. No, I didn\'t know there was a website dedicated to
+Signs\", and use a version of the Transport font from [CBRD.co.uk][1]. No, I didn\'t know there was a website dedicated to
 cataloguing roads either.
 
 I hit upon the idea of road signs while I was looking for a consistent

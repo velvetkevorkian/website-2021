@@ -15,8 +15,7 @@ has been ongoing for a while. This time, the brief was to create three
 interactive pieces using Flash, triggered by words chosen from the nine.
 My AS3 programming is not very advanced so I\'ve not been able to get as
 conceptual as I did with the Processing pieces, but so it goes. All
-three rely to varying degrees on the rather nice [Hype Framework][1]{:
-target="_blank"}, which simplifies some aspects of AS3 to let you get
+three rely to varying degrees on the rather nice [Hype Framework][1], which simplifies some aspects of AS3 to let you get
 going a bit more easily. Click on the pictures to play with the pieces.
 
 **1: Loop**

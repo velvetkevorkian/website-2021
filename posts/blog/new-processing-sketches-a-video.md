@@ -23,14 +23,10 @@ to go behind it.
 <iframe class="ql-video" allowfullscreen="true" src="https://player.vimeo.com/video/19745219" width="640" height="360" frameborder="0"></iframe>
 
 You can play with some of the live sketches on OpenProcessing: [Mesh
-Typography][1], [3D Mesh Typography][2]{:
-target="_blank"}, and [Kinetic Typography][3]. I
+Typography][1], [3D Mesh Typography][2], and [Kinetic Typography][3]. I
 might talk about some of the sketches in a bit more detail in future, in
 the meantime please get in touch if you have any questions or comments.
-Credit where credit\'s due: as well as [Processing][4]{:
-target="_blank"}, these pieces use the [Geomerative][5]{:
-target="_blank"}, [Traer Physics][6] and [Mesh][7]{:
-target="_blank"} libraries. I was inspired to make some music for it by
+Credit where credit\'s due: as well as [Processing][4], these pieces use the [Geomerative][5], [Traer Physics][6] and [Mesh][7] libraries. I was inspired to make some music for it by
 the amazing [Cloudkicker][8], so thanks to Jaime
 ([@speedyjx][9]) for flagging him up to me. Until
 next time...

@@ -11,8 +11,7 @@ position:
 ---
 
 Here\'s some quick sound sketches I put together for our Conceptual
-Sound unit, as early experiments. All were created using [Reaper][1]{:
-target="_blank"}, a fantastic DAW \[digital audio workstation\] program
+Sound unit, as early experiments. All were created using [Reaper][1], a fantastic DAW \[digital audio workstation\] program
 available for a ridiculously low price and an insanely generous
 unrestricted trial. I\'ve not used that many DAWs recently but I find it
 much more intuitive to use than Cubase. These pieces involve a lot of

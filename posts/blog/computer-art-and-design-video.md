@@ -36,8 +36,7 @@ facilities they have access to are better than when I was there too.
 Anyway, if you\'re interested in the course and want to talk about it
 with someone who\'s done it (in a totally non-official capacity), I\'m
 happy to oblige- that\'s the least I can do after all that I got out of
-it. You can leave a comment here or go through my [contact page][3]{:
-target="_blank"}.
+it. You can leave a comment here or go through my [contact page][3].
 
 Here\'s the video:
 
