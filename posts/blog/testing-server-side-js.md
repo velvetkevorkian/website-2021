@@ -19,7 +19,6 @@ no idea what is sending requests with no user-agent header but something
 was, and it was generating a lot of 500 errors in production.)
 
     const userAgent = req.headers['user-agent'] || window.navigator.userAgent
-{: .ql-syntax spellcheck="false"}
 
 That\'s a pretty naive implementation, so let\'s refactor it into a
 function. We can use some [null propagation operators][1]{:
@@ -33,7 +32,6 @@ try/catch for good measure:
         return ''
       }
     }
-{: .ql-syntax spellcheck="false"}
 
 Hardly the most elegant solution, but it does the job. To check it does
 in fact do the job, let\'s write some tests, using Jest:
@@ -53,7 +51,6 @@ in fact do the job, let\'s write some tests, using Jest:
       })
       expect(result).toBe(window.navigator.userAgent)
     })
-{: .ql-syntax spellcheck="false"}
 
 OK, so far so good, but how can we test the case where there\'s no
 `user-agent` header and no `window.navigator`?
@@ -62,7 +59,6 @@ OK, so far so good, but how can we test the case where there\'s no
       const result = getUserAgent({})
       expect(result).toBe('')
     })
-{: .ql-syntax spellcheck="false"}
 
 This will fail, since Jest runs with JSDOM by default. `window` is part
 of the global namespace, and just like in a real browser
@@ -77,7 +73,6 @@ test files:
     /**
       * @jest-environment node
       */
-{: .ql-syntax spellcheck="false"}
 
 That way, JSDOM isn\'t even set up for that test suite and you can test
 weird isomorphic edge cases to your heart\'s content. The only other
@@ -89,7 +84,6 @@ files, you might need to catch that too:
         url: 'https://www.foo.com/bar',
       })
     }
-{: .ql-syntax spellcheck="false"}
 
 Actually, the best solution is not to read the user-agent string at all,
 but sometimes it has to be done :(.
@@ -97,4 +91,3 @@ but sometimes it has to be done :(.
 
 
 [1]: https://ponyfoo.com/articles/null-propagation-operator
-

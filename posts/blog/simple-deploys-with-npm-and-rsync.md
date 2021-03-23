@@ -39,7 +39,6 @@ the files to the remote host:
     
     // terminal:
     $ rsync -avz --delete project-name deployuser@server.domain:/path/to/static/files/"
-{: .ql-syntax spellcheck="false"}
 
 This works, but means you have to keep track of that deploy command and
 all those `rsync` flags are just begging for a typo. Let\'s automate it
@@ -58,7 +57,6 @@ into a single, self-documenting, easily typed command:
     
     // terminal
     $ npm run deploy
-{: .ql-syntax spellcheck="false"}
 
 ## Scripts can call other scripts
 
@@ -75,7 +73,6 @@ with `build` when we `deploy`\:
     
     // terminal
     $ npm run deploy
-{: .ql-syntax spellcheck="false"}
 
 ## Refactor paths into NPM variables
 
@@ -97,7 +94,6 @@ and refer to it in `package.json` with the `$npm_config_` prefix:
     
     // terminal
     $ npm run deploy
-{: .ql-syntax spellcheck="false"}
 
 You can also have an `.npmrc` file in your project directory, if you
 don\'t mind either checking it in to version control or adding it to
@@ -130,9 +126,6 @@ instead of Node and `npm`.
     
     # terminal
     $ rake deploy
-{: .ql-syntax spellcheck="false"}
 
 If you\'re using NPM already I don\'t see much reason to use `rake`
 instead but it might be useful if you\'re using a other Ruby tools.
-
-
