@@ -11,16 +11,16 @@ position:
 ---
 
 Inspired by [this article ][1] from the awesome [Jer
-\"Blprnt\" Thorp][2], I\'ve been experimenting with
-the Guardian\'s [Open Platform API][3], which gives
+\"Blprnt\" Thorp][2], I've been experimenting with
+the Guardian's [Open Platform API][3], which gives
 access to ten years worth of articles in XML or JSON format. You have to
-sign up for an API key but it\'s free and easy. I thought I\'d put up
-some of the early tests I\'ve been doing with it. I\'ve never worked
-with XML before so it\'s been something of a learning experience! These
-three pieces use the same code, just different search terms. I\'ve
+sign up for an API key but it's free and easy. I thought I'd put up
+some of the early tests I've been doing with it. I've never worked
+with XML before so it's been something of a learning experience! These
+three pieces use the same code, just different search terms. I've
 searched for the names of our most recent \"dear leaders\" in the news
-section, and, er, put the headlines in a circle. That\'s about as far as
-I\'ve got at the moment...
+section, and, er, put the headlines in a circle. That's about as far as
+I've got at the moment...
 
 David Cameron:
 
@@ -37,11 +37,11 @@ Tony Blair:
 [![tony+blair](https://farm6.static.flickr.com/5042/5251514322_ebdf46ea94_z.jpg){:
 width="640" height="640"}][6]
 
-Not a lot of information we can glean from that, I think you\'ll agree,
+Not a lot of information we can glean from that, I think you'll agree,
 other than there are significantly more articles mentioning Blair
 (unsurprising as he was PM for much longer than the other two, so far at
-least), but I think there\'s some potential for some interesting stuff.
-It\'s also worthwhile to note that Processing\'s functionality has
+least), but I think there's some potential for some interesting stuff.
+It's also worthwhile to note that Processing's functionality has
 improved since Jer wrote his article, which I think makes it easier to
 get started with XML without having to dig into external libraries or
 obscure Java coding.

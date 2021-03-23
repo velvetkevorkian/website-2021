@@ -10,10 +10,10 @@ image:
 position: 
 ---
 
-Here\'s some quick sound sketches I put together for our Conceptual
+Here's some quick sound sketches I put together for our Conceptual
 Sound unit, as early experiments. All were created using [Reaper][1], a fantastic DAW \[digital audio workstation\] program
 available for a ridiculously low price and an insanely generous
-unrestricted trial. I\'ve not used that many DAWs recently but I find it
+unrestricted trial. I've not used that many DAWs recently but I find it
 much more intuitive to use than Cubase. These pieces involve a lot of
 routing audio and MIDI to different tracks, which Reaper makes
 incredibly easy.
@@ -26,7 +26,7 @@ This is based around a snippet of a sermon I found online- the full
 version is over an hour long. The main voice track uses a MIDI trigger
 to send a MIDI note to the synths, one of which has a built in sequencer
 for the rhythmic pulses. The opening synth pulses are triggered in the
-same way as the rest even when the vocals are faded out. Here\'s a
+same way as the rest even when the vocals are faded out. Here's a
 screen grab of the Reaper window showing the track layout, the routing
 matrix and the effects windows for each track:
 
@@ -38,11 +38,11 @@ width="640" height="256"}][2]
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/5704450&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
 This one is based around a repeated loop of a man speaking with
-additional sounds dropped on top. There\'s a sweeping filter on the
-loop, and there are also a couple of instances of Reaper\'s bundled
+additional sounds dropped on top. There's a sweeping filter on the
+loop, and there are also a couple of instances of Reaper's bundled
 Avocado glitch generator plugin, which is frankly awesome, and some
 ping-pong delay to make it a bit more disorientating. Again, some synths
-are triggered by a MIDI trigger on the glitch tracks. Here\'s a screen
+are triggered by a MIDI trigger on the glitch tracks. Here's a screen
 grab:
 
 [![SenselessViolenceScreen](https://farm5.static.flickr.com/4152/5039311225_9ff2ed3a48_z.jpg){:

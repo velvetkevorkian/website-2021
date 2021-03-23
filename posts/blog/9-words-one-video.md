@@ -11,7 +11,7 @@ position:
 ---
 
 Following on from my recent [Nine Images
-post](/blog/nine-words-nine-images/), here\'s a video
+post](/blog/nine-words-nine-images/), here's a video
 equivalent. I spent a lot of time thinking up obscure ways to link the
 nine words (ambiguity, ephemeral, loop, serendipity, utopia, crash,
 condition, diaphanous, and sequential) with short videos. In the end I

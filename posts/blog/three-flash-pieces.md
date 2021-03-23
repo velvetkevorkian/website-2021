@@ -10,10 +10,10 @@ image:
 position: 
 ---
 
-OK, now it\'s time for the final instalment of the Nine Words saga that
+OK, now it's time for the final instalment of the Nine Words saga that
 has been ongoing for a while. This time, the brief was to create three
 interactive pieces using Flash, triggered by words chosen from the nine.
-My AS3 programming is not very advanced so I\'ve not been able to get as
+My AS3 programming is not very advanced so I've not been able to get as
 conceptual as I did with the Processing pieces, but so it goes. All
 three rely to varying degrees on the rather nice [Hype Framework][1], which simplifies some aspects of AS3 to let you get
 going a bit more easily. Click on the pictures to play with the pieces.
@@ -43,11 +43,11 @@ width="500" height="375"}][4]
 
 This is ambiguous on a number of levels: what do the words say? What do
 they reveal? How do the different parts react to the movements of the
-mouse? I\'ve applied the movement principles from the previous two
+mouse? I've applied the movement principles from the previous two
 pieces to the different parts here which creates an intriguing and
 sometimes frustrating interface. This piece needs more on the stage than
 the other two which can be entirely scripted, thanks to the masking
-used. I plan on getting my head into a bit more AS3 so maybe I\'ll
+used. I plan on getting my head into a bit more AS3 so maybe I'll
 revisit these and rework them a bit. Maybe...
 
 

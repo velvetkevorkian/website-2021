@@ -17,7 +17,7 @@ examples of generative art (mainly built with [Processing][2]) which is somethin
 may have guessed from some of [my previous
 posts](/blog/variations-on-a-theme-processing-sketches/).
 
-The works here aren\'t just technical exercises; despite being
+The works here aren't just technical exercises; despite being
 essentially a collection of fairly advanced software, each of them has a
 striking beauty about it, with a unified colour palette linking them
 into a single body of work. They exhibit a wonderful sketchiness, and
@@ -31,10 +31,10 @@ today is measured against. For me, generative systems like the ones used
 here provide the most exciting new paradigm for artists working in \"new
 media\" (I hate that term).
 
-If you\'re into this sort of thing its worth checking out[ Matt
-Pearson\'s 100 Abandoned Artworks][7] which has some
+If you're into this sort of thing its worth checking out[ Matt
+Pearson's 100 Abandoned Artworks][7] which has some
 cool stuff in a similar, albeit less developed form. I was going to look
-at it in a later post but it\'s a bit too similar to Complexification, I
+at it in a later post but it's a bit too similar to Complexification, I
 think.
 
 

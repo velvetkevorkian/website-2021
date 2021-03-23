@@ -21,7 +21,7 @@ nine words. Without further ado...
 width="500" height="500"}][2]
 
 I mentioned this [in a previous post][3], but here it
-is again for good measure. It\'s a visualisation of the numbers drawn
+is again for good measure. It's a visualisation of the numbers drawn
 over fifty draws of the National Lottery.
 
 **2: Sequential**
@@ -40,7 +40,7 @@ pattern controlled by trigonometry. Changing the values of x and y in
 the code produces radically different designs. I spent a morning at the
 Glasgow School of Art this week, then came home and developed this
 which, completely coincidentally, bears a certain resemblance to
-[Charles Rennie Mackintosh\'s geometric roses][6].
+[Charles Rennie Mackintosh's geometric roses][6].
 Art imitating life?
 
 [![loop](https://farm5.static.flickr.com/4060/5136987764_cda495b923.jpg){:
@@ -48,7 +48,7 @@ width="500" height="500"}][7]
 
 **4: Crash**
 
-I\'ve been trying to use less random or pseudo-random (e.g. Perlin
+I've been trying to use less random or pseudo-random (e.g. Perlin
 noise) functions in my coding but this seemed like the right place to
 use some randomness. This takes an image (a screenshot from [one of my
 earlier posts][8]) and chops random pieces out and
@@ -109,14 +109,14 @@ width="500" height="500"}][16]
 
 Finally for now, another bit of sci-fi homage. Inspired by [this
 fantastic scene][17] from the end of Blade Runner, I
-wanted to try and capture the spirit of Rutger Hauer\'s monologue. That
+wanted to try and capture the spirit of Rutger Hauer's monologue. That
 scene is mainly defined by his phrasing, which is so difficult to
 capture in text, but I tried to capture other elements: the dove
 escaping as he dies, the idea of burning out rather than fading away. I
 had a much busier version which I actually uploaded (its on my Flickr if
 you want to look for it) but this one works better I think. The code is
-pretty lengthy/clumsy as I\'ve not yet found a way to process the three
-arrays of points together. Again, if you want to run the code you\'ll
+pretty lengthy/clumsy as I've not yet found a way to process the three
+arrays of points together. Again, if you want to run the code you'll
 need to get the Geomerative library.
 
 [![ephemeral2](https://farm5.static.flickr.com/4130/5137115717_036ec2f0c8.jpg){:

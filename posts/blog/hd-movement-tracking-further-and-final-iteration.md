@@ -11,9 +11,9 @@ position:
 ---
 
 Well, the end of year show has come and gone, and all that remains is
-the write up. Here\'s a quick run down of the work that I showed and
-some of the development that went into it. I\'ll also show the code I
-cobbled together from other peoples\' code wrote to do it. If you\'ve
+the write up. Here's a quick run down of the work that I showed and
+some of the development that went into it. I'll also show the code I
+cobbled together from other peoples' code wrote to do it. If you've
 not seen it already, you might want to take a look at the
 [first](/blog/work-in-progress-tracking-movement-in-st-enoch-square/) and
 [second](/blog/hd-movement-tracking-first-iteration/)
@@ -23,13 +23,13 @@ To recap slightly, the first step is to compare two adjacent frames to
 identify pixels that have changed. The algorithm I used for that was
 taken directly from the frame differencing example that comes in the
 Processing examples. Then we need to threshold that, so anything that
-has changed is white and anything that hasn\'t is black. Here\'s a
+has changed is white and anything that hasn't is black. Here's a
 single frame with this process applied:
 
 [![10](https://farm4.static.flickr.com/3400/5837152411_ea6ae86115_z.jpg){:
 width="640" height="457"}][1]
 
-Here\'s a version (in opposite colours) where movement leaves a trail
+Here's a version (in opposite colours) where movement leaves a trail
 over several frames:
 
 [![11](https://farm4.static.flickr.com/3405/5837152807_837a51f72f_z.jpg){:
@@ -54,7 +54,7 @@ frame. It feels a bit fast:
 
 <iframe class="ql-video" allowfullscreen="true" src="https://player.vimeo.com/video/24478981" width="640" height="360" frameborder="0"></iframe>
 
-I couldn\'t settle on a good way to display lots of frames in one print,
+I couldn't settle on a good way to display lots of frames in one print,
 so I scrapped the idea of doing just prints and looked at the video
 again to see what could be improved. Sampling colours from an image is
 one of my favourite techniques for natural looking colour palettes, so
@@ -67,15 +67,15 @@ width="640" height="360"}][9]
 [![separationVoronoi4\_2684](https://farm6.static.flickr.com/5074/5821865747_8be0bcdd6f_z.jpg){:
 width="640" height="360"}][10]
 
-Here\'s the video. I added the music specially for the online version-
+Here's the video. I added the music specially for the online version-
 at the exhibition it ran silently on a loop.
 
 <iframe class="ql-video" allowfullscreen="true" src="https://player.vimeo.com/video/25155382" width="640" height="360" frameborder="0"></iframe>
 
-I didn\'t give up on print entirely though- I quickly hacked in PDF
+I didn't give up on print entirely though- I quickly hacked in PDF
 recording to my sketch and fired some A3 prints out on my home printer.
 Using cartridge paper gives them a lovely delicate texture. Here are a
-pair of them rendered from Acrobat as images; I\'m slightly baffled
+pair of them rendered from Acrobat as images; I'm slightly baffled
 about how the Processing PDF renderer deals with colour but they worked
 out pretty well, and got some very favourable comments from those who
 attended the show:
@@ -85,8 +85,8 @@ width="640" height="360"}][11]
 [![output2](https://farm3.static.flickr.com/2454/5837721176_b009d1c005_z.jpg){:
 width="640" height="360"}][12]
 
-So there we are. I\'m pretty happy with how this project has worked out:
-I\'ve learned a lot, created something beautiful (IMO at least) and
+So there we are. I'm pretty happy with how this project has worked out:
+I've learned a lot, created something beautiful (IMO at least) and
 gotten some good feedback about it too. This was the final unit of my
 college course, and it seems like a fitting end to what has been an
 excellent couple of years for me.

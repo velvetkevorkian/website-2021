@@ -10,11 +10,11 @@ image:
 position: 
 ---
 
-I know I\'ve been away for a while, but you\'ll no doubt be glad to know
-I have a selection of interesting stuff lined up (which I\'ve been
+I know I've been away for a while, but you'll no doubt be glad to know
+I have a selection of interesting stuff lined up (which I've been
 meaning to write up for ages) as I put together my new portfolio site.
 
-First up, everyone loves a bit of glitch art. I\'m a particular fan of
+First up, everyone loves a bit of glitch art. I'm a particular fan of
 [GlitchBot][1] myself. These pictures came about as a
 result of me mucking about with masking a photo using gaussian
 distributions. This is broadly the result I was going for:
@@ -37,16 +37,16 @@ width="640" height="360"}][5] [![eye
 glitch5](https://farm9.staticflickr.com/8451/8040654699_762a41b2f6_z.jpg){:
 width="640" height="360"}][6]
 
-Quite interesting, I\'m sure you\'ll agree. The best bit about it, IMO
+Quite interesting, I'm sure you'll agree. The best bit about it, IMO
 (and one of the nice things about working with complex and sometimes
 unpredictable systems) is that the interesting parts of this were
 discovered, rather than designed.
 
 The photo this piece is based on was from [Flickr user spcbrass][7], licensed under CC-BY-SA.
 
-I\'ve not put up the code for this as the results are unlikely to be
+I've not put up the code for this as the results are unlikely to be
 replicated (I think the bug is gone in the newer versions of Processing
-2.0) but I can post it if anyone\'s particularly interested. Until next
+2.0) but I can post it if anyone's particularly interested. Until next
 time, happy glitching.
 
 **2018 update**\: one of the images from this series was used as a

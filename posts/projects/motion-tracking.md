@@ -38,13 +38,13 @@ I was contacted in early 2013 by [Adam Makarenko][2]
 who was interested in using the effect in a music video. I completely
 rewrote the code for Processing 2.0, refactored the triangle effects
 using ToxicLibs and added an interface. You can see the effect around
-the 2:35 mark in the video for Royal Wood\'s *The Glory*.
+the 2:35 mark in the video for Royal Wood's *The Glory*.
 
 <iframe class="ql-video" allowfullscreen="true" src="//player.vimeo.com/video/60338437" frameborder="0"></iframe>
 
-![Screenshot from Royal Wood\'s The
+![Screenshot from Royal Wood's The
 Glory](https://farm9.staticflickr.com/8091/8594413943_1edcb4824e_b.jpg)
-![Screenshot from Royal Wood\'s The
+![Screenshot from Royal Wood's The
 Glory](https://farm9.staticflickr.com/8237/8594413911_c5f3404782_b.jpg)
 ![Process shots including the original
 footage](https://farm6.staticflickr.com/5026/5822427614_02bca9e75e_b.jpg)

@@ -14,7 +14,7 @@ A full site build for [adventuregolf.com][1]. The CMS
 is built on [Rails][2] and [Casein][3], which lets them manage pages, job postings, FAQs the
 cafe menu, etc.
 
- ![Screenshot of Treetop Adventure Golf\'s Cardiff homepage](/images/1.jpg) ![A screenshot of the Treetop Adventure Golf FAQs page mobile layout](/images/4.jpg) Covering only their initial location in Cardiff at first, I added
+ ![Screenshot of Treetop Adventure Golf's Cardiff homepage](/images/1.jpg) ![A screenshot of the Treetop Adventure Golf FAQs page mobile layout](/images/4.jpg) Covering only their initial location in Cardiff at first, I added
 support for multiple locations when they opened their second venue in
 Manchester in 2018.
 

@@ -30,7 +30,7 @@ the senior sustainability team at Telefónica. Once they approved it, I
 began coding the templates while Patricia finalised the detailed
 designs.
 
-![CEO\'s
+![CEO's
 Message](https://farm8.staticflickr.com/7331/11998512873_d8b83eb176_b.jpg)
 ![40 Commitments
 ](https://farm3.staticflickr.com/2853/11998578274_4f9405c929_b.jpg)
@@ -52,5 +52,3 @@ right](https://farm4.staticflickr.com/3794/11998509903_3d2398a67f_b.jpg)
 templates](https://farm6.staticflickr.com/5539/11998508523_f4e0fb612a_b.jpg)
 ![Template wireframe
 example](https://farm8.staticflickr.com/7328/11998571584_181142384d_b.jpg)
-
-

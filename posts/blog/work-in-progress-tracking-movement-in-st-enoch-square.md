@@ -10,12 +10,12 @@ image:
 position: 
 ---
 
-As part of the final unit on my course, we\'ve been given a general
+As part of the final unit on my course, we've been given a general
 brief to create a piece based on or in St Enoch Square, one of the
 larger public spaces in the centre of Glasgow. I have decided to focus
 on the movement of people through the square, and see if I can create
 some sort of \"data-driven\" piece using Processing. Here is a video
-showing some of the development work I\'ve been doing, using some
+showing some of the development work I've been doing, using some
 footage from a previous project.
 
 <iframe src="https://player.vimeo.com/video/23937318" width="640" height="464" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
@@ -36,7 +36,7 @@ should, in theory, pick out the moving sections, mark the centre of each
 and draw a bounding box around it. As you can see, with varying degrees
 of success!
 
-5: Draws a line between blob centres when they\'re within a certain
+5: Draws a line between blob centres when they're within a certain
 distance of each other.
 
 6: Shows the bounding box of each blob and the links between them, on

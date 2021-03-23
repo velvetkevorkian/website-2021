@@ -11,7 +11,7 @@ position:
 ---
 
 As part of the Freelancing/Professional Skills units at college we have
-to design a digital portfolio to promote one\'s self. Here are some
+to design a digital portfolio to promote one's self. Here are some
 examples of sites that I like in this vein...
 
 First up, [brendandawes.com][1], the online home of
@@ -31,7 +31,7 @@ perfectly offset the simplicity of the general layout.
 [![](https://velvetkevorkian.files.wordpress.com/2011/03/dawes1.jpg){:
 width="640" height="512"}][5]
 
-Next up is [Michael Hansmeyer\'s site][6], showcasing
+Next up is [Michael Hansmeyer's site][6], showcasing
 his work in generative architecture. There are a couple of nice touches
 here; the switch to change the colour scheme is neat, and the layout is
 crisp and modern. The categorisation of projects is OK, although the use
@@ -43,7 +43,7 @@ other issues.
 [![](https://velvetkevorkian.files.wordpress.com/2011/03/hans1.jpg){:
 width="640" height="512"}][7]
 
-The last site I\'m going to mention for now is the website of the (I
+The last site I'm going to mention for now is the website of the (I
 think) Russian photographer [Elena Savina][8]. This
 was designed by [Three Hundred Eighty Ten][9] who I
 [wrote about previously](/blog/net-art-research-pt-i-the389-com/), and

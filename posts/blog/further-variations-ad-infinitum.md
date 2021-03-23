@@ -14,7 +14,7 @@ Some further explorations in Perlin noise generated geometry: these
 sketches are autonomous. The lines fade away slowly so the overall level
 of complexity remains constant.
 
-Here\'s some shots from the 2d version:
+Here's some shots from the 2d version:
 
 [![Infinite2dLines04](https://farm5.static.flickr.com/4086/4982747301_dd2c9ffdc6_m.jpg){:
 width="240" height="240"}][1]
@@ -22,7 +22,7 @@ width="240" height="240"}][1]
 [![Infinite2dLines02](https://farm5.static.flickr.com/4126/4982746669_3f2e4c420d_m.jpg){:
 width="240" height="240"}][2]
 
-And just because I can, here\'s it in 3d:
+And just because I can, here's it in 3d:
 
 [![Infinite3dLines03](https://farm5.static.flickr.com/4107/4983478954_d10fb121e0_m.jpg){:
 width="240" height="240"}][3]
@@ -30,7 +30,7 @@ width="240" height="240"}][3]
 [![Infinite3dLines02](https://farm5.static.flickr.com/4129/4983478292_efae864b1d_m.jpg){:
 width="240" height="240"}][4]
 
-To be honest the still images don\'t really do these sketches justice,
+To be honest the still images don't really do these sketches justice,
 since the whole point is that they can go on without requiring
 interaction. To get the full effect, you should check them out on
 OpenProcessing: [the 2d version is here][5] while the

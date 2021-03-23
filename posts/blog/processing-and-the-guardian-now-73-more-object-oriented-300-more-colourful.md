@@ -11,15 +11,15 @@ position:
 ---
 
 Hello! Just a quick update: following on from my [last
-post](/blog/processing-and-the-guardian-api/) I\'ve refined the code a
-bit, letting me run multiple searches from one sketch. Here\'s the same
+post](/blog/processing-and-the-guardian-api/) I've refined the code a
+bit, letting me run multiple searches from one sketch. Here's the same
 three searches from last time, compiled into one image. In this case,
 Tony is green, Gordon is red and Dave is blue.
 
 [![dearLeaders](https://farm6.static.flickr.com/5089/5255083225_6bee2491f2_z.jpg){:
 width="640" height="640"}][1]
 
-Code will be forthcoming once I\'ve refined it a bit more. Adiós!
+Code will be forthcoming once I've refined it a bit more. Adiós!
 
 
 

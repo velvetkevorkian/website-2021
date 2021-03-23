@@ -14,7 +14,7 @@ Here are some images I created for a college assignment based on nine
 words: ambiguity, diaphanous, condition, crash, ephemeral, loop,
 sequential, serendipity and utopia. All were inspired by examples from
 an archived Department of Transport book called \"Know Your Traffic
-Signs\", and use a version of the Transport font from [CBRD.co.uk][1]. No, I didn\'t know there was a website dedicated to
+Signs\", and use a version of the Transport font from [CBRD.co.uk][1]. No, I didn't know there was a website dedicated to
 cataloguing roads either.
 
 I hit upon the idea of road signs while I was looking for a consistent
@@ -24,14 +24,14 @@ without being completely literal about it. The brief suggested that the
 words were related to the artistic process; I guess you could see that
 as a journey of sorts, and these are markers to guide your path. Maybe
 it just appealed to my sense of humour. In any case, it is a strong and
-recognisable visual identity; it\'s ubiquity (to people in the UK at
+recognisable visual identity; it's ubiquity (to people in the UK at
 least) makes it ideal for a spot of pastiche.
 
 From a technical standpoint, all the signs were copied from the book
 into Photoshop where they were \"adapted\", then saved as GIFs: since
 there are only a couple of colours in each it reduced the size of file
 and visual artefacts compared with using JPEGs. I considered vectorising
-them using Illustrator, but there didn\'t seem much point unless I need
+them using Illustrator, but there didn't seem much point unless I need
 them printed at a large scale.
 
 [![ambigous1](https://farm5.static.flickr.com/4086/5015575253_b998663063_z.jpg){:
@@ -43,7 +43,7 @@ neither? Are both?
 [![diaphanous1](https://farm5.static.flickr.com/4139/5016151992_aeb7eb51c0_z.jpg){:
 width="640" height="449"}][3]
 
-Diaphanous: You can see through it, can\'t you?
+Diaphanous: You can see through it, can't you?
 
 [![condition1](https://farm5.static.flickr.com/4113/5015543465_f1c4c0e7f8_z.jpg){:
 width="640" height="343"}][4]
@@ -64,7 +64,7 @@ Ephemeral: Here today, gone tomorrow...
 [![loop1](https://farm5.static.flickr.com/4149/5016152038_a633bfe5f8_z.jpg){:
 width="640" height="379"}][7]
 
-Loop: I\'m not going to insult your intelligence by explaining this one.
+Loop: I'm not going to insult your intelligence by explaining this one.
 
 [![sequential1](https://farm5.static.flickr.com/4113/5016152090_9b8458e3b2_z.jpg){:
 width="640" height="441"}][8]

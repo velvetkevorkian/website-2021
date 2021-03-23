@@ -10,8 +10,8 @@ image:
 position: 
 ---
 
-For my first post on my new blog I thought I\'d share some of the ideas
-I\'ve been playing with for a while. All of these images were created
+For my first post on my new blog I thought I'd share some of the ideas
+I've been playing with for a while. All of these images were created
 using [Processing][1] and use [Perlin noise][2] to generate random but organic looking movement.
 
 The first set of sketches use just four variables, which can be used in
@@ -51,11 +51,11 @@ width="240" height="240"}][10]
 [![2dArray1](https://farm5.static.flickr.com/4106/4969408374_cb0daa4bbe_m.jpg){:
 width="240" height="240"}][11]
 
-The downside of this method is that it doesn\'t run that well when
-there\'s loads of points on screen (we\'re talking about upwards of
+The downside of this method is that it doesn't run that well when
+there's loads of points on screen (we're talking about upwards of
 20,000 lines on screen at times, unless my maths is wildly off). Using
-the OpenGL renderer helps but isn\'t supported by OpenProcessing. [Have
-a look at the live sketch][12], and again, there\'s
+the OpenGL renderer helps but isn't supported by OpenProcessing. [Have
+a look at the live sketch][12], and again, there's
 more and bigger pics if you click on the pictures above.
 
 The next step was to make it 3d. This proved to be far simpler than I
@@ -78,7 +78,7 @@ width="240" height="240"}][17]
 
 Check out the rest of the set on Flickr, and have a shot of the [live
 applet here][18]. It runs surprisingly smoothly with
-Processing\'s default 3d rendering, and it\'s worth trying just to see
+Processing's default 3d rendering, and it's worth trying just to see
 how effortless the PeasyCam is in use- highly recommended!
 
 The latest iteration of this principle is to use the points generated as
@@ -101,13 +101,13 @@ width="240" height="240"}][22]
 width="240" height="240"}][23]
 
 I was originally hoping to retain the symmetry of the 2d versions in 3d,
-but I\'m not quite sure how to achieve that yet. I\'ve not published
+but I'm not quite sure how to achieve that yet. I've not published
 this sketch online as it runs pretty badly without OpenGL enabled,
 although it works well on my machine. Have a look at the pics anyway,
-and feel free to get in touch if you\'re interested in the code
-(although it\'s nothing remarkable!).
+and feel free to get in touch if you're interested in the code
+(although it's nothing remarkable!).
 
-No doubt I\'ll keep playing with these ideas, so watch this space for
+No doubt I'll keep playing with these ideas, so watch this space for
 more updates.
 
 

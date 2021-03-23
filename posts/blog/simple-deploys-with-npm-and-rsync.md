@@ -10,11 +10,11 @@ image:
 position: 
 ---
 
-If you\'re building a JavaScript heavy static site (perhaps you\'re
-using something like `vue-cli` or `create-react-app`, or perhaps you\'re
-rolling your own Webpack config like I\'m doing in the examples), using
+If you're building a JavaScript heavy static site (perhaps you're
+using something like `vue-cli` or `create-react-app`, or perhaps you're
+rolling your own Webpack config like I'm doing in the examples), using
 something like Capistrano for deployment is a lot of extra work, while
-messing about with FTP is annoying and error-prone. Let\'s split the
+messing about with FTP is annoying and error-prone. Let's split the
 difference, and use some simple tools to make life easier.
 
 ## Requirements
@@ -26,7 +26,7 @@ difference, and use some simple tools to make life easier.
 
 ## Initial implementation
 
-Throughout the examples, I\'m assuming that `npm run build` will compile
+Throughout the examples, I'm assuming that `npm run build` will compile
 your project into a `project-name` folder with an `index.html`, which
 you can then serve from the path of your choice on the server. To start
 with, we can run the build step, then manually run the command to copy
@@ -41,12 +41,12 @@ the files to the remote host:
     $ rsync -avz --delete project-name deployuser@server.domain:/path/to/static/files/"
 
 This works, but means you have to keep track of that deploy command and
-all those `rsync` flags are just begging for a typo. Let\'s automate it
+all those `rsync` flags are just begging for a typo. Let's automate it
 a little.
 
 ## Make it a script
 
-You can run shell commands from NPM scripts, so we\'ll clean that up
+You can run shell commands from NPM scripts, so we'll clean that up
 into a single, self-documenting, easily typed command:
 
     // package.json
@@ -61,7 +61,7 @@ into a single, self-documenting, easily typed command:
 ## Scripts can call other scripts
 
 NPM scripts can not only call shell commands, they can call other NPM
-scripts. We\'ll use a dedicated `transfer` script, and call that along
+scripts. We'll use a dedicated `transfer` script, and call that along
 with `build` when we `deploy`\:
 
     // package.json
@@ -76,7 +76,7 @@ with `build` when we `deploy`\:
 
 ## Refactor paths into NPM variables
 
-As a final step, if you\'re sharing your code publicly you might want to
+As a final step, if you're sharing your code publicly you might want to
 avoid hard-coding the deploy user and path into the repo. NPM lets you
 add additional global config variables via the `.npmrc` file, which
 defaults to `~/.npmrc`. We can make our deploy path part of that config
@@ -96,12 +96,12 @@ and refer to it in `package.json` with the `$npm_config_` prefix:
     $ npm run deploy
 
 You can also have an `.npmrc` file in your project directory, if you
-don\'t mind either checking it in to version control or adding it to
-your project\'s `.gitignore` file.
+don't mind either checking it in to version control or adding it to
+your project's `.gitignore` file.
 
 ## Bonus tip for Ruby users
 
-It\'s worth noting you can do much the same thing using Ruby and `rake`
+It's worth noting you can do much the same thing using Ruby and `rake`
 instead of Node and `npm`.
 
     # Rakefile
@@ -127,5 +127,5 @@ instead of Node and `npm`.
     # terminal
     $ rake deploy
 
-If you\'re using NPM already I don\'t see much reason to use `rake`
-instead but it might be useful if you\'re using a other Ruby tools.
+If you're using NPM already I don't see much reason to use `rake`
+instead but it might be useful if you're using a other Ruby tools.
