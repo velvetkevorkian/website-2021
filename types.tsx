@@ -20,8 +20,8 @@ export interface Post {
   slug: string
   status: string
   tags?: string
-  title: string,
-  postType: PostType,
+  title: string
+  postType: PostType
 }
 
 export interface ArticleListingStaticProps {
