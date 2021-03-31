@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@prefresh/next": "^1.3.0",
+    "@velvetkevorkian/wrong-way-to-draw-a-line": "github:velvetkevorkian/wrong-way-to-draw-a-line",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
     "next-plugin-preact": "^3.0.3",
