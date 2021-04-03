@@ -1,6 +1,6 @@
-import { pagePathsForType, postsForPage } from '../../../lib/api'
-import ArticleListingPage from '../../../components/ArticleListingPage'
-import { PostType, ArticleListingStaticProps } from '../../../types'
+import { pagePathsForType, postsForPage } from 'lib/api'
+import ArticleListingPage from 'components/ArticleListingPage'
+import { PostType, ArticleListingStaticProps } from 'types'
 
 export default ArticleListingPage
 

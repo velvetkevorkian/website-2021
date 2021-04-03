@@ -1,4 +1,4 @@
-import { Post } from '../../types'
+import { Post } from 'types'
 
 export default function DefaultDetail(props: {post: Post}): JSX.Element {
   const { post } = props

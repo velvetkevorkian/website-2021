@@ -1,8 +1,8 @@
 import type { AppProps } from 'next/app'
-import Header from '../components/Header'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
-import '../assets/css/app.css'
+import Header from 'components/Header'
+import Nav from 'components/Nav'
+import Footer from 'components/Footer'
+import 'assets/css/app.css'
 
 if(process.env.NODE_ENV === 'development') {
   require('preact/devtools')

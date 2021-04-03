@@ -1,7 +1,6 @@
-import { getPostBySlug, getAllPosts } from '../../lib/api'
-import { markdownToHtml } from '../../lib/api'
-import { PostType, Post } from '../../types'
-import { LabsDetail, DefaultDetail } from '../../components/ArticleDetail'
+import { getPostBySlug, getAllPosts, markdownToHtml } from 'lib/api'
+import { PostType, Post } from 'types'
+import { LabsDetail, DefaultDetail } from 'components/ArticleDetail'
 
 export default function ArticleDetail({ post }: { post: Post}): React.ReactNode {
   switch (post.postType) {

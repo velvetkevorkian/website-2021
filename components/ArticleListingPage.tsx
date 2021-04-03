@@ -1,6 +1,6 @@
-import { PostType, Post } from '../types'
-import ArticleListing from './ArticleListing'
-import Pagination from './Pagination'
+import { PostType, Post } from 'types'
+import ArticleListing from 'components/ArticleListing'
+import Pagination from 'components/Pagination'
 
 type ArticleListingProps = {
   postType: PostType,

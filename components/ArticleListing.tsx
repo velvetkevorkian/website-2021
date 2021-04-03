@@ -1,4 +1,4 @@
-import { PostType, Post } from '../types'
+import { PostType, Post } from 'types'
 
 type ListingProps = {
   posts: Array<Post>,

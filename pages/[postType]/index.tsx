@@ -1,6 +1,6 @@
-import { postsForPage } from '../../lib/api'
-import { PostType, ArticleListingStaticProps } from '../../types'
-import ArticleListingPage from '../../components/ArticleListingPage'
+import { postsForPage } from 'lib/api'
+import { PostType, ArticleListingStaticProps } from 'types'
+import ArticleListingPage from 'components/ArticleListingPage'
 
 type ArticleListingParams = {
   params : {

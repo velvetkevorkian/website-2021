@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react'
-import { Post } from '../../types'
-import getSketch from '../../lib/getSketch'
+import { Post } from 'types'
+import getSketch from 'lib/getSketch'
 
 export default function LabsDetail(props: {post: Post}): JSX.Element {
   const el = useRef(null)

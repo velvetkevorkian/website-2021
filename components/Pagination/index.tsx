@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { PostType } from '../../types'
+import { PostType } from 'types'
 
 type Props = {
   totalPages: number,
