@@ -3,6 +3,7 @@ import { join } from 'path'
 import matter from 'gray-matter'
 import remark from 'remark'
 import html from 'remark-html'
+import faker from 'faker'
 import { PostType, Post, PostStatus } from '../types'
 import { postsPerPage } from '../constants'
 
@@ -84,4 +85,53 @@ export function postsForPage(page: number, postType: PostType, perPage = postsPe
     posts: allPosts.slice(start, end),
     totalPages: Math.ceil(allPosts.length / perPage)
   }
+}
+
+export async function fakeMarkdown(): Promise<string> {
+  const { lorem } = faker
+  const fakeMarkdown = `
+# ${lorem.sentence()}
+
+${lorem.paragraphs()}
+
+[This is a link](/foo). *This is italics*. **This is bold**.
+
+## ${lorem.sentence()}
+
+${lorem.paragraph()}
+
+- ${lorem.sentence()}
+- ${lorem.sentence()}
+- ${lorem.sentence()}
+
+${lorem.paragraph()}
+
+### ${lorem.sentence()}
+
+> ${lorem.paragraph()}
+
+#### ${lorem.sentence()}
+
+    ${lorem.sentence()}
+    ${lorem.sentence()}
+    ${lorem.sentence()}
+    ${lorem.sentence()}
+
+##### ${lorem.sentence()}
+
+1. ${lorem.sentence()}
+2. ${lorem.sentence()}
+3. ${lorem.sentence()}
+
+###### ${lorem.sentence()}
+
+An image in a paragraph.
+
+![some generative circles](/images/circle_1_.jpg)
+
+${lorem.paragraph()}
+
+An image inline. ![some generative lines](/images/line_1_.jpg) ${lorem.sentence()}
+`
+  return await markdownToHtml(fakeMarkdown)
 }
