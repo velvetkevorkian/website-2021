@@ -24,4 +24,5 @@ module.exports = {
     '^.+\\.css$': 'identity-obj-proxy',
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy'
   },
+  moduleDirectories: ['node_modules', './']
 }
