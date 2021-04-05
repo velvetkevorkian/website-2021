@@ -1,0 +1,12 @@
+.pagination {
+  text-align: center;
+}
+
+.pagination-item {
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.current {
+  font-weight: bold;
+}

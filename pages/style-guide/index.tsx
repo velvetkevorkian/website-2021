@@ -1,5 +1,7 @@
 import { fakeMarkdown } from 'lib/api'
 import SkipLink from 'components/SkipLink'
+import Pagination from 'components/Pagination'
+import { PostType } from 'types'
 
 export default function StyleGuide({ htmlContent }: { htmlContent: string }): JSX.Element {
   return (
@@ -14,6 +16,15 @@ export default function StyleGuide({ htmlContent }: { htmlContent: string }): JS
         <div style={{ position: 'relative', padding: '0 0 2em' }}>
           <SkipLink />
         </div>
+      </details>
+
+      <details>
+        <summary>Pagination</summary>
+        <Pagination
+          postType={PostType.Blog}
+          currentPage={4}
+          totalPages={8}
+        />
       </details>
     </>
 

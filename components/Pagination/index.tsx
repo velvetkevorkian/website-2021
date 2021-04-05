@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { PostType } from 'types'
+import styles from './styles.module.css'
 
 type Props = {
   totalPages: number,
@@ -14,14 +15,24 @@ export default function Pagination({totalPages, currentPage, postType}: Props): 
   }))
 
   return (
-    <ul>
+    <ul className={styles.pagination}>
       {arr.map(i => (
-        <li>
+        <li className={styles['pagination-item']}>
           { i.current
-            ? <span>{i.page}</span>
+            ? <span className={styles.current}>
+              <span className="visually-hidden">
+                Page&nbsp;
+              </span>
+              {i.page}
+            </span>
             : (
               <Link href={`/${postType}/page/${i.page}`}>
-                <a>{i.page}</a>
+                <a>
+                  <span className="visually-hidden">
+                    Page&nbsp;
+                  </span>
+                  {i.page}
+                </a>
               </Link>
             )
           }
