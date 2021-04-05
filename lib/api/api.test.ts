@@ -9,8 +9,8 @@ import {
   postPath,
   getAllPosts,
   pagePathsForType
-} from './api'
-import { PostType, PostStatus } from '../types'
+} from './'
+import { PostType, PostStatus } from 'types'
 import { fakePosts } from './fixtures'
 
 beforeEach(() => {

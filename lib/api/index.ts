@@ -4,8 +4,8 @@ import matter from 'gray-matter'
 import remark from 'remark'
 import html from 'remark-html'
 import faker from 'faker'
-import { PostType, Post, PostStatus } from '../types'
-import { postsPerPage } from '../constants'
+import { PostType, Post, PostStatus } from 'types'
+import { postsPerPage } from '../../constants'
 
 export function getPostsSubfolder(postType: PostType): string {
   return join(process.cwd(), 'posts', postType)
