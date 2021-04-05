@@ -1,0 +1,10 @@
+.skip-link {
+  background-color: var(--bg-color);
+  clip-path: inset(50%);
+  padding: 0.5em;
+  position: absolute;
+}
+
+.skip-link:focus, .skip-link:active {
+  clip-path: none;
+}

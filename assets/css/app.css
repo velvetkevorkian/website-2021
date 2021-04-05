@@ -7,6 +7,10 @@
   font-style: normal;
 }
 
+:root {
+  --bg-color: white;
+}
+
 * {
   box-sizing: border-box;
 }

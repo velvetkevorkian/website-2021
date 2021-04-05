@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import SkipLink from 'components/SkipLink'
 
 export default function Header(): JSX.Element {
   return (
     <header>
-      <a href="#content">Skip to content</a>
+      <SkipLink />
       <Link href="/">
         <a>Kyle Macquarrie</a>
       </Link>
