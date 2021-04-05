@@ -11,7 +11,8 @@ describe('Pagination', () => {
   it('makes a list item for each page', async () => {
     const items = wrapper.find('li')
     expect(items.length).toBe(5)
-    expect(items.map(i => i.text())).toEqual(['1', '2', '3', '4', '5'])
+    // NOTE: these are &nbsp; characters not plain spaces
+    expect(items.map(i => i.text())).toEqual(['Page 1', 'Page 2', 'Page 3', 'Page 4', 'Page 5'])
   })
 
   it('links to pages correctly', async () => {
