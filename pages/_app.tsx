@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 import Header from 'components/Header'
 import Nav from 'components/Nav'
 import Footer from 'components/Footer'
+import pageTitle from 'lib/pageTitle'
 import 'assets/css/app.css'
 
 if(process.env.NODE_ENV === 'development') {
@@ -14,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps): React.ReactNode
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Kyle Macquarrie</title>
+        <title>{pageTitle()}</title>
       </Head>
       <Header />
       <Nav />
