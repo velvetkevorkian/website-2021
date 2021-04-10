@@ -1,5 +1,5 @@
 /* eslint-env jest */
-import pageTitle from './'
+import pageTitle from '.'
 
 describe('pageTitle()', () => {
   it('gets the right title for a numbered page', () => {

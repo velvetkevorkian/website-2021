@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { pagePathsForType, postsForPage } from 'lib/api'
 import pageTitle from 'lib/pageTitle'
+import capitalise from 'lib/capitalise'
 import ArticleListingPage from 'components/ArticleListingPage'
 import { PostType, ArticleListingProps, ArticleListingStaticProps } from 'types'
 
@@ -8,7 +9,7 @@ export default function ArticleIndexPage({ postType, posts, page, totalPages }: 
   return (
     <>
       <Head>
-        <title>{pageTitle({ pageTitle: postType, pageNumber: page })}</title>
+        <title>{pageTitle({ pageTitle: capitalise(postType), pageNumber: page })}</title>
       </Head>
       <ArticleListingPage
         postType={postType}
