@@ -1,8 +1,24 @@
+import Head from 'next/head'
 import { pagePathsForType, postsForPage } from 'lib/api'
+import pageTitle from 'lib/pageTitle'
 import ArticleListingPage from 'components/ArticleListingPage'
-import { PostType, ArticleListingStaticProps } from 'types'
+import { PostType, ArticleListingProps, ArticleListingStaticProps } from 'types'
 
-export default ArticleListingPage
+export default function ArticleIndexPage({ postType, posts, page, totalPages }: ArticleListingProps): React.ReactNode {
+  return (
+    <>
+      <Head>
+        <title>{pageTitle({ pageTitle: postType, pageNumber: page })}</title>
+      </Head>
+      <ArticleListingPage
+        postType={postType}
+        posts={posts}
+        page={page}
+        totalPages={totalPages}
+      />
+    </>
+  )
+}
 
 export async function getStaticProps({ params }: { params: { page: string, postType: PostType }}): Promise<ArticleListingStaticProps> {
   const { postType, page } = params

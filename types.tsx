@@ -24,11 +24,13 @@ export interface Post {
   postType: PostType
 }
 
+export type ArticleListingProps = {
+  postType: PostType,
+  posts: Array<Post>,
+  page: number,
+  totalPages: number,
+}
+
 export interface ArticleListingStaticProps {
-  props: {
-    postType: PostType,
-    posts: Array<Post>,
-    page: number,
-    totalPages: number,
-  }
+  props: ArticleListingProps
 }

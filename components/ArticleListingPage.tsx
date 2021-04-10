@@ -1,13 +1,6 @@
-import { PostType, Post } from 'types'
+import { ArticleListingProps } from 'types'
 import ArticleListing from 'components/ArticleListing'
 import Pagination from 'components/Pagination'
-
-type ArticleListingProps = {
-  postType: PostType,
-  posts: Array<Post>,
-  page: number,
-  totalPages: number,
-}
 
 export default function ArticleListingPage({ posts, postType, page, totalPages }: ArticleListingProps): JSX.Element {
   return (

@@ -1,17 +1,28 @@
+import Head from 'next/head'
 import { getPostBySlug, getAllPosts, markdownToHtml } from 'lib/api'
+import pageTitle from 'lib/pageTitle'
 import { PostType, Post } from 'types'
 import { LabsDetail, DefaultDetail } from 'components/ArticleDetail'
 
 export default function ArticleDetail({ post }: { post: Post}): React.ReactNode {
-  switch (post.postType) {
-  case PostType.Lab:
-    return <LabsDetail post={post} />
-    break
+  function renderPost(post: Post){
+    switch (post.postType) {
+    case PostType.Lab:
+      return <LabsDetail post={post} />
 
-  default:
-    return <DefaultDetail post={post} />
-    break
+    default:
+      return <DefaultDetail post={post} />
+    }
   }
+
+  return (
+    <>
+      <Head>
+        <title>{ pageTitle({ pageTitle: post.title }) }</title>
+      </Head>
+      { renderPost(post) }
+    </>
+  )
 }
 
 type StaticProps = {
