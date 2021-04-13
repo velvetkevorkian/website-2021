@@ -1,43 +1,3 @@
-@font-face {
-  font-family: Goldman;
-  src:
-    url('assets/fonts/goldman-regular-webfont.woff2') format('woff2'),
-    url('assets/fonts/goldman-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Titillium;
-  src:
-    url('assets/fonts/titilliumweb-regular-webfont.woff2') format('woff2'),
-    url('assets/fonts/titilliumweb-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Titillium;
-  src:
-    url('assets/fonts/titilliumweb-italic-webfont.woff2') format('woff2'),
-    url('assets/fonts/titilliumweb-italic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: fallback;
-}
-
-@font-face {
-  font-family: Titillium;
-  src:
-    url('assets/fonts/titilliumweb-semibold-webfont.woff2') format('woff2'),
-    url('assets/fonts/titilliumweb-semibold-webfont.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: fallback;
-}
-
 :root {
   --bg-color: white;
   --body-font: Titillium, sans-serif;
@@ -54,6 +14,10 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Goldman, sans-serif;
+}
+
+img {
+  max-width: 100%;
 }
 
 .visually-hidden {
