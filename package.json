@@ -33,6 +33,7 @@
     "@velvetkevorkian/wrong-way-to-draw-a-line": "github:velvetkevorkian/wrong-way-to-draw-a-line",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
+    "next-images": "^1.7.0",
     "next-plugin-preact": "^3.0.3",
     "preact": "^10.5.5",
     "preact-render-to-string": "^5.1.11",
