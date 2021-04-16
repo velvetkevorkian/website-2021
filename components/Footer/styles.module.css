@@ -1,0 +1,26 @@
+.footer-nav-list {
+  display: flex;
+  justify-content: left;
+  align-items: stretch;
+  list-style: none;
+}
+
+.footer-nav-item {
+  margin-top: 0;
+}
+
+.footer-nav-item + .footer-nav-item {
+  margin-left: 1em;
+}
+
+.footer-nav-link {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.footer-nav-icon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+}
