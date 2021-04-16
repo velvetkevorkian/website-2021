@@ -28,7 +28,7 @@ img {
 pre {
   max-width: 100%;
   overflow: auto;
-  padding: 1em;
+  padding: 0 1em 1em;
 }
 
 .visually-hidden {

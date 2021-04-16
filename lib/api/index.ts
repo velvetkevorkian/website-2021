@@ -94,7 +94,7 @@ export async function fakeMarkdown(): Promise<string> {
 
 ${lorem.paragraphs()}
 
-[This is a link](/foo). *This is italics*. **This is bold**.
+[This is a link](/foo). *This is italics*. **This is bold**. \`This is code.\`
 
 ## ${lorem.sentence()}
 
@@ -111,11 +111,12 @@ ${lorem.paragraph()}
 > ${lorem.paragraph()}
 
 #### ${lorem.sentence()}
-
-    ${lorem.sentence()}
-    ${lorem.sentence()}
-    ${lorem.sentence()}
-    ${lorem.sentence()}
+\`\`\`
+${lorem.sentence()}
+${lorem.sentence()}
+${lorem.sentence()}
+${lorem.sentence()}
+\`\`\`
 
 ##### ${lorem.sentence()}
 
