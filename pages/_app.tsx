@@ -5,6 +5,7 @@ import Nav from 'components/Nav'
 import Footer from 'components/Footer'
 import pageTitle from 'lib/pageTitle'
 import 'assets/css/fonts.css'
+import 'assets/css/variables.css'
 import 'assets/css/app.css'
 
 if(process.env.NODE_ENV === 'development') {
