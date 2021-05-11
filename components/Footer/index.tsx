@@ -15,11 +15,11 @@ export default function Footer() {
   ].filter(Boolean)
 
   return (
-    <footer>
+    <footer className={styles['footer']}>
       <nav>
         <ul className={styles['footer-nav-list']}>
           {links.map(l => (
-            <li className={styles['footer-nav-item']}>
+            <li className={styles['footer-nav-item']} key={l.href}>
               <Link href={l.href}>
                 <a className={styles['footer-nav-link']}>
                   { l.icon && (

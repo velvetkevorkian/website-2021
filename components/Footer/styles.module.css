@@ -1,3 +1,7 @@
+.footer {
+  border-top: 2px solid var(--text-color);
+}
+
 .footer-nav-list {
   display: flex;
   justify-content: left;

@@ -1,7 +1,9 @@
 import Link from 'next/link'
+import styles from './styles.module.css'
 
-export default function Nav(): JSX.Element {
+export default function Nav() {
   const links = [
+    { title: 'Home', href: '/' },
     { title: 'Blog', href: '/blog' },
     { title: 'Projects', href: '/projects' },
     { title: 'Labs', href: '/labs' }
@@ -9,11 +11,11 @@ export default function Nav(): JSX.Element {
 
   return (
     <nav>
-      <ul>
+      <ul className={styles['main-nav-list']}>
         { links.map(l => (
-          <li>
+          <li className={styles['main-nav-item']} key={l.href}>
             <Link href={l.href}>
-              <a>{l.title}</a>
+              <a className={styles['main-nav-link']}>{l.title}</a>
             </Link>
           </li>
         ))}
