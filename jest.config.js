@@ -22,7 +22,8 @@ module.exports = {
   ],
   moduleNameMapper: {
     '^.+\\.css$': 'identity-obj-proxy',
-    '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy'
+    '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
+    '\\.(svg)$': '<rootDir>/mocks/fileMock.js'
   },
   moduleDirectories: ['node_modules', './']
 }
