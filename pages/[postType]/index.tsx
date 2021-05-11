@@ -51,7 +51,7 @@ type StaticPaths = {
 }
 
 export async function getStaticPaths(): Promise<StaticPaths> {
-  const paths = [PostType.Blog, PostType.Lab, PostType.Project].map(p => ({
+  const paths = [PostType.Blog, PostType.Project].map(p => ({
     params: {
       postType: p,
     }

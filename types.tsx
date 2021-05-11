@@ -1,6 +1,5 @@
 export enum PostType {
   Blog = 'blog',
-  Lab = 'labs',
   Project = 'projects',
 }
 

@@ -25,7 +25,6 @@ afterEach(() => {
 describe('getPostsSubfolder', () => {
   it('returns the right value for each post type', () => {
     expect(getPostsSubfolder(PostType.Blog)).toEqual('cwd/posts/blog')
-    expect(getPostsSubfolder(PostType.Lab)).toEqual('cwd/posts/labs')
     expect(getPostsSubfolder(PostType.Project)).toEqual('cwd/posts/projects')
   })
 })

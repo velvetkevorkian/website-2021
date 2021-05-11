@@ -6,7 +6,6 @@ export default function Nav() {
     { title: 'Home', href: '/' },
     { title: 'Blog', href: '/blog' },
     { title: 'Projects', href: '/projects' },
-    { title: 'Labs', href: '/labs' }
   ]
 
   return (

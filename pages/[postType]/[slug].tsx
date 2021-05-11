@@ -2,14 +2,11 @@ import Head from 'next/head'
 import { getPostBySlug, getAllPosts, markdownToHtml } from 'lib/api'
 import pageTitle from 'lib/pageTitle'
 import { PostType, Post } from 'types'
-import { LabsDetail, DefaultDetail } from 'components/ArticleDetail'
+import { DefaultDetail } from 'components/ArticleDetail'
 
 export default function ArticleDetail({ post }: { post: Post}): React.ReactNode {
   function renderPost(post: Post){
     switch (post.postType) {
-    case PostType.Lab:
-      return <LabsDetail post={post} />
-
     default:
       return <DefaultDetail post={post} />
     }
@@ -64,7 +61,6 @@ export async function getStaticPaths(): Promise<StaticPaths> {
   const posts = [
     ...getAllPosts(PostType.Blog),
     ...getAllPosts(PostType.Project),
-    ...getAllPosts(PostType.Lab),
   ]
   const paths = posts.map(p => {
     return {

@@ -48,7 +48,6 @@ type StaticPaths = {
 export async function getStaticPaths(): Promise<StaticPaths> {
   const paths = [
     ...pagePathsForType(PostType.Blog),
-    ...pagePathsForType(PostType.Lab),
     ...pagePathsForType(PostType.Project)
   ]
 
