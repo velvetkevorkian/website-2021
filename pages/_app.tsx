@@ -8,10 +8,6 @@ import 'assets/css/fonts.css'
 import 'assets/css/variables.css'
 import 'assets/css/app.css'
 
-if(process.env.NODE_ENV === 'development') {
-  require('preact/devtools')
-}
-
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>

@@ -17,7 +17,7 @@ export default function Pagination({totalPages, currentPage, postType}: Props): 
   return (
     <ul className={styles.pagination}>
       {arr.map(i => (
-        <li className={styles['pagination-item']}>
+        <li className={styles['pagination-item']} key={i.page}>
           { i.current
             ? <span className={styles.current}>
               <span className="visually-hidden">

@@ -1,10 +1,6 @@
-const withPreact = require('next-plugin-preact')
 const withImages = require('next-images')
 
-module.exports = withPreact(withImages({
-  future: {
-    webpack5: true,
-  },
+module.exports = withImages({
   esModule: true,
   inlineImageLimit: 0,
-}))
+})

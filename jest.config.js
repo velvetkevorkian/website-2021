@@ -25,5 +25,6 @@ module.exports = {
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
     '\\.(svg)$': '<rootDir>/mocks/fileMock.js'
   },
-  moduleDirectories: ['node_modules', './']
+  moduleDirectories: ['node_modules', './'],
+  testEnvironment: 'jsdom'
 }
