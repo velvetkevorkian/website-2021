@@ -24,4 +24,9 @@ simple Processing program to parse the data and send the average speed
 to an Arduino inside the device, which updates regularly and powers the
 servos.
 
-![Traffic State in context](https://farm9.staticflickr.com/8085/8598234040_dec1720907_b.jpg) ![Cardboard prototyping](https://farm9.staticflickr.com/8527/8597130509_ff16271975_b.jpg) ![Testing servos](https://farm9.staticflickr.com/8229/8598234062_9e3fc999be_b.jpg) ![Putting it together](https://farm9.staticflickr.com/8249/8597130485_5cf5be7889_b.jpg) ![Final testing before gluing the front on](https://farm9.staticflickr.com/8093/8598234052_a8bb54dfbd_b.jpg) ![Simple visualisation using Processing](https://farm9.staticflickr.com/8044/8145875639_4f28caa30e_b.jpg)
+![Traffic State in context](https://farm9.staticflickr.com/8085/8598234040_dec1720907_b.jpg) 
+![Cardboard prototyping](https://farm9.staticflickr.com/8527/8597130509_ff16271975_b.jpg) 
+![Testing servos](https://farm9.staticflickr.com/8229/8598234062_9e3fc999be_b.jpg) 
+![Putting it together](https://farm9.staticflickr.com/8249/8597130485_5cf5be7889_b.jpg) 
+![Final testing before gluing the front on](https://farm9.staticflickr.com/8093/8598234052_a8bb54dfbd_b.jpg) 
+![Simple visualisation using Processing](https://farm9.staticflickr.com/8044/8145875639_4f28caa30e_b.jpg)
