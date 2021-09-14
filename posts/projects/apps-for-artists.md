@@ -11,7 +11,7 @@ position: 11
 ---
 
 ![The splash page, home screen and
-biography](https://farm9.staticflickr.com/8382/8601619494_ac14cf6be0_b.jpg)
+biography](/images/splashandhome-copy_8601619494_o.jpg)
 
 An iOS app designed to showcase the work of DJCAD fine art student
 Mariella Verkerk. Using her work to brand the app, we designed, tested
@@ -20,20 +20,20 @@ and prototyped a gallery of work and a biography, and used
 conceived as street art could be projected onto commonplace features.
 
 ![The
-gallery](https://farm9.staticflickr.com/8091/8600520115_99e139ef03_b.jpg)
+gallery](/images/gallery_8600520115_o.jpg)
 
 We built a storyboard-based prototype which we used for initial testing,
 then went through a number of iterations of the home screen design in
 particular to make it more intuitive.
 
 ![The augmented reality section being
-demoed](https://farm9.staticflickr.com/8111/8601619446_d291e58b87_b.jpg)
+demoed](/images/arsection2_8601619446_o.jpg)
 ![The augmented reality section being
-demoed](https://farm9.staticflickr.com/8252/8601619714_b9bd4f9953_b.jpg)
+demoed](/images/arsection_8601619714_o.jpg)
 ![User
-testing](https://farm9.staticflickr.com/8378/8600519861_08f846c05c_b.jpg)
+testing](/images/testing2_8600519861_o.jpg)
 ![Early home screen
-designs](https://farm9.staticflickr.com/8380/8600520047_4641af3acf_b.jpg)
+designs](/images/homescreendevelopment_8600520047_o.jpg)
 
 
 

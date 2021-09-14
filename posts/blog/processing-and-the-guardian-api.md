@@ -24,17 +24,17 @@ I've got at the moment...
 
 David Cameron:
 
-[![david+cameron](https://farm6.static.flickr.com/5247/5250910799_6173060564_z.jpg){:
+[![david+cameron](/images/davidcameron_5250910799_o.jpg){:
 width="640" height="640"}][4]
 
 Gordon Brown:
 
-[![gordon+brown](https://farm6.static.flickr.com/5289/5251514858_f73bcd5d58_z.jpg){:
+[![gordon+brown](/images/gordonbrown_5251514858_o.jpg){:
 width="640" height="640"}][5]
 
 Tony Blair:
 
-[![tony+blair](https://farm6.static.flickr.com/5042/5251514322_ebdf46ea94_z.jpg){:
+[![tony+blair](/images/tonyblair_5251514322_o.jpg){:
 width="640" height="640"}][6]
 
 Not a lot of information we can glean from that, I think you'll agree,

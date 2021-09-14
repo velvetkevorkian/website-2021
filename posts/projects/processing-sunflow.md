@@ -11,11 +11,11 @@ position: 9
 ---
 
 ![red Sunflow
-mesh](https://farm6.staticflickr.com/5133/5482121704_cf39ca54af_b.jpg)
+mesh](/images/sunflowtestrender3_5482121704_o.png)
 ![grey Sunflow
-mesh](https://farm6.staticflickr.com/5134/5481521239_69af30cf37_b.jpg)
+mesh](/images/sunflowtestrender2_5481521239_o.png)
 ![grey subdivided sunflow
-mesh](https://farm6.staticflickr.com/5305/5837603852_5697d4c65c_b.jpg)
+mesh](/images/1904_5837603852_o.png)
 
 <span class="ql-cursor">﻿</span>Combining the generative power of
 [Processing][1] with the photorealistic rendering

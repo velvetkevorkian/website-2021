@@ -17,7 +17,7 @@ nine words. Without further ado...
 
 **1: Serendipity**
 
-[![serendipity](https://farm5.static.flickr.com/4091/5136989018_f407b23d44.jpg){:
+[![serendipity](/images/serendipity_5136989018_o.jpg){:
 width="500" height="500"}][2]
 
 I mentioned this [in a previous post][3], but here it
@@ -30,7 +30,7 @@ This sketch divides the letters from a given word or phrase and
 rearranges them in 3d space, joined by bezier curves. This uses the
 [PeasyCam][4] library for camera control.
 
-[![sequential](https://farm2.static.flickr.com/1343/5136384855_979f8b03ba.jpg){:
+[![sequential](/images/sequential_5136384855_o.jpg){:
 width="500" height="500"}][5]
 
 **3: Loop**
@@ -43,7 +43,7 @@ which, completely coincidentally, bears a certain resemblance to
 [Charles Rennie Mackintosh's geometric roses][6].
 Art imitating life?
 
-[![loop](https://farm5.static.flickr.com/4060/5136987764_cda495b923.jpg){:
+[![loop](/images/loop_5136987764_o.jpg){:
 width="500" height="500"}][7]
 
 **4: Crash**
@@ -55,7 +55,7 @@ earlier posts][8]) and chops random pieces out and
 rearranges them over the screen, collage style. I like how there is
 still recognisable chunks of the interface present despite the mangling.
 
-[![crash](https://farm2.static.flickr.com/1397/5136381699_fb8d78a7ce.jpg){:
+[![crash](/images/crash_5136381699_o.jpg){:
 width="500" height="500"}][9]
 
 **5: Ambiguity**
@@ -67,7 +67,7 @@ depending on what pictures you use as sources. I rather like this one as
 it combines two pictures with definite meanings into one with no
 discernible meaning!
 
-[![ambiguity](https://farm5.static.flickr.com/4063/5136380395_6d40b73700.jpg){:
+[![ambiguity](/images/ambiguity_5136380395_o.jpg){:
 width="500" height="500"}][10]
 
 **6: Condition**
@@ -77,7 +77,7 @@ which lets you break down shapes (including fonts and vector graphics)
 into points. This is actually a still from an animated version which
 seems to summarise the sketchy pencil feel you can achieve. If you run
 the code, you can switch the drawing style using the space bar.
-[![condition](https://farm2.static.flickr.com/1233/5136380769_1eb0daf2d1.jpg){:
+[![condition](/images/condition_5136380769_o.jpg){:
 width="500" height="300"}][12]
 
 **7: Diaphanous**
@@ -87,7 +87,7 @@ experiments][13], but it uses bezier curves which
 give it a lovely organic feel. It uses the OpenGL renderer as its
 painfully slow otherwise.
 
-[![diaphanous](https://farm5.static.flickr.com/4028/5136985834_4ce3e0874a.jpg){:
+[![diaphanous](/images/diaphanous_5136985834_o.jpg){:
 width="500" height="500"}][14]
 
 **8: Utopia**
@@ -102,7 +102,7 @@ liked logic before I liked Star Trek! Geek out. I looked at this as an
 exercise in making sure this design scales to fit the window- as long as
 its square, it should display properly regardless of size.
 
-[![utopia](https://farm5.static.flickr.com/4126/5136385925_cd284d0759.jpg){:
+[![utopia](/images/utopia_5136385925_o.jpg){:
 width="500" height="500"}][16]
 
 **9: Ephemeral**
@@ -119,7 +119,7 @@ pretty lengthy/clumsy as I've not yet found a way to process the three
 arrays of points together. Again, if you want to run the code you'll
 need to get the Geomerative library.
 
-[![ephemeral2](https://farm5.static.flickr.com/4130/5137115717_036ec2f0c8.jpg){:
+[![ephemeral2](/images/ephemeral2_5137115717_o.jpg){:
 width="500" height="500"}][18]
 
 So, there we are. Please let me know what you think of these pieces, or

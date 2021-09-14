@@ -20,7 +20,7 @@ result of me mucking about with masking a photo using gaussian
 distributions. This is broadly the result I was going for:
 
 [![eye
-glitch1](https://farm9.staticflickr.com/8171/8040661688_8994a96952_z.jpg){:
+glitch1](/images/eye-glitch1_8040661688_o.png){:
 width="640" height="360"}][2]
 
 Thanks to a strange edge case, where an alpha version of Processing 2.0,
@@ -28,13 +28,13 @@ the crappy Intel integrated graphics on my laptop and not calling
 `background()` during the `draw()` loop collided, I got stuff like this:
 
 [![eye
-glitch2](https://farm9.staticflickr.com/8039/8040653551_b959773c85_z.jpg){:
+glitch2](/images/eye-glitch2_8040653551_o.png){:
 width="640" height="360"}][3] [![eye
-glitch3](https://farm9.staticflickr.com/8182/8040662338_eac1b7929d_z.jpg){:
+glitch3](/images/eye-glitch3_8040662338_o.png){:
 width="640" height="360"}][4] [![eye
-glitch4](https://farm9.staticflickr.com/8460/8040654189_bdea441cc1_z.jpg){:
+glitch4](/images/eye-glitch4_8040654189_o.png){:
 width="640" height="360"}][5] [![eye
-glitch5](https://farm9.staticflickr.com/8451/8040654699_762a41b2f6_z.jpg){:
+glitch5](/images/eye-glitch5_8040654699_o.png){:
 width="640" height="360"}][6]
 
 Quite interesting, I'm sure you'll agree. The best bit about it, IMO

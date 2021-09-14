@@ -11,7 +11,7 @@ position:
 ---
 
 ![Screenshot from Royal Wood's THe
-GLory](https://farm9.staticflickr.com/8091/8594413943_1edcb4824e_b.jpg)
+GLory](/images/screen_shot_2013-02-02_at_35554_am_8594413943_o.png)
 
 My [St Enoch Square Motion Tracking](/projects/motion-tracking) pieces remain one of the biggest projects I've worked
 on, and I'm really pleased that an updated version has now been used in
@@ -29,7 +29,7 @@ shaders for some if the image processing should make it faster- and a
 proper file loader and preset system would make it much more useable.
 
 ![Screenshot from Royal Wood's The
-Glory](https://farm9.staticflickr.com/8237/8594413911_c5f3404782_b.jpg)
+Glory](/images/sarah_blobbed_8594413911_o.png)
 
 It's really great to see what someone with a bit more artistic vision
 can do with tools that you've made, so thanks to Adam for the

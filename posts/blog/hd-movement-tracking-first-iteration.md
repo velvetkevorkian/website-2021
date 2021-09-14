@@ -10,7 +10,7 @@ image:
 position: 
 ---
 
-[![separation10\_263](https://farm3.static.flickr.com/2044/5771709425_fbea6c2fb3_z.jpg){:
+[![separation10\_263](/images/separation10_263_5771709425_o.png){:
 width="640" height="360"}][1]
 
 I shot some updated footage at the right resolution for my St Enoch

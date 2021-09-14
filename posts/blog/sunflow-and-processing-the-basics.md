@@ -38,18 +38,18 @@ of the image and a square mesh light way up high. Rendering time was
 approximately half an hour for each image- at full size they're 2100 x
 2100 pixels.
 
-[![SunflowTestRender2](https://farm6.static.flickr.com/5134/5481521239_69af30cf37_z.jpg){:
+[![SunflowTestRender2](/images/sunflowtestrender2_5481521239_o.png){:
 width="640" height="640"}][7]
 
 This one uses a diffuse shader with a constant grey colour.
 
-[![SunflowTestRender3](https://farm6.static.flickr.com/5133/5482121704_cf39ca54af_z.jpg){:
+[![SunflowTestRender3](/images/sunflowtestrender3_5482121704_o.png){:
 width="640" height="640"}][8]
 
 This is either a diffuse or shiny diffuse shader, with a red value
 changing from 0-255, ring by ring.
 
-[![SunflowTestRender4](https://farm6.static.flickr.com/5099/5486710760_a2d8c1128a_z.jpg){:
+[![SunflowTestRender4](/images/sunflowtestrender4_5486710760_o.png){:
 width="640" height="640"}][9]
 
 Finally, this one uses the glass shader, again with the red value

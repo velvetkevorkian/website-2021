@@ -11,7 +11,7 @@ position: 14
 ---
 
 ![Early Breakfast Quest
-sketch](https://farm9.staticflickr.com/8527/8597006129_322c6c1506_b.jpg)
+sketch](/images/bqsketch_8597006129_o.jpg)
 
 *Breakfast Quest* is a game I helped design in collaboration with a
 group of other Interaction Design and Product Design students from
@@ -24,7 +24,7 @@ Countryside Initiative, all of whom were stakeholders in the co-design
 process.
 
 ![Final colour
-board](https://farm9.staticflickr.com/8521/8598108422_ef9ac5eb50_b.jpg)
+board](/images/colour-board_8598108422_o.jpg)
 
 *Breakfast Quest* was designed to be easily distributed online,
 requiring only a printed copy of the board, a die and counters-
@@ -39,6 +39,6 @@ We also designed a black and white version of the board so players can
 customise their board.
 
 ![Final b&w
-board](https://farm9.staticflickr.com/8235/8598109866_23f954e4ff_b.jpg)
+board](/images/breakfast-quest-black-and-white_8598109866_o.jpg)
 
 

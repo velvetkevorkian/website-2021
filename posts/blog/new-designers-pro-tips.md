@@ -19,7 +19,7 @@ round the rest of the cavernous show floor. And that's when I started
 getting irate.
 
 ![New Designers from
-above](https://farm8.staticflickr.com/7406/10135204475_070706fb1e_c.jpg)*The
+above](/images/nd1_10135204475_o.jpg)*The
 New Designers show floor from above. Photo by Rachael Johnston.*The
 quality of actual work on show was, for the most part, thoroughly
 excellent. As we made our way through the show, though, we saw a few
@@ -77,7 +77,7 @@ employ someone with your particular skill set. Do you really want to
 lose that opportunity because you took too long to get to the fucking
 point?
 
-## ![The Social Digital stand](https://farm3.staticflickr.com/2813/10135282596_4b094413c8_c.jpg) *The (rather good) Social Digital stand at ND 2013. Photo by Rachael Johnston.*Spell check your shit
+## ![The Social Digital stand](/images/nd2_10135282596_o.jpg) *The (rather good) Social Digital stand at ND 2013. Photo by Rachael Johnston.*Spell check your shit
 
 In an age where almost every interaction with your phone, never mind
 your computer, results in a squiggly red underline whenever you cock
@@ -100,7 +100,7 @@ yourself and your work, as well as on the work itself. As designers we
 solve problems and make peoples' lives easier: how can you make it
 easier for people to understand what your showing them?
 
-### ![The first draft of this post on a postcard](https://farm3.staticflickr.com/2873/10127725356_37c68752eb_c.jpg) *The first draft of this post, sketched in the pub after visiting New Designers. With apologies to Plymouth College of Art.*Postscript
+### ![The first draft of this post on a postcard](/images/newdesignerspostcard_10127725356_o.jpg) *The first draft of this post, sketched in the pub after visiting New Designers. With apologies to Plymouth College of Art.*Postscript
 
 I don't think I have any special insight here, although as an
 Interaction Design student I do think a lot about how people, uh,

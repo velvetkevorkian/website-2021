@@ -10,30 +10,30 @@ image: digitalhallway.jpg
 position: 7
 ---
 
-![Digital Hallway website](https://farm9.staticflickr.com/8100/8597338621_ff8484d1e2_b.jpg)A small site for the joint Product/Interaction Design exhibition held at
+![Digital Hallway website](/images/screen-shot-2013-03-28-at-164907_8597338621_o.png)A small site for the joint Product/Interaction Design exhibition held at
 DJCAD in January 2013. The site takes its cues from the presentation of
 the exhibition itself. Each project belongs to one of two themes, one
 with blue and one with brown wallpaper as an accent.
 
 ![Branded
-lightbox](https://farm9.staticflickr.com/8091/8598359412_d16d43043e_b.jpg)
+lightbox](/images/774761_551335701544688_1442122939_o_8598359412_o.jpg)
 ![Busy Families theme, with brown
-background](https://farm9.staticflickr.com/8105/8598359430_b0e1df978d_b.jpg)
+background](/images/774148_551336031544655_1393165572_o_8598359430_o.jpg)
 ![Amar's Barometers theme, with blue
-background](https://farm9.staticflickr.com/8519/8597255925_9abc93dabe_b.jpg)
+background](/images/774142_551336048211320_1341443434_o_8597255925_o.jpg)
 
 I implemented the site based on designs by [Tom Kinnear][1]. Tom’s original Photoshop comps are below, although we
 reworked and simplified the structure of the site from what was
 originally proposed.
 
 ![Home page
-mockup](https://farm9.staticflickr.com/8229/8598406130_38c3189961_b.jpg)
+mockup](/images/homepage_8598406130_o.jpg)
 ![Project page
-mockup](https://farm9.staticflickr.com/8103/8597302163_cb34d3ffbf_b.jpg)
+mockup](/images/project_8597302163_o.jpg)
 ![Busy families
-mockup](https://farm9.staticflickr.com/8230/8597302235_8f0f98d19d_b.jpg)
+mockup](/images/busy_families_8597302235_o.jpg)
 ![Amar's barometers
-mockup](https://farm9.staticflickr.com/8243/8597302277_d529d0d5d5_b.jpg)
+mockup](/images/amars_barometers_8597302277_o.jpg)
 
 
 

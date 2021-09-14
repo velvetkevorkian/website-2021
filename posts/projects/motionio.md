@@ -11,7 +11,7 @@ position: 2
 ---
 
 ![MotionIO: One Great
-Image](https://farm6.staticflickr.com/5200/14063845389_f79caa3510_b.jpg)MotionIO
+Image](/images/kyle_1greatimageprovisional2_14063845389_o.jpg)MotionIO
 is an interactive audio-visual experience for multiple people, intended
 for installation in a public area. Using open web technologies,
 participants use the motion of their mobile phones to control and
@@ -31,12 +31,12 @@ and MIDI data is generated from their input to control synthesisers. The
 system uses a dedicated wi-fi router with a local DNS redirect to make
 the experience of joining and using it as simple as possible.
 
-![People using MotionIO at the 2014 DJCAD Degree Show opening night](https://farm6.staticflickr.com/5537/14063836058_5a91d05c09_b.jpg)
-![People using MotionIO at the 2014 DJCAD Degree Show opening night](https://farm3.staticflickr.com/2925/14063845439_896c0273f7_b.jpg) 
-![The UI seen on the mobile device](https://farm3.staticflickr.com/2936/14064622999_e0734fa666_b.jpg) 
-![Screenshot of three users interacting, with settings UI](https://farm6.staticflickr.com/5485/14064623079_77a08ddcc2_b.jpg) 
-![Three users interacting, with no UI](https://farm6.staticflickr.com/5234/14064693187_57e97688d0_b.jpg) 
-![An earlier iteration of a single user.](https://farm3.staticflickr.com/2919/14064611878_9867c12934_b.jpg)
+![People using MotionIO at the 2014 DJCAD Degree Show opening night](/images/2014-05-16-183511_14063836058_o.jpg)
+![People using MotionIO at the 2014 DJCAD Degree Show opening night](/images/2014-05-16-181415_14063845439_o.jpg) 
+![The UI seen on the mobile device](/images/mobileui_14064622999_o.jpg) 
+![Screenshot of three users interacting, with settings UI](/images/2014_4_4_1_55_24_14064623079_o.png) 
+![Three users interacting, with no UI](/images/2014_4_4_1_52_32_14064693187_o.png) 
+![An earlier iteration of a single user.](/images/2014_4_3_14_52_44_14064611878_o.png)
 
 You can see [the slides I made for my final viva here][1], which includes some of the inspiration and design
 iterations the project went through.

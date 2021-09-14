@@ -10,7 +10,7 @@ image: elenapiras.jpg
 position: 5
 ---
 
-![screenshot of elenapiras.com](https://farm9.staticflickr.com/8205/8179349266_00076c2c25_b.jpg)A custom Wordpress theme for Elena Piras, a singer/songwiter originally
+![screenshot of elenapiras.com](/images/screen-shot-2012-11-12-at-171138_8179349266_o.png)A custom Wordpress theme for Elena Piras, a singer/songwiter originally
 from Sardinia but now based in Scotland. This replaced her previous
 static HTML site.
 

@@ -30,7 +30,7 @@ same way as the rest even when the vocals are faded out. Here's a
 screen grab of the Reaper window showing the track layout, the routing
 matrix and the effects windows for each track:
 
-[![VerdantScapeScreen](https://farm5.static.flickr.com/4086/5039930788_8f3af547c3_z.jpg){:
+[![VerdantScapeScreen](/images/verdantscapescreen_5039930788_o.jpg){:
 width="640" height="256"}][2]
 
 **2: Senseless Violence**
@@ -45,7 +45,7 @@ ping-pong delay to make it a bit more disorientating. Again, some synths
 are triggered by a MIDI trigger on the glitch tracks. Here's a screen
 grab:
 
-[![SenselessViolenceScreen](https://farm5.static.flickr.com/4152/5039311225_9ff2ed3a48_z.jpg){:
+[![SenselessViolenceScreen](/images/senselessviolencescreen_5039311225_o.jpg){:
 width="640" height="256"}][3]
 
 **3: Crash**
@@ -58,7 +58,7 @@ took this a bit literally and based this around a loop of a crash cymbal
 which has been pitch shifted down and slowed down. Again, this triggers
 some synths and feeds a glitch generator. Obligatory screenshot:
 
-[![CrashScapeScreen](https://farm5.static.flickr.com/4091/5039931200_efbcf29850_z.jpg){:
+[![CrashScapeScreen](/images/crashscapescreen_5039931200_o.jpg){:
 width="640" height="256"}][5]
 
 And there you have it. Please let me know your thoughts in the comments!

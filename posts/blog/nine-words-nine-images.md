@@ -34,49 +34,49 @@ and visual artefacts compared with using JPEGs. I considered vectorising
 them using Illustrator, but there didn't seem much point unless I need
 them printed at a large scale.
 
-[![ambigous1](https://farm5.static.flickr.com/4086/5015575253_b998663063_z.jpg){:
+[![ambigous1](/images/ambigous1_5015575253_o.gif){:
 width="610" height="640"}][2]
 
 Ambiguity: Instructions which make no sense. Is one correct? Are
 neither? Are both?
 
-[![diaphanous1](https://farm5.static.flickr.com/4139/5016151992_aeb7eb51c0_z.jpg){:
+[![diaphanous1](/images/diaphanous1_5016151992_o.gif){:
 width="640" height="449"}][3]
 
 Diaphanous: You can see through it, can't you?
 
-[![condition1](https://farm5.static.flickr.com/4113/5015543465_f1c4c0e7f8_z.jpg){:
+[![condition1](/images/condition1_5015543465_o.gif){:
 width="640" height="343"}][4]
 
 Condition: We are conditioned to a lot of strange things in this day and
 age. Motorways are just one of those things.
 
-[![crash1](https://farm5.static.flickr.com/4151/5016152136_0092a8be6c_z.jpg){:
+[![crash1](/images/crash1_5016152136_o.gif){:
 width="640" height="507"}][5]
 
 Crash: Could be handy to have a separate lane for accidents?
 
-[![ephemeral1](https://farm5.static.flickr.com/4130/5015543387_9ee7e9d7bb_z.jpg){:
+[![ephemeral1](/images/ephemeral1_5015543387_o.gif){:
 width="640" height="346"}][6]
 
 Ephemeral: Here today, gone tomorrow...
 
-[![loop1](https://farm5.static.flickr.com/4149/5016152038_a633bfe5f8_z.jpg){:
+[![loop1](/images/loop1_5016152038_o.gif){:
 width="640" height="379"}][7]
 
 Loop: I'm not going to insult your intelligence by explaining this one.
 
-[![sequential1](https://farm5.static.flickr.com/4113/5016152090_9b8458e3b2_z.jpg){:
+[![sequential1](/images/sequential1_5016152090_o.gif){:
 width="640" height="441"}][8]
 
 Sequential: A series of actions- no options here.
 
-[![serendipity1](https://farm5.static.flickr.com/4088/5015543757_b0e93fe61e_z.jpg){:
+[![serendipity1](/images/serendipity1_5015543757_o.gif){:
 width="369" height="640"}][9]
 
 Serendipity: A long and confusing route to an unlooked for happy ending.
 
-[![utopia1](https://farm5.static.flickr.com/4127/5015543713_7cb701e1f9_z.jpg){:
+[![utopia1](/images/utopia1_5015543713_o.gif){:
 width="578" height="640"}][10]
 
 Utopia: Because obviously, any utopia will have boats. And trains.

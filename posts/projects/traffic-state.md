@@ -10,7 +10,7 @@ image: trafficstate.jpg
 position: 8
 ---
 
-![Traffic State](https://farm9.staticflickr.com/8376/8597130439_938c282dc2_b.jpg)Traffic State is a physical visualisation of traffic in New York City,
+![Traffic State](/images/703701_4782908208911_1976289682_o_8597130439_o.jpg)Traffic State is a physical visualisation of traffic in New York City,
 based on live data provided by the city’s transport authority. It is a
 response to a brief called *21st Century Barometers* — physical devices
 which live in a domestic environment and provide useful daily data from
@@ -24,9 +24,9 @@ simple Processing program to parse the data and send the average speed
 to an Arduino inside the device, which updates regularly and powers the
 servos.
 
-![Traffic State in context](https://farm9.staticflickr.com/8085/8598234040_dec1720907_b.jpg) 
-![Cardboard prototyping](https://farm9.staticflickr.com/8527/8597130509_ff16271975_b.jpg) 
-![Testing servos](https://farm9.staticflickr.com/8229/8598234062_9e3fc999be_b.jpg) 
-![Putting it together](https://farm9.staticflickr.com/8249/8597130485_5cf5be7889_b.jpg) 
-![Final testing before gluing the front on](https://farm9.staticflickr.com/8093/8598234052_a8bb54dfbd_b.jpg) 
-![Simple visualisation using Processing](https://farm9.staticflickr.com/8044/8145875639_4f28caa30e_b.jpg)
+![Traffic State in context](/images/704337_4782914089058_837448655_o_8598234040_o.jpg) 
+![Cardboard prototyping](/images/52458_4706108248960_678745066_o_8597130509_o.jpg) 
+![Testing servos](/images/680444_4754018566688_1443464633_o_8598234062_o.jpg) 
+![Putting it together](/images/622115_4758518359180_1611971681_o_8597130485_o.jpg) 
+![Final testing before gluing the front on](/images/704857_4777866522872_1511806321_o_8598234052_o.jpg) 
+![Simple visualisation using Processing](/images/screen-shot-2012-11-01-at-212106_8145875639_o.png)

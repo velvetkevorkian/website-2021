@@ -20,7 +20,7 @@ going a bit more easily. Click on the pictures to play with the pieces.
 
 **1: Loop**
 
-[![Loop](https://farm6.static.flickr.com/5245/5218949885_c0fe1ff91e.jpg){:
+[![Loop](/images/loopscreen_5218949885_o.jpg){:
 width="500" height="375"}][2]
 
 Move the mouse to control how the balls move. I was quite pleased at how
@@ -29,7 +29,7 @@ this as an analogy for life if you like...
 
 **2: Diaphanous**
 
-[![diaphanous](https://farm6.static.flickr.com/5045/5219539366_589b8bcb42.jpg){:
+[![diaphanous](/images/diaphanous_5219539366_o.jpg){:
 width="500" height="375"}][3]
 
 Again, move the mouse and see how the shapes react. This is an extension
@@ -38,7 +38,7 @@ the balls react to mouse movement is very engaging to me.
 
 **3: Ambiguity**
 
-[![ambiguity](https://farm5.static.flickr.com/4083/5218950223_38f4081224.jpg){:
+[![ambiguity](/images/ambiguity_5218950223_o.jpg){:
 width="500" height="375"}][4]
 
 This is ambiguous on a number of levels: what do the words say? What do

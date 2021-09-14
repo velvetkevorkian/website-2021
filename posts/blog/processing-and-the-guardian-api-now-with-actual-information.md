@@ -11,7 +11,7 @@ position:
 ---
 
 [![2010- a year in
-Wikileaks](https://farm6.staticflickr.com/5244/5277131634_f6acc251a3_z.jpg){:
+Wikileaks](/images/2010--a-year-in-wikileaks_5277131634_o.jpg){:
 width="640" height="640"}][1]
 
 <span class="ql-cursor">﻿</span>Here's a quick snapshot of how this is

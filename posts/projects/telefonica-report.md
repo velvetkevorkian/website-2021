@@ -11,7 +11,7 @@ position: 1
 ---
 
 ![Report
-homepage](https://farm3.staticflickr.com/2871/11998512643_a60dd1862b_b.jpg)
+homepage](/images/screen-shot-2014-01-17-at-170301_11998512643_o.png)
 
 I spent three months over summer 2013 developing Telefónica UK/O2’s 2012
 Sustainability Report. The team at Telefónica asked their brand
@@ -20,7 +20,7 @@ report as an entirely digital project. I was selected as the front-end
 developer while Patricia Lefebure was responsible for the visual design.
 
 ![Blueprint
-homepage](https://farm4.staticflickr.com/3770/11998220875_931a74c028_b.jpg)
+homepage](/images/screen-shot-2014-01-17-at-165314_11998220875_o.png)
 
 We spent some time initially getting to know the report, working out an
 information architecture that would work with the amount of material
@@ -31,11 +31,11 @@ began coding the templates while Patricia finalised the detailed
 designs.
 
 ![CEO's
-Message](https://farm8.staticflickr.com/7331/11998512873_d8b83eb176_b.jpg)
+Message](/images/screen-shot-2014-01-17-at-165934_11998512873_o.png)
 ![40 Commitments
-](https://farm3.staticflickr.com/2853/11998578274_4f9405c929_b.jpg)
+](/images/screen-shot-2014-01-17-at-165650_11998578274_o.png)
 ![Content page with content on
-left](https://farm4.staticflickr.com/3722/11998218225_6f1ed0d0e5_b.jpg)
+left](/images/screen-shot-2014-01-17-at-170328_11998218225_o.png)
 
 All the templates were fully responsive, which I had to adapt from the
 desktop designs that Patricia provided. The complexity of the designs
@@ -47,8 +47,8 @@ developers from Lambie-Nairn’s digital partners at Morph London, who
 also cast their pixel-perfect eyes over the templates for QA purposes.
 
 ![Content page with content on
-right](https://farm4.staticflickr.com/3794/11998509903_3d2398a67f_b.jpg)
+right](/images/screen-shot-2014-01-17-at-170644_11998509903_o.png)
 ![Site plan showing proposed
-templates](https://farm6.staticflickr.com/5539/11998508523_f4e0fb612a_b.jpg)
+templates](/images/screen-shot-2014-01-17-at-171047_11998508523_o.png)
 ![Template wireframe
-example](https://farm8.staticflickr.com/7328/11998571584_181142384d_b.jpg)
+example](/images/screen-shot-2014-01-17-at-171133_11998571584_o.png)
