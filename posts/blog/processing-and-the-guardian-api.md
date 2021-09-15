@@ -24,15 +24,15 @@ I've got at the moment...
 
 David Cameron:
 
-[![david+cameron](/images/davidcameron_5250910799_o.jpg)][4]
+![david+cameron](/images/davidcameron_5250910799_o.jpg)
 
 Gordon Brown:
 
-[![gordon+brown](/images/gordonbrown_5251514858_o.jpg)][5]
+![gordon+brown](/images/gordonbrown_5251514858_o.jpg)
 
 Tony Blair:
 
-[![tony+blair](/images/tonyblair_5251514322_o.jpg)][6]
+![tony+blair](/images/tonyblair_5251514322_o.jpg)
 
 Not a lot of information we can glean from that, I think you'll agree,
 other than there are significantly more articles mentioning Blair
@@ -48,6 +48,3 @@ obscure Java coding.
 [1]: http://www.guardian.co.uk/open-platform/blog/the-truth-is-in-there
 [2]: http://blog.blprnt.com/
 [3]: http://www.guardian.co.uk/open-platform
-[4]: http://www.flickr.com/photos/53111802@N05/5250910799/
-[5]: http://www.flickr.com/photos/53111802@N05/5251514858/
-[6]: http://www.flickr.com/photos/53111802@N05/5251514322/

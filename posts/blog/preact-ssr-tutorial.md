@@ -48,15 +48,14 @@ Understanding what your tools are doing for you is always useful.
 ## Table of contents
 
 1.  [An express app that serves HTML](#an-express-app-that-serves-html)
-2.  [Setting up Nodemon and NPM
-    scripts](#setting-up-nodemon-and-npm-scripts)
+2.  [Setting up Nodemon and NPM scripts](#setting-up-nodemon-and-npm-scripts)
 3.  [Setting up Rollup](#setting-up-rollup)
 4.  [Using Preact to render to HTML](#using-preact-to-render-to-html)
 5.  [Components and Composition](#components-and-composition)
 6.  [Keeping hydrated](#keeping-hydrated)
 7.  [Making it interactive](#making-it-interactive)
 
-## An Express app that serves HTML   {#an-express-app-that-serves-html}
+## An Express app that serves HTML   { #an-express-app-that-serves-html }
 
 Let's start with a minimum viable Express server. Create a new folder
 and switch into it, then initialise NPM - the default options are fine.

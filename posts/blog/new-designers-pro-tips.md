@@ -77,7 +77,10 @@ employ someone with your particular skill set. Do you really want to
 lose that opportunity because you took too long to get to the fucking
 point?
 
-## ![The Social Digital stand](/images/nd2_10135282596_o.jpg) *The (rather good) Social Digital stand at ND 2013. Photo by Rachael Johnston.*Spell check your shit
+![The Social Digital stand](/images/nd2_10135282596_o.jpg) 
+*The (rather good) Social Digital stand at ND 2013. Photo by Rachael Johnston.*
+
+## Spell check your shit
 
 In an age where almost every interaction with your phone, never mind
 your computer, results in a squiggly red underline whenever you cock
@@ -100,7 +103,10 @@ yourself and your work, as well as on the work itself. As designers we
 solve problems and make peoples' lives easier: how can you make it
 easier for people to understand what your showing them?
 
-### ![The first draft of this post on a postcard](/images/newdesignerspostcard_10127725356_o.jpg) *The first draft of this post, sketched in the pub after visiting New Designers. With apologies to Plymouth College of Art.*Postscript
+ ![The first draft of this post on a postcard](/images/newdesignerspostcard_10127725356_o.jpg) 
+ *The first draft of this post, sketched in the pub after visiting New Designers. With apologies to Plymouth College of Art.*
+ 
+ ### Postscript
 
 I don't think I have any special insight here, although as an
 Interaction Design student I do think a lot about how people, uh,
@@ -127,8 +133,6 @@ We had a meeting last week with our lecturer who said much the same
 things, but slightly more politely, so I don't think I'm totally off
 the rails with this. Feel free to comment or tweet me
 [@k\_macquarrie][4] if you disagree.
-
-
 
 [1]: https://www.newdesigners.com/
 [2]: https://en.wiktionary.org/wiki/bury_the_lede

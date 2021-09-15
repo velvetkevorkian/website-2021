@@ -16,10 +16,6 @@ bit, letting me run multiple searches from one sketch. Here's the same
 three searches from last time, compiled into one image. In this case,
 Tony is green, Gordon is red and Dave is blue.
 
-[![dearLeaders](/images/dearleaders_5255083225_o.jpg)][1]
+![dearLeaders](/images/dearleaders_5255083225_o.jpg)
 
 Code will be forthcoming once I've refined it a bit more. Adiós!
-
-
-
-[1]: https://www.flickr.com/photos/53111802@N05/5255083225/

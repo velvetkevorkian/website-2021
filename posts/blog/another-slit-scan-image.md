@@ -16,16 +16,11 @@ resolutions didn't get quite what I was after. Tried some more
 experiments with it anyway, since it has a more static background (and
 is therefore easier to pick out movement against).
 
-[![slitScan1\_719](/images/slitscan1_719_5758088479_o.png)][1]
+![slitScan1\_719](/images/slitscan1_719_5758088479_o.png)
 
 The weather was pretty changeable, and I like how you can see the
 changes in the light looking almost like geological strata. update: I
 sorted out the aspect ratio of the footage and edited out all the bits
 where no-one but pigeons passes. Here's an updated image:
 
-[![slitScan1\_919](/images/slitscan1_919_5759175044_o.png)][2]
-
-
-
-[1]: https://www.flickr.com/photos/53111802@N05/5758088479/
-[2]: https://www.flickr.com/photos/53111802@N05/5759175044/
+![slitScan1\_919](/images/slitscan1_919_5759175044_o.png)

@@ -19,18 +19,16 @@ First up, everyone loves a bit of glitch art. I'm a particular fan of
 result of me mucking about with masking a photo using gaussian
 distributions. This is broadly the result I was going for:
 
-[![eye
-glitch1](/images/eye-glitch1_8040661688_o.png)][2]
+![eyeglitch1](/images/eye-glitch1_8040661688_o.png)
 
 Thanks to a strange edge case, where an alpha version of Processing 2.0,
 the crappy Intel integrated graphics on my laptop and not calling
 `background()` during the `draw()` loop collided, I got stuff like this:
 
-[![eye
-glitch2](/images/eye-glitch2_8040653551_o.png)][3] [![eye{:width=3](/images/eye-glitch3_8040662338_o.png){:][4] [![eye{:width=4](/images/eye-glitch4_8040654189_o.png){:
-width="640" height="360"}][5] [![eye
-glitch5](/images/eye-glitch5_8040654699_o.png){:
-width="640" height="360"}][6]
+![eyeglitch2](/images/eye-glitch2_8040653551_o.png)
+![eyeglitch3](/images/eye-glitch3_8040662338_o.png) 
+![eyeglitch4](/images/eye-glitch4_8040654189_o.png) 
+![eyeglitch5](/images/eye-glitch5_8040654699_o.png)
 
 Quite interesting, I'm sure you'll agree. The best bit about it, IMO
 (and one of the nice things about working with complex and sometimes
@@ -51,10 +49,5 @@ guess.
 
 
 [1]: https://www.flickr.com/photos/glitchbot/
-[2]: https://www.flickr.com/photos/53111802@N05/8040661688/
-[3]: https://www.flickr.com/photos/53111802@N05/8040653551/
-[4]: https://www.flickr.com/photos/53111802@N05/8040662338/
-[5]: https://www.flickr.com/photos/53111802@N05/8040654189/
-[6]: https://www.flickr.com/photos/53111802@N05/8040654699/
 [7]: https://www.flickr.com/photos/spcbrass/2294936412/in/faves-53111802@N05/
 [8]: https://motherboard.vice.com/en_us/article/kb7gkz/brass-horn-tor-ISP-says-buzz-off-surveillance

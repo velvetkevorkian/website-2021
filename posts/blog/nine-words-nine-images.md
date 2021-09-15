@@ -34,55 +34,45 @@ and visual artefacts compared with using JPEGs. I considered vectorising
 them using Illustrator, but there didn't seem much point unless I need
 them printed at a large scale.
 
-[![ambigous1](/images/ambigous1_5015575253_o.gif)][2]
+![ambigous1](/images/ambigous1_5015575253_o.gif)
 
 Ambiguity: Instructions which make no sense. Is one correct? Are
 neither? Are both?
 
-[![diaphanous1](/images/diaphanous1_5016151992_o.gif)][3]
+![diaphanous1](/images/diaphanous1_5016151992_o.gif)
 
 Diaphanous: You can see through it, can't you?
 
-[![condition1](/images/condition1_5015543465_o.gif)][4]
+![condition1](/images/condition1_5015543465_o.gif)
 
 Condition: We are conditioned to a lot of strange things in this day and
 age. Motorways are just one of those things.
 
-[![crash1](/images/crash1_5016152136_o.gif)][5]
+![crash1](/images/crash1_5016152136_o.gif)
 
 Crash: Could be handy to have a separate lane for accidents?
 
-[![ephemeral1](/images/ephemeral1_5015543387_o.gif)][6]
+![ephemeral1](/images/ephemeral1_5015543387_o.gif)
 
 Ephemeral: Here today, gone tomorrow...
 
-[![loop1](/images/loop1_5016152038_o.gif)][7]
+![loop1](/images/loop1_5016152038_o.gif)
 
 Loop: I'm not going to insult your intelligence by explaining this one.
 
-[![sequential1](/images/sequential1_5016152090_o.gif)][8]
+![sequential1](/images/sequential1_5016152090_o.gif)
 
 Sequential: A series of actions- no options here.
 
-[![serendipity1](/images/serendipity1_5015543757_o.gif)][9]
+![serendipity1](/images/serendipity1_5015543757_o.gif)
 
 Serendipity: A long and confusing route to an unlooked for happy ending.
 
-[![utopia1](/images/utopia1_5015543713_o.gif)][10]
+![utopia1](/images/utopia1_5015543713_o.gif)
 
 Utopia: Because obviously, any utopia will have boats. And trains.
 
 Hopefully those will guide you on the roads. Safe journey!
 
 
-
 [1]: http://www.cbrd.co.uk/fonts/
-[2]: http://www.flickr.com/photos/53111802@N05/5015575253/
-[3]: http://www.flickr.com/photos/53111802@N05/5016151992/
-[4]: http://www.flickr.com/photos/53111802@N05/5015543465/
-[5]: http://www.flickr.com/photos/53111802@N05/5016152136/
-[6]: http://www.flickr.com/photos/53111802@N05/5015543387/
-[7]: http://www.flickr.com/photos/53111802@N05/5016152038/
-[8]: http://www.flickr.com/photos/53111802@N05/5016152090/
-[9]: http://www.flickr.com/photos/53111802@N05/5015543757/
-[10]: http://www.flickr.com/photos/53111802@N05/5015543713/

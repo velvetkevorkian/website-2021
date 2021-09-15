@@ -16,15 +16,15 @@ of complexity remains constant.
 
 Here's some shots from the 2d version:
 
-[![Infinite2dLines04](/images/infinite2dlines04_4982747301_o.jpg)][1]
+![Infinite2dLines04](/images/infinite2dlines04_4982747301_o.jpg)
 
-[![Infinite2dLines02](/images/infinite2dlines02_4982746669_o.jpg)][2]
+![Infinite2dLines02](/images/infinite2dlines02_4982746669_o.jpg)
 
 And just because I can, here's it in 3d:
 
-[![Infinite3dLines03](/images/infinite3dlines03_4983478954_o.jpg)][3]
+![Infinite3dLines03](/images/infinite3dlines03_4983478954_o.jpg)
 
-[![Infinite3dLines02](/images/infinite3dlines02_4983478292_o.jpg)][4]
+![Infinite3dLines02](/images/infinite3dlines02_4983478292_o.jpg)
 
 To be honest the still images don't really do these sketches justice,
 since the whole point is that they can go on without requiring
@@ -35,11 +35,5 @@ OpenProcessing: [the 2d version is here][5] while the
 I have to say, in purely visual terms, the 2d version of this is my
 favourite so far. Enjoy!
 
-
-
-[1]: http://www.flickr.com/photos/53111802@N05/4982747301/
-[2]: http://www.flickr.com/photos/53111802@N05/4982746669/
-[3]: http://www.flickr.com/photos/53111802@N05/4983478954/
-[4]: http://www.flickr.com/photos/53111802@N05/4983478292/
 [5]: http://www.openprocessing.org/visuals/?visualID=11939
 [6]: http://www.openprocessing.org/visuals/?visualID=11940

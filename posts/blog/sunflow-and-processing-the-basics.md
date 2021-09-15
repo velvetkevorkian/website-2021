@@ -38,16 +38,16 @@ of the image and a square mesh light way up high. Rendering time was
 approximately half an hour for each image- at full size they're 2100 x
 2100 pixels.
 
-[![SunflowTestRender2](/images/sunflowtestrender2_5481521239_o.png)][7]
+![SunflowTestRender2](/images/sunflowtestrender2_5481521239_o.png)
 
 This one uses a diffuse shader with a constant grey colour.
 
-[![SunflowTestRender3](/images/sunflowtestrender3_5482121704_o.png)][8]
+![SunflowTestRender3](/images/sunflowtestrender3_5482121704_o.png)
 
 This is either a diffuse or shiny diffuse shader, with a red value
 changing from 0-255, ring by ring.
 
-[![SunflowTestRender4](/images/sunflowtestrender4_5486710760_o.png)][9]
+![SunflowTestRender4](/images/sunflowtestrender4_5486710760_o.png)
 
 Finally, this one uses the glass shader, again with the red value
 ranging from 0-255.
@@ -70,6 +70,3 @@ and expertise is really inspiring. More to come on this soon, I expect.
 [4]: http://amnonp5.wordpress.com/2010/09/28/sunflow-processing/
 [5]: http://processing.org/
 [6]: http://toxiclibs.org/
-[7]: http://www.flickr.com/photos/53111802@N05/5481521239/
-[8]: http://www.flickr.com/photos/53111802@N05/5482121704/
-[9]: http://www.flickr.com/photos/53111802@N05/5486710760/

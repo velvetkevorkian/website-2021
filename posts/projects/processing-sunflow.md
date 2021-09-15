@@ -10,14 +10,11 @@ image: sunflow.jpg
 position: 9
 ---
 
-![red Sunflow
-mesh](/images/sunflowtestrender3_5482121704_o.png)
-![grey Sunflow
-mesh](/images/sunflowtestrender2_5481521239_o.png)
-![grey subdivided sunflow
-mesh](/images/1904_5837603852_o.png)
+![red Sunflow mesh](/images/sunflowtestrender3_5482121704_o.png)
+![grey Sunflow mesh](/images/sunflowtestrender2_5481521239_o.png)
+![grey subdivided sunflow mesh](/images/1904_5837603852_o.png)
 
-<span class="ql-cursor">﻿</span>Combining the generative power of
+Combining the generative power of
 [Processing][1] with the photorealistic rendering
 capabilities of [Sunflow][2]. Some technical
 discussion and code on [this blog

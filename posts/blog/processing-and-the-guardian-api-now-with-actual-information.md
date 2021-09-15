@@ -10,10 +10,9 @@ image:
 position: 
 ---
 
-[![2010- a year in
-Wikileaks](/images/2010--a-year-in-wikileaks_5277131634_o.jpg)][1]
+![2010- a year in Wikileaks](/images/2010--a-year-in-wikileaks_5277131634_o.jpg)
 
-<span class="ql-cursor">﻿</span>Here's a quick snapshot of how this is
+Here's a quick snapshot of how this is
 developing. This searches the [Guardian's Open Platform API][2] for mentions of everyone's favourite whistleblowing
 website. The bars map the number of articles on a monthly basis, where
 12 o'clock is January. You can see a small peak in April, when the
@@ -28,6 +27,4 @@ so far.
 Get in touch with any comments, criticisms or questions!
 
 
-
-[1]: http://www.flickr.com/photos/53111802@N05/5277131634/
 [2]: http://www.guardian.co.uk/open-platform
