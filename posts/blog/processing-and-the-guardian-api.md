@@ -24,18 +24,15 @@ I've got at the moment...
 
 David Cameron:
 
-[![david+cameron](/images/davidcameron_5250910799_o.jpg){:
-width="640" height="640"}][4]
+[![david+cameron](/images/davidcameron_5250910799_o.jpg)][4]
 
 Gordon Brown:
 
-[![gordon+brown](/images/gordonbrown_5251514858_o.jpg){:
-width="640" height="640"}][5]
+[![gordon+brown](/images/gordonbrown_5251514858_o.jpg)][5]
 
 Tony Blair:
 
-[![tony+blair](/images/tonyblair_5251514322_o.jpg){:
-width="640" height="640"}][6]
+[![tony+blair](/images/tonyblair_5251514322_o.jpg)][6]
 
 Not a lot of information we can glean from that, I think you'll agree,
 other than there are significantly more articles mentioning Blair

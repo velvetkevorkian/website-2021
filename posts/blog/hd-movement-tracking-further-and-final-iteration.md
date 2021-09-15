@@ -26,14 +26,12 @@ Processing examples. Then we need to threshold that, so anything that
 has changed is white and anything that hasn't is black. Here's a
 single frame with this process applied:
 
-[![10](/images/10_5837152411_o.jpg){:
-width="640" height="457"}][1]
+[![10](/images/10_5837152411_o.jpg)][1]
 
 Here's a version (in opposite colours) where movement leaves a trail
 over several frames:
 
-[![11](/images/11_5837152807_o.jpg){:
-width="640" height="457"}][2]
+[![11](/images/11_5837152807_o.jpg)][2]
 
 Once we have a nice clean monochrome image we can run [BlobScanner][3] which will identify any large blocks of pixels, and
 calculate their centroids and bounding boxes. The centroid coordinates
@@ -41,9 +39,7 @@ are fed to the [Mesh library][4] which calculates and
 draws a [Delaunay triangulation][5] using them, which
 gives us a rough outline of the identified movement:
 
-[![separationVoronoi2\_0017](/images/separationvoronoi2_0017_5821859773_o.png){:
-width="640" height="360"}][6]
-[![separationVoronoi2\_0140](/images/separationvoronoi2_0140_5821861581_o.png){:
+[![separationVoronoi2\_0017](/images/separationvoronoi2_0017_5821859773_o.png)][6]{:width=arationVoronoi2\_0140](/images/separationvoronoi2_0140_5821861581_o.png){:
 width="640" height="360"}][7]
 
 Now, the original plan was to get some big (A1+ size) prints made, so I
@@ -62,9 +58,7 @@ each line samples the colour from the pixel of the original image it
 starts at. OpenGL additive blending makes it sparkle a bit more,
 especially where a lot of lines cluster together. Like this:
 
-[![separationVoronoi4\_2697](/images/separationvoronoi4_2697_5822430642_o.png){:
-width="640" height="360"}][9]
-[![separationVoronoi4\_2684](/images/separationvoronoi4_2684_5821865747_o.png){:
+[![separationVoronoi4\_2697](/images/separationvoronoi4_2697_5822430642_o.png)][9]{:width=arationVoronoi4\_2684](/images/separationvoronoi4_2684_5821865747_o.png){:
 width="640" height="360"}][10]
 
 Here's the video. I added the music specially for the online version-
@@ -80,9 +74,7 @@ about how the Processing PDF renderer deals with colour but they worked
 out pretty well, and got some very favourable comments from those who
 attended the show:
 
-[![output1](/images/output1_5837720536_o.png){:
-width="640" height="360"}][11]
-[![output2](/images/output2_5837721176_o.png){:
+[![output1](/images/output1_5837720536_o.png)][11]{:width=put2](/images/output2_5837721176_o.png){:
 width="640" height="360"}][12]
 
 So there we are. I'm pretty happy with how this project has worked out:

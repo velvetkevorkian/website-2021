@@ -20,19 +20,14 @@ result of me mucking about with masking a photo using gaussian
 distributions. This is broadly the result I was going for:
 
 [![eye
-glitch1](/images/eye-glitch1_8040661688_o.png){:
-width="640" height="360"}][2]
+glitch1](/images/eye-glitch1_8040661688_o.png)][2]
 
 Thanks to a strange edge case, where an alpha version of Processing 2.0,
 the crappy Intel integrated graphics on my laptop and not calling
 `background()` during the `draw()` loop collided, I got stuff like this:
 
 [![eye
-glitch2](/images/eye-glitch2_8040653551_o.png){:
-width="640" height="360"}][3] [![eye
-glitch3](/images/eye-glitch3_8040662338_o.png){:
-width="640" height="360"}][4] [![eye
-glitch4](/images/eye-glitch4_8040654189_o.png){:
+glitch2](/images/eye-glitch2_8040653551_o.png)][3] [![eye{:width=3](/images/eye-glitch3_8040662338_o.png){:][4] [![eye{:width=4](/images/eye-glitch4_8040654189_o.png){:
 width="640" height="360"}][5] [![eye
 glitch5](/images/eye-glitch5_8040654699_o.png){:
 width="640" height="360"}][6]

@@ -16,19 +16,15 @@ of complexity remains constant.
 
 Here's some shots from the 2d version:
 
-[![Infinite2dLines04](/images/infinite2dlines04_4982747301_o.jpg){:
-width="240" height="240"}][1]
+[![Infinite2dLines04](/images/infinite2dlines04_4982747301_o.jpg)][1]
 
-[![Infinite2dLines02](/images/infinite2dlines02_4982746669_o.jpg){:
-width="240" height="240"}][2]
+[![Infinite2dLines02](/images/infinite2dlines02_4982746669_o.jpg)][2]
 
 And just because I can, here's it in 3d:
 
-[![Infinite3dLines03](/images/infinite3dlines03_4983478954_o.jpg){:
-width="240" height="240"}][3]
+[![Infinite3dLines03](/images/infinite3dlines03_4983478954_o.jpg)][3]
 
-[![Infinite3dLines02](/images/infinite3dlines02_4983478292_o.jpg){:
-width="240" height="240"}][4]
+[![Infinite3dLines02](/images/infinite3dlines02_4983478292_o.jpg)][4]
 
 To be honest the still images don't really do these sketches justice,
 since the whole point is that they can go on without requiring

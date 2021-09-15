@@ -28,8 +28,7 @@ over-categorise, and the personal touches (the coloured headings, and
 the background design on the homepage for example) are subtle enough to
 perfectly offset the simplicity of the general layout.
 
-[![](https://velvetkevorkian.files.wordpress.com/2011/03/dawes1.jpg){:
-width="640" height="512"}][5]
+[![](https://velvetkevorkian.files.wordpress.com/2011/03/dawes1.jpg)][5]
 
 Next up is [Michael Hansmeyer's site][6], showcasing
 his work in generative architecture. There are a couple of nice touches
@@ -40,8 +39,7 @@ opinion. It simply does not make best use of the available space. The
 images, however, are stunningly presented and more than make up for any
 other issues.
 
-[![](https://velvetkevorkian.files.wordpress.com/2011/03/hans1.jpg){:
-width="640" height="512"}][7]
+[![](https://velvetkevorkian.files.wordpress.com/2011/03/hans1.jpg)][7]
 
 The last site I'm going to mention for now is the website of the (I
 think) Russian photographer [Elena Savina][8]. This
@@ -53,8 +51,7 @@ one of the four panels scrolls the other three in different directions.
 A nice touch is the lightbox style photo galleries which also use this
 sliding idea. Quite bonkers, but unforgettable.
 
-[![](https://velvetkevorkian.files.wordpress.com/2011/03/389.jpg){:
-width="640" height="512"}][10]
+[![](https://velvetkevorkian.files.wordpress.com/2011/03/389.jpg)][10]
 
 
 

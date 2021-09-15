@@ -18,17 +18,13 @@ The first set of sketches use just four variables, which can be used in
 various combinations to generate coordinates, which can be joined by
 lines of two different colours.
 
-[![2dLines10](/images/2dlines10_4969408008_o.jpg){:
-width="240" height="240"}][3]
+[![2dLines10](/images/2dlines10_4969408008_o.jpg)][3]
 
-[![2dLines09](/images/2dlines09_4968798687_o.jpg){:
-width="240" height="240"}][4]
+[![2dLines09](/images/2dlines09_4968798687_o.jpg)][4]
 
-[![2dLines08](/images/2dlines08_4968798481_o.jpg){:
-width="240" height="240"}][5]
+[![2dLines08](/images/2dlines08_4968798481_o.jpg)][5]
 
-[![2dLines06](/images/2dlines06_4968797703_o.jpg){:
-width="240" height="240"}][6]
+[![2dLines06](/images/2dlines06_4968797703_o.jpg)][6]
 
 This was a fairly straight forward bit of coding, with some pleasingly
 elegant results. Click on the pictures above for more and bigger images,
@@ -39,17 +35,13 @@ manipulated more easily. I did this as a step to getting this idea to
 work in 3d, but it also lets you do some things in 2d that would be
 difficult otherwise, like joining the edges together.
 
-[![2dArray9](/images/2darray9_4969410344_o.jpg){:
-width="240" height="240"}][8]
+[![2dArray9](/images/2darray9_4969410344_o.jpg)][8]
 
-[![2dArray8](/images/2darray8_4969410142_o.jpg){:
-width="240" height="240"}][9]
+[![2dArray8](/images/2darray8_4969410142_o.jpg)][9]
 
-[![2dArray7](/images/2darray7_4968800949_o.jpg){:
-width="240" height="240"}][10]
+[![2dArray7](/images/2darray7_4968800949_o.jpg)][10]
 
-[![2dArray1](/images/2darray1_4969408374_o.jpg){:
-width="240" height="240"}][11]
+[![2dArray1](/images/2darray1_4969408374_o.jpg)][11]
 
 The downside of this method is that it doesn't run that well when
 there's loads of points on screen (we're talking about upwards of
@@ -64,17 +56,13 @@ z-axis coordinates. This was also aided greatly by my discovery of the
 fantastic [PeasyCam][13] library for Processing. This
 lets you use the mouse to control the camera in a very intuitive way.
 
-[![Perlin3DLines7](/images/perlin3dlines7_4968803321_o.jpg){:
-width="240" height="240"}][14]
+[![Perlin3DLines7](/images/perlin3dlines7_4968803321_o.jpg)][14]
 
-[![Perlin3DLines6](/images/perlin3dlines6_4969412002_o.jpg){:
-width="240" height="240"}][15]
+[![Perlin3DLines6](/images/perlin3dlines6_4969412002_o.jpg)][15]
 
-[![Perlin3DLines3](/images/perlin3dlines3_4968802139_o.jpg){:
-width="240" height="240"}][16]
+[![Perlin3DLines3](/images/perlin3dlines3_4968802139_o.jpg)][16]
 
-[![Perlin3DLines5](/images/perlin3dlines5_4969411632_o.jpg){:
-width="240" height="240"}][17]
+[![Perlin3DLines5](/images/perlin3dlines5_4969411632_o.jpg)][17]
 
 Check out the rest of the set on Flickr, and have a shot of the [live
 applet here][18]. It runs surprisingly smoothly with
@@ -87,18 +75,14 @@ you do stuff like [this amazing bit of 3d printing][19] from Toxi. In practice, 
 solids at the moment. I added an extra colour for variety here, just for
 fun.
 
-[![perlin3dSolid8](/images/perlin3dsolid8_4968804957_o.jpg){:
-width="240" height="240"}][20]
+[![perlin3dSolid8](/images/perlin3dsolid8_4968804957_o.jpg)][20]
 
-[![perlin3dSolid7](/images/perlin3dsolid7_4968804627_o.jpg){:
-width="240" height="240"}][21]
+[![perlin3dSolid7](/images/perlin3dsolid7_4968804627_o.jpg)][21]
 
-[![perlin3dSolid3](/images/perlin3dsolid3_4969412826_o.jpg){:
-width="240" height="240"}][22]
+[![perlin3dSolid3](/images/perlin3dsolid3_4969412826_o.jpg)][22]
 
 <span class="ql-cursor">﻿</span>
-[![perlin3dSolid1](/images/perlin3dsolid1_4968803515_o.jpg){:
-width="240" height="240"}][23]
+[![perlin3dSolid1](/images/perlin3dsolid1_4968803515_o.jpg)][23]
 
 I was originally hoping to retain the symmetry of the 2d versions in 3d,
 but I'm not quite sure how to achieve that yet. I've not published

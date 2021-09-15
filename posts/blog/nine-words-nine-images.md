@@ -34,50 +34,41 @@ and visual artefacts compared with using JPEGs. I considered vectorising
 them using Illustrator, but there didn't seem much point unless I need
 them printed at a large scale.
 
-[![ambigous1](/images/ambigous1_5015575253_o.gif){:
-width="610" height="640"}][2]
+[![ambigous1](/images/ambigous1_5015575253_o.gif)][2]
 
 Ambiguity: Instructions which make no sense. Is one correct? Are
 neither? Are both?
 
-[![diaphanous1](/images/diaphanous1_5016151992_o.gif){:
-width="640" height="449"}][3]
+[![diaphanous1](/images/diaphanous1_5016151992_o.gif)][3]
 
 Diaphanous: You can see through it, can't you?
 
-[![condition1](/images/condition1_5015543465_o.gif){:
-width="640" height="343"}][4]
+[![condition1](/images/condition1_5015543465_o.gif)][4]
 
 Condition: We are conditioned to a lot of strange things in this day and
 age. Motorways are just one of those things.
 
-[![crash1](/images/crash1_5016152136_o.gif){:
-width="640" height="507"}][5]
+[![crash1](/images/crash1_5016152136_o.gif)][5]
 
 Crash: Could be handy to have a separate lane for accidents?
 
-[![ephemeral1](/images/ephemeral1_5015543387_o.gif){:
-width="640" height="346"}][6]
+[![ephemeral1](/images/ephemeral1_5015543387_o.gif)][6]
 
 Ephemeral: Here today, gone tomorrow...
 
-[![loop1](/images/loop1_5016152038_o.gif){:
-width="640" height="379"}][7]
+[![loop1](/images/loop1_5016152038_o.gif)][7]
 
 Loop: I'm not going to insult your intelligence by explaining this one.
 
-[![sequential1](/images/sequential1_5016152090_o.gif){:
-width="640" height="441"}][8]
+[![sequential1](/images/sequential1_5016152090_o.gif)][8]
 
 Sequential: A series of actions- no options here.
 
-[![serendipity1](/images/serendipity1_5015543757_o.gif){:
-width="369" height="640"}][9]
+[![serendipity1](/images/serendipity1_5015543757_o.gif)][9]
 
 Serendipity: A long and confusing route to an unlooked for happy ending.
 
-[![utopia1](/images/utopia1_5015543713_o.gif){:
-width="578" height="640"}][10]
+[![utopia1](/images/utopia1_5015543713_o.gif)][10]
 
 Utopia: Because obviously, any utopia will have boats. And trains.
 

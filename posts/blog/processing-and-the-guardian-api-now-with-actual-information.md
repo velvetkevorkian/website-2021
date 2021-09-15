@@ -11,8 +11,7 @@ position:
 ---
 
 [![2010- a year in
-Wikileaks](/images/2010--a-year-in-wikileaks_5277131634_o.jpg){:
-width="640" height="640"}][1]
+Wikileaks](/images/2010--a-year-in-wikileaks_5277131634_o.jpg)][1]
 
 <span class="ql-cursor">﻿</span>Here's a quick snapshot of how this is
 developing. This searches the [Guardian's Open Platform API][2] for mentions of everyone's favourite whistleblowing

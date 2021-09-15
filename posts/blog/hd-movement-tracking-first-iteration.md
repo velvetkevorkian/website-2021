@@ -10,8 +10,7 @@ image:
 position: 
 ---
 
-[![separation10\_263](/images/separation10_263_5771709425_o.png){:
-width="640" height="360"}][1]
+[![separation10\_263](/images/separation10_263_5771709425_o.png)][1]
 
 I shot some updated footage at the right resolution for my St Enoch
 project from two different points of view. In retrospect, shooting at

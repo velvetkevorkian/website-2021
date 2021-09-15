@@ -27,14 +27,12 @@ This was the initial sketch, which takes four draws (of seven numbers
 each) and represents each draw with a differently sized circle. The
 numbers range from 1 to 49, left to right:
 
-[![lotteryViz1](/images/lotteryviz1_5127943179_o.jpg){:
-width="500" height="313"}][5]
+[![lotteryViz1](/images/lotteryviz1_5127943179_o.jpg)][5]
 
 Here's the second version, which is the same idea stretched over the
 vertical axis and using 50 draws, instead of just four:
 
-[![lotteryViz2](/images/lotteryviz2_5128546308_o.jpg){:
-width="500" height="300"}][6]
+[![lotteryViz2](/images/lotteryviz2_5128546308_o.jpg)][6]
 
 Next, using the same 50 draws, I spread the results out a bit. Here, the
 numbers 1 to 49 are mapped on a circle; each draw is placed on a
@@ -44,30 +42,25 @@ colour to make it easier to distinguish the different draws. This is the
 version I'll probably use as part of the final submission for this
 project.
 
-[![lotteryviz4](/images/lotteryviz4_5128546622_o.jpg){:
-width="500" height="500"}][7]
+[![lotteryviz4](/images/lotteryviz4_5128546622_o.jpg)][7]
 
 I decided to focus on the shapes the linkages between numbers in each
 draw form. Here they are individually:
 
-[![lotteryviz8](/images/lotteryviz8_5128547772_o.jpg){:
-width="500" height="500"}][8]
+[![lotteryviz8](/images/lotteryviz8_5128547772_o.jpg)][8]
 
 Here they're laid on top of each other:
 
-[![lotteryviz7](/images/lotteryviz7_5128547418_o.jpg){:
-width="500" height="500"}][9]
+[![lotteryviz7](/images/lotteryviz7_5128547418_o.jpg)][9]
 
 And this is the same concept but rendered in 3d. The Z axis (depth)
 relates to time:
 
-[![lotteryviz6a](/images/lotteryviz6a_5128546966_o.jpg){:
-width="500" height="500"}][10]
+[![lotteryviz6a](/images/lotteryviz6a_5128546966_o.jpg)][10]
 
 And a second image of that, to give more of a sense of depth:
 
-[![lotteryviz6b](/images/lotteryviz6b_5127942517_o.jpg){:
-width="500" height="500"}][11]
+[![lotteryviz6b](/images/lotteryviz6b_5127942517_o.jpg)][11]
 
 Finally, I'm aware that none of these images are particularly useful in
 actually analysing the numbers drawn, and deliberately so: I've
@@ -76,8 +69,7 @@ perspective. Just to show it can be done, though, here's a
 straightforward graph of how often each number was drawn in the fifty
 draws concerned here:
 
-[![lotteryGraph](/images/lotterygraph_5128577248_o.jpg){:
-width="500" height="250"}][12]
+[![lotteryGraph](/images/lotterygraph_5128577248_o.jpg)][12]
 
 I hope that's been interesting. I'll put the code for the final piece
 up in a later post, once I've finalised the other eight images! Enjoy!

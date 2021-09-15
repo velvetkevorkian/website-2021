@@ -20,8 +20,7 @@ going a bit more easily. Click on the pictures to play with the pieces.
 
 **1: Loop**
 
-[![Loop](/images/loopscreen_5218949885_o.jpg){:
-width="500" height="375"}][2]
+[![Loop](/images/loopscreen_5218949885_o.jpg)][2]
 
 Move the mouse to control how the balls move. I was quite pleased at how
 simple the \"physics\" (such as they are) were to implement. Think of
@@ -29,8 +28,7 @@ this as an analogy for life if you like...
 
 **2: Diaphanous**
 
-[![diaphanous](/images/diaphanous_5219539366_o.jpg){:
-width="500" height="375"}][3]
+[![diaphanous](/images/diaphanous_5219539366_o.jpg)][3]
 
 Again, move the mouse and see how the shapes react. This is an extension
 of one of the Hype Framework tutorials, but the springiness in the way
@@ -38,8 +36,7 @@ the balls react to mouse movement is very engaging to me.
 
 **3: Ambiguity**
 
-[![ambiguity](/images/ambiguity_5218950223_o.jpg){:
-width="500" height="375"}][4]
+[![ambiguity](/images/ambiguity_5218950223_o.jpg)][4]
 
 This is ambiguous on a number of levels: what do the words say? What do
 they reveal? How do the different parts react to the movements of the
