@@ -2,10 +2,10 @@ import Head from 'next/head'
 import { postsForPage } from 'lib/api'
 import pageTitle from 'lib/pageTitle'
 import capitalise from 'lib/capitalise'
-import { PostType, ArticleListingProps, ArticleListingStaticProps } from 'types'
+import { PostType } from 'types'
 import ArticleListingPage from 'components/ArticleListingPage'
 
-export default function ArticleIndexPage({ postType, posts, page, totalPages }: ArticleListingProps): React.ReactNode {
+export default function ArticleIndexPage({ postType, posts, page, totalPages }) {
   return (
     <>
       <Head>
@@ -21,14 +21,7 @@ export default function ArticleIndexPage({ postType, posts, page, totalPages }: 
   )
 }
 
-type ArticleListingParams = {
-  params : {
-    postType: PostType
-  }
-}
-
-// TODO: this (and other getStaticProps calls) should probably use Next's types?
-export async function getStaticProps({ params }: ArticleListingParams): Promise<ArticleListingStaticProps> {
+export async function getStaticProps({ params }) {
   const { postType } = params
   const { posts, totalPages } = postsForPage(1, postType)
   return {
@@ -41,16 +34,7 @@ export async function getStaticProps({ params }: ArticleListingParams): Promise<
   }
 }
 
-type StaticPaths = {
-  paths: Array<{
-    params: {
-      postType: string
-    }
-  }>,
-  fallback: boolean
-}
-
-export async function getStaticPaths(): Promise<StaticPaths> {
+export async function getStaticPaths() {
   const paths = [PostType.Blog, PostType.Project].map(p => ({
     params: {
       postType: p,
@@ -61,4 +45,8 @@ export async function getStaticPaths(): Promise<StaticPaths> {
     paths,
     fallback: false,
   }
+}
+
+export const config = {
+  unstable_runtimeJS: false
 }

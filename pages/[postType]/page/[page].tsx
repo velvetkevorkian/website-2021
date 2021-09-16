@@ -3,9 +3,9 @@ import { pagePathsForType, postsForPage } from 'lib/api'
 import pageTitle from 'lib/pageTitle'
 import capitalise from 'lib/capitalise'
 import ArticleListingPage from 'components/ArticleListingPage'
-import { PostType, ArticleListingProps, ArticleListingStaticProps } from 'types'
+import { PostType } from 'types'
 
-export default function ArticleIndexPage({ postType, posts, page, totalPages }: ArticleListingProps): React.ReactNode {
+export default function ArticleIndexPage({ postType, posts, page, totalPages }) {
   return (
     <>
       <Head>
@@ -21,7 +21,7 @@ export default function ArticleIndexPage({ postType, posts, page, totalPages }: 
   )
 }
 
-export async function getStaticProps({ params }: { params: { page: string, postType: PostType }}): Promise<ArticleListingStaticProps> {
+export async function getStaticProps({ params }: { params: { page: string, postType: PostType }}) {
   const { postType, page } = params
   const pageNumber = parseInt(page)
   const { posts, totalPages } = postsForPage(pageNumber, postType)
@@ -35,17 +35,7 @@ export async function getStaticProps({ params }: { params: { page: string, postT
   }
 }
 
-type StaticPaths = {
-  paths: Array<{
-    params: {
-      page: string,
-      postType: PostType
-    }
-  }>,
-  fallback: boolean
-}
-
-export async function getStaticPaths(): Promise<StaticPaths> {
+export async function getStaticPaths() {
   const paths = [
     ...pagePathsForType(PostType.Blog),
     ...pagePathsForType(PostType.Project)
@@ -55,4 +45,8 @@ export async function getStaticPaths(): Promise<StaticPaths> {
     paths,
     fallback: false,
   }
+}
+
+export const config = {
+  unstable_runtimeJS: false
 }

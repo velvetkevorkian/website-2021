@@ -4,7 +4,7 @@ import pageTitle from 'lib/pageTitle'
 import { PostType, Post } from 'types'
 import { DefaultDetail } from 'components/ArticleDetail'
 
-export default function ArticleDetail({ post }: { post: Post}): React.ReactNode {
+export default function ArticleDetail({ post }: { post: Post}) {
   function renderPost(post: Post){
     switch (post.postType) {
     default:
@@ -22,19 +22,7 @@ export default function ArticleDetail({ post }: { post: Post}): React.ReactNode 
   )
 }
 
-type StaticProps = {
-  props: {
-    postType: PostType,
-    post: Post
-  }
-}
-type Params = {
-  params: {
-    postType: PostType,
-    slug: string
-  }
-}
-export async function getStaticProps({ params }: Params): Promise<StaticProps> {
+export async function getStaticProps({ params }) {
   const { slug, postType } = params
   const post = getPostBySlug(slug, postType)
   const { content } = post
@@ -47,17 +35,7 @@ export async function getStaticProps({ params }: Params): Promise<StaticProps> {
   }
 }
 
-type StaticPath = {
-  params: {
-    slug: string
-  }
-}
-type StaticPaths = {
-  paths: Array<StaticPath>,
-  fallback: boolean
-}
-
-export async function getStaticPaths(): Promise<StaticPaths> {
+export async function getStaticPaths(){
   const posts = [
     ...getAllPosts(PostType.Blog),
     ...getAllPosts(PostType.Project),
@@ -75,4 +53,8 @@ export async function getStaticPaths(): Promise<StaticPaths> {
     paths,
     fallback: false,
   }
+}
+
+export const config = {
+  unstable_runtimeJS: false
 }

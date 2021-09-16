@@ -39,9 +39,7 @@ export default function StyleGuide({ htmlContent }: { htmlContent: string }) {
   )
 }
 
-export async function getStaticProps(): Promise<{ props: {
-  htmlContent: string
-}}> {
+export async function getStaticProps() {
   const htmlContent = await fakeMarkdown()
 
   return {

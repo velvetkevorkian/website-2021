@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import pageTitle from 'lib/pageTitle'
 
-export default function Home(): React.ReactNode {
+export default function Home() {
   return (
     <>
       <Head>
@@ -12,4 +12,8 @@ export default function Home(): React.ReactNode {
       </div>
     </>
   )
+}
+
+export const config = {
+  unstable_runtimeJS: false
 }

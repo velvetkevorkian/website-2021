@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import pageTitle from 'lib/pageTitle'
 
-export default function Error404(): JSX.Element {
+export default function Error404() {
   return (
     <>
       <Head>
@@ -10,4 +10,8 @@ export default function Error404(): JSX.Element {
       <h1>404</h1>
     </>
   )
+}
+
+export const config = {
+  unstable_runtimeJS: false
 }
