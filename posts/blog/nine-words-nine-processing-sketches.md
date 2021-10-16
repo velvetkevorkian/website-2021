@@ -120,11 +120,11 @@ prosper!
 
 
 [1]: http://processing.org/
-[3]: http://velvetkevorkian.wordpress.com/2010/10/30/processing-sketches-lottery-number-visualisations/
+[3]: /blog/processing-sketches-lottery-number-visualisations/
 [4]: http://mrfeinberg.com/peasycam/
 [6]: http://2.bp.blogspot.com/_rCAjLvNzsbE/SII5giHbbCI/AAAAAAAAADI/ku6QM_mWclo/s400/mackintosh-roseandteardrop1923fabric.jpg
-[8]: http://velvetkevorkian.wordpress.com/2010/09/30/conceptual-sound-early-sketches-i/
+[8]: /blog/conceptual-sound-early-sketches-i/
 [11]: http://www.ricardmarxer.com/geomerative/
-[13]: http://velvetkevorkian.wordpress.com/2010/09/08/variations-on-a-theme-processing-sketches/
+[13]: /blog/variations-on-a-theme-processing-sketches/
 [15]: http://memory-alpha.org/wiki/IDIC
 [17]: http://www.youtube.com/watch?v=NOW4QiOD-oc

@@ -61,4 +61,4 @@ some synths and feeds a glitch generator. Obligatory screenshot:
 And there you have it. Please let me know your thoughts in the comments!
 
 [1]: http://www.reaper.fm/
-[4]: http://velvetkevorkian.wordpress.com/2010/09/23/nine-words-nine-images/
+[4]: /blog/nine-words-nine-images/
