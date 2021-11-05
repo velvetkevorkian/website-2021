@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "next": "^11.1.2",
+    "next": "^12.0.3",
     "next-images": "^1.7.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -38,5 +38,10 @@
     "remark-html": "^13.0.0"
   },
   "license": "UNLICENSED",
-  "sideEffects": "false"
+  "sideEffects": "false",
+  "babel": {
+    "presets": [
+      "next/babel"
+    ]
+  }
 }
