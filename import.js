@@ -1,18 +1,18 @@
 /* eslint-disable no-console */
-const fs = require('fs')
+import { readdirSync, readFileSync, copyFileSync, writeFileSync } from 'fs'
 
 function main(dryRun = true) {
   // identify Flickr CDN links. The first 10+ digit section appears to be the original image ID
   const regex = /https:\/\/farm\d.static.?flickr.com\/\d{4}\/\d{10,}_.{10,}.jpg/g
-  const images = fs.readdirSync('./flickr_archive')
+  const images = readdirSync('./flickr_archive')
     .filter(file => !file.includes('Zone.Identifier')) // filter out WSL guff
 
   function doFolder(type) {
-    const posts = fs.readdirSync(`./posts/${type}`)
+    const posts = readdirSync(`./posts/${type}`)
     // console.log(posts)
     posts.forEach(postName => {
       const postPath = `./posts/${type}/${postName}`
-      let post = fs.readFileSync(postPath).toString()
+      let post = readFileSync(postPath).toString()
       const flickrLinks = post.matchAll(regex)
       for(const match of flickrLinks) {
         const url = match[0]
@@ -27,7 +27,7 @@ function main(dryRun = true) {
         const to = `./public/images/${img}`
         console.log(`copying ${from} to ${to}`)
         if (!dryRun) {
-          fs.copyFileSync(from, to)
+          copyFileSync(from, to)
         }
 
         // update URL in file
@@ -37,7 +37,7 @@ function main(dryRun = true) {
       }
       // write the post back to disk
       if (!dryRun) {
-        fs.writeFileSync(postPath, post)
+        writeFileSync(postPath, post)
       }
     })
   }
