@@ -22,6 +22,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   line-height: 0.9;
   margin-bottom: 0;
+  position: relative;
+}
+
+h1::before, h2::before {
+  background-image: url('../images/barcode.svg');
+  background-size: 947px; /* match asset size to avoid sub-pixel artefacts */
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: skew(-12deg);
+  z-index: -1;
 }
 
 h1 {
