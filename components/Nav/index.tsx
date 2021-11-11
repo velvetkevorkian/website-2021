@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './styles.module.css'
+import Center from 'components/Center'
 
 export default function Nav() {
   const links = [
@@ -10,15 +11,17 @@ export default function Nav() {
 
   return (
     <nav>
-      <ul className={styles['main-nav-list']}>
-        { links.map(l => (
-          <li className={styles['main-nav-item']} key={l.href}>
-            <Link href={l.href}>
-              <a className={styles['main-nav-link']}>{l.title}</a>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <Center>
+        <ul className={styles['main-nav-list']}>
+          { links.map(l => (
+            <li className={styles['main-nav-item']} key={l.href}>
+              <Link href={l.href}>
+                <a className={styles['main-nav-link']}>{l.title}</a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Center>
     </nav>
   )
 }
