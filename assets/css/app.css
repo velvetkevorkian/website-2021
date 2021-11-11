@@ -67,6 +67,15 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: var(--text-color);
+  transition: 200ms color;
+}
+
+a:hover, a:focus {
+  color: var(--accent-color);
+}
+
 pre {
   max-width: 100%;
   overflow: auto;
