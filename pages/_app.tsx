@@ -9,7 +9,7 @@ import 'assets/css/variables.css'
 import 'assets/css/app.css'
 import favicon from 'assets/images/favicon.svg'
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
       <Header />
 
-      <Nav />
+      <Nav currentPath={router.asPath} />
 
       <main id="content">
         <Component {...pageProps} />

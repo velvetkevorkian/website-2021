@@ -13,4 +13,17 @@
 .main-nav-link {
   padding-left: 0.5em;
   padding-right: 0.5em;
+  position: relative;
+}
+
+.active::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--barcode-background);
+  content: '';
+  z-index: -1;
+  transform: var(--barcode-skew);
 }
